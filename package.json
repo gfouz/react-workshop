@@ -2,6 +2,7 @@
   "name": "react-workbench",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://gfouz.github.io/react-workshop",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
