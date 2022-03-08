@@ -18,13 +18,15 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
   }
   
 
-  `,e=C.exports.jsx,t=C.exports.jsxs,c=C.exports.Fragment,te=()=>e(z,{theme:I,children:t(u.exports.Fragment,{children:[e(L,{}),e(ne,{children:t("div",{className:"l-grid homepage",children:[t("section",{className:"homepage__item",children:[e("h1",{className:"homepage__title",children:"portfolio"}),e("div",{className:"homepage__line"})]}),e("nav",{className:"navbar",children:t("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e(b,{to:"/about",className:"navbar__link",children:"ABOUT"})}),e("li",{className:"navbar__item",children:e(b,{to:"/work",className:"navbar__link",children:"WORK"})}),e("li",{className:"navbar__item",children:e(b,{to:"/blog",className:"navbar__link",children:"BLOG"})})]})}),t("section",{className:"logo",children:[e("div",{className:"logo__image-container",children:e("img",{src:"./images/handshake-amber.svg",alt:"gfouz-logo"})}),e("h6",{className:"logo__skills",children:"WEB DEVELOPER"}),t("h1",{className:"logo__acronym",children:["GFOUZ \xA9 ",new Date().getFullYear()]})]})]})})]})}),ne=l.div`
+  `,e=C.exports.jsx,t=C.exports.jsxs,c=C.exports.Fragment,te=()=>e(z,{theme:I,children:t(u.exports.Fragment,{children:[e(L,{}),e(ne,{children:t("div",{className:"l-grid homepage",children:[t("section",{className:"homepage__item",children:[e("h1",{className:"homepage__title",children:"portfolio"}),e("div",{className:"homepage__line"})]}),e("nav",{className:"navbar",children:t("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e(b,{to:"/about",className:"navbar__link",children:"ABOUT"})}),e("li",{className:"navbar__item",children:e(b,{to:"/work",className:"navbar__link",children:"WORK"})}),e("li",{className:"navbar__item",children:e(b,{to:"/blog",className:"navbar__link",children:"BLOG"})})]})}),t("section",{className:"logo",children:[e("div",{className:"logo__image-container",children:e("img",{className:"logo__image",src:"./images/handshake-amber.svg",alt:"gfouz-logo"})}),e("h6",{className:"logo__skills",children:"WEB DEVELOPER"}),t("h1",{className:"logo__acronym",children:["GFOUZ \xA9 ",new Date().getFullYear()]})]})]})})]})}),ne=l.div`
   --green: #88ce02;
   --blue: #40c4ff;
   --brown: #F1993F;
   --green-weird: #255842;
   --red: #f92472;
-
+  --black: #000000;
+  --white: #ffffff;
+  
   .l-grid {
     display: flex;
     flex-direction: column;
@@ -35,13 +37,13 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
     color: #888888;
     }
   .homepage { 
-    
+    background-image: linear-gradient(#000000, #222222, #000000);
     &__item {
       width: 100%;
     }
 
     &__title {
-      margin: 3em 0 0.5em 0;
+      margin: 3em 0 0.1em 0;
       text-transform: uppercase;
       font-family: literata;
       font-size: 3em;
@@ -74,10 +76,19 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
     &__link {
       margin: 0 1em;
       text-decoration: none;
-      color: #ffffff;
+      color: var(--white);
+      text-shadow: 1px 1px 10px var(--black);
     }
   }
   .logo {
+   &__image-container {
+    width: 220px;
+    height: auto;
+    margin: 1em 0;
+   }
+   &__image {
+      width: 100px;
+   }
 
    &__skills {
       color: #ffffff;
@@ -85,17 +96,9 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
     }
     &__acronym {
     margin: 1.5em 0;
-    color: var(--blue);
+    color: var(--white);
+
     }
-    &__image-container {
-    width: 10em;
-    height: auto;
-    margin: 1em 0;
-  }
-  &__image {
-    max-width: 100%;
-    height: auto;
-  }
   }
   
   @keyframes line {
