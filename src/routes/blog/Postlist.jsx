@@ -42,6 +42,7 @@ const StyledPost = styled.div`
  --blue: #3f8897;
  --black: #444444;
  --brown: #4b2c17;
+ --chocolate: #443c2d;
 
  @mixin bg {
    background-color: red;
@@ -56,7 +57,7 @@ const StyledPost = styled.div`
 
 }
 .posts__topic {
-   color: var(--brown);
+   color: var(--chocolate);
    font-family: literata;
    text-transform: uppercase;
 }

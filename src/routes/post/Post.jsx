@@ -87,7 +87,7 @@ const StyledPost = styled.div`
       color: #373839;
       text-align: left;
       padding: 0.7em;
-      margin: 1em 0;
+      margin: 0;
     }
     
   }
