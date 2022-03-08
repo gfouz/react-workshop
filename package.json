@@ -9,7 +9,7 @@
     "preview": "vite preview --port 8080",
     "make": "node public/main.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "final-form": "^4.20.6",
