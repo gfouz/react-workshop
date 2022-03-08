@@ -1,12 +1,15 @@
 {
-  "name": "react-workbench",
+  "name": "react-workshop",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://gfouz.github.io/react-workshop",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --port 3000",
-    "make": "node public/main.js"
+    "make": "node public/main.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "final-form": "^4.20.6",

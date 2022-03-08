@@ -37,7 +37,11 @@ const Home = () => {
             </nav>
             <section className="logo">
               <div className="logo__image-container">
-                <img src="./images/handshake-amber.svg" alt="gfouz-logo" />
+                <img 
+                    className="logo__image" 
+                    src="./images/handshake-amber.svg" 
+                    alt="gfouz-logo" 
+                />
               </div>
               <h6 className="logo__skills">WEB DEVELOPER</h6>
               <h1 className="logo__acronym">GFOUZ &copy; {new Date().getFullYear()}</h1>
@@ -56,7 +60,9 @@ const StyledHome = styled.div`
   --brown: #F1993F;
   --green-weird: #255842;
   --red: #f92472;
-
+  --black: #000000;
+  --white: #ffffff;
+  
   .l-grid {
     display: flex;
     flex-direction: column;
@@ -67,13 +73,13 @@ const StyledHome = styled.div`
     color: #888888;
     }
   .homepage { 
-    
+    background-image: linear-gradient(#000000, #222222, #000000);
     &__item {
       width: 100%;
     }
 
     &__title {
-      margin: 3em 0 0.5em 0;
+      margin: 3em 0 0.1em 0;
       text-transform: uppercase;
       font-family: literata;
       font-size: 3em;
@@ -106,10 +112,19 @@ const StyledHome = styled.div`
     &__link {
       margin: 0 1em;
       text-decoration: none;
-      color: #ffffff;
+      color: var(--white);
+      text-shadow: 1px 1px 10px var(--black);
     }
   }
   .logo {
+   &__image-container {
+    width: 220px;
+    height: auto;
+    margin: 1em 0;
+   }
+   &__image {
+      width: 100px;
+   }
 
    &__skills {
       color: #ffffff;
@@ -117,17 +132,9 @@ const StyledHome = styled.div`
     }
     &__acronym {
     margin: 1.5em 0;
-    color: var(--blue);
+    color: var(--white);
+
     }
-    &__image-container {
-    width: 10em;
-    height: auto;
-    margin: 1em 0;
-  }
-  &__image {
-    max-width: 100%;
-    height: auto;
-  }
   }
   
   @keyframes line {
