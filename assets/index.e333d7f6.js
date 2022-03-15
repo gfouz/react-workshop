@@ -1,4 +1,4 @@
-var A=Object.defineProperty,O=Object.defineProperties;var D=Object.getOwnPropertyDescriptors;var y=Object.getOwnPropertySymbols;var q=Object.prototype.hasOwnProperty,E=Object.prototype.propertyIsEnumerable;var I=(a,t,i)=>t in a?A(a,t,{enumerable:!0,configurable:!0,writable:!0,value:i}):a[t]=i,f=(a,t)=>{for(var i in t||(t={}))q.call(t,i)&&I(a,i,t[i]);if(y)for(var i of y(t))E.call(t,i)&&I(a,i,t[i]);return a},R=(a,t)=>O(a,D(t));var T=(a,t)=>{var i={};for(var r in a)q.call(a,r)&&t.indexOf(r)<0&&(i[r]=a[r]);if(a!=null&&y)for(var r of y(a))t.indexOf(r)<0&&E.call(a,r)&&(i[r]=a[r]);return i};import{W as P,j as C,s as l,F as z,r as p,L as b,C as x,u as J,a as G,b as B,c as H,d as M,e as W,f as L,g as Y,R as U,S as K,h as V,i as Z,k as Q,H as X,l as ee,m as h}from"./vendor.89728881.js";const ae=function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const o of document.querySelectorAll('link[rel="modulepreload"]'))r(o);new MutationObserver(o=>{for(const s of o)if(s.type==="childList")for(const d of s.addedNodes)d.tagName==="LINK"&&d.rel==="modulepreload"&&r(d)}).observe(document,{childList:!0,subtree:!0});function i(o){const s={};return o.integrity&&(s.integrity=o.integrity),o.referrerpolicy&&(s.referrerPolicy=o.referrerpolicy),o.crossorigin==="use-credentials"?s.credentials="include":o.crossorigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function r(o){if(o.ep)return;o.ep=!0;const s=i(o);fetch(o.href,s)}};ae();const F={primaryDark:"#0D0C1D",primaryLight:"#EFFFFA",primaryHover:"#343078",primary:"#ffffff",darkGray:"#282c34",mystic:"#282c34",olive:"#282c34",githubLinks:"#069696",transparent:"#d4d4d42d",scionGreen:"#1ab601",bgGrey:"d5d5d5",ultraViolet:"#601d8c",bk:"#000000",greenBase:"#e5f8d2",greenA700:"#00c853",greenA200:"#69f0ae",green100:"#c8e6c9",lightGreen:"#76ff03",blueGrey900:"#263238",grey800:"#424242",grey500:"#9e9e9e",mobile:"576px",workbg:"linear-gradient(#071919, #173535)"},$=P`
+var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropertyDescriptors;var v=Object.getOwnPropertySymbols;var F=Object.prototype.hasOwnProperty,q=Object.prototype.propertyIsEnumerable;var T=(a,n,r)=>n in a?O(a,n,{enumerable:!0,configurable:!0,writable:!0,value:r}):a[n]=r,f=(a,n)=>{for(var r in n||(n={}))F.call(n,r)&&T(a,r,n[r]);if(v)for(var r of v(n))q.call(n,r)&&T(a,r,n[r]);return a},E=(a,n)=>$(a,D(n));var R=(a,n)=>{var r={};for(var i in a)F.call(a,i)&&n.indexOf(i)<0&&(r[i]=a[i]);if(a!=null&&v)for(var i of v(a))n.indexOf(i)<0&&q.call(a,i)&&(r[i]=a[i]);return r};import{W as P,j as C,s as l,F as z,r as u,L as b,C as x,u as H,a as J,b as G,c as W,d as B,e as M,f as A,g as U,R as Y,S as K,h as V,i as Z,k as Q,H as X,l as ee,m as g}from"./vendor.89728881.js";const ae=function(){const n=document.createElement("link").relList;if(n&&n.supports&&n.supports("modulepreload"))return;for(const o of document.querySelectorAll('link[rel="modulepreload"]'))i(o);new MutationObserver(o=>{for(const s of o)if(s.type==="childList")for(const d of s.addedNodes)d.tagName==="LINK"&&d.rel==="modulepreload"&&i(d)}).observe(document,{childList:!0,subtree:!0});function r(o){const s={};return o.integrity&&(s.integrity=o.integrity),o.referrerpolicy&&(s.referrerPolicy=o.referrerpolicy),o.crossorigin==="use-credentials"?s.credentials="include":o.crossorigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function i(o){if(o.ep)return;o.ep=!0;const s=r(o);fetch(o.href,s)}};ae();const I={primaryDark:"#0D0C1D",primaryLight:"#EFFFFA",primaryHover:"#343078",primary:"#ffffff",darkGray:"#282c34",mystic:"#282c34",olive:"#282c34",githubLinks:"#069696",transparent:"#d4d4d42d",scionGreen:"#1ab601",bgGrey:"d5d5d5",ultraViolet:"#601d8c",bk:"#000000",greenBase:"#e5f8d2",greenA700:"#00c853",greenA200:"#69f0ae",green100:"#c8e6c9",lightGreen:"#76ff03",blueGrey900:"#263238",grey800:"#424242",grey500:"#9e9e9e",mobile:"576px",workbg:"linear-gradient(#071919, #173535)"},L=P`
   html, body {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ var A=Object.defineProperty,O=Object.defineProperties;var D=Object.getOwnPropert
   }
   
 
-  `,e=C.exports.jsx,n=C.exports.jsxs,c=C.exports.Fragment,ne=()=>e(z,{theme:F,children:n(p.exports.Fragment,{children:[e($,{}),e(te,{children:n("div",{className:"l-grid homepage",children:[n("section",{className:"homepage__item",children:[e("h1",{className:"homepage__title",children:"portfolio"}),e("div",{className:"homepage__line"})]}),e("nav",{className:"navbar",children:n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e(b,{to:"/about",className:"navbar__link",children:"ABOUT"})}),e("li",{className:"navbar__item",children:e(b,{to:"/work",className:"navbar__link",children:"WORK"})}),e("li",{className:"navbar__item",children:e(b,{to:"/blog",className:"navbar__link",children:"BLOG"})})]})}),n("section",{className:"logo",children:[e("div",{className:"logo__image-container",children:e("img",{src:"./images/handshake-amber.svg",alt:"gfouz-logo"})}),e("h6",{className:"logo__skills",children:"WEB DEVELOPER"}),n("h1",{className:"logo__acronym",children:["GFOUZ \xA9 ",new Date().getFullYear()]})]})]})})]})}),te=l.div`
+  `,e=C.exports.jsx,t=C.exports.jsxs,c=C.exports.Fragment,te=()=>e(z,{theme:I,children:t(u.exports.Fragment,{children:[e(L,{}),e(ne,{children:t("div",{className:"l-grid homepage",children:[t("section",{className:"homepage__item",children:[e("h1",{className:"homepage__title",children:"portfolio"}),e("div",{className:"homepage__line"})]}),e("nav",{className:"navbar",children:t("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e(b,{to:"/about",className:"navbar__link",children:"ABOUT"})}),e("li",{className:"navbar__item",children:e(b,{to:"/work",className:"navbar__link",children:"WORK"})}),e("li",{className:"navbar__item",children:e(b,{to:"/blog",className:"navbar__link",children:"BLOG"})})]})}),t("section",{className:"logo",children:[e("div",{className:"logo__image-container",children:e("img",{src:"./images/handshake-amber.svg",alt:"gfouz-logo"})}),e("h6",{className:"logo__skills",children:"WEB DEVELOPER"}),t("h1",{className:"logo__acronym",children:["GFOUZ \xA9 ",new Date().getFullYear()]})]})]})})]})}),ne=l.div`
   --green: #88ce02;
   --blue: #40c4ff;
   --brown: #F1993F;
@@ -132,7 +132,7 @@ var A=Object.defineProperty,O=Object.defineProperties;var D=Object.getOwnPropert
       opacity: 1;
     }
   }
-`,oe=()=>e(ie,{children:n("picture",{className:"l-flex-column",children:[n("div",{className:"logo",children:[e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"G"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"F"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"O"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"U"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"Z"})})]}),e("img",{src:"./images/workLogo.svg",alt:"logo",className:"logo__image"}),e("h1",{className:"logo__title",children:"WORK"})]})}),ie=l.div`
+`,oe=()=>e(re,{children:t("picture",{className:"l-flex-column",children:[t("div",{className:"logo",children:[e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"G"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"F"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"O"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"U"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"Z"})})]}),e("img",{src:"./images/workLogo.svg",alt:"logo",className:"logo__image"}),e("h1",{className:"logo__title",children:"WORK"})]})}),re=l.div`
   --brick: #973443;
   --clay: #7a4338;
   --beige: #b38f55;
@@ -191,7 +191,7 @@ var A=Object.defineProperty,O=Object.defineProperties;var D=Object.getOwnPropert
   .logo__item:nth-child(5) {
     transform: rotate(40deg);
   }
-`,re=()=>e(c,{children:e(se,{children:e("article",{className:"technology",children:n("div",{className:"l-flex l-flex--vw",children:[e("img",{src:"./tech/react.svg",alt:"react",className:"technology__icon"}),n("div",{className:"l-flex l-flex--column",children:[e("img",{src:"./tech/next.svg",alt:"logo",className:"technology__icon technology__icon--l"}),n("nav",{className:"navbar",children:[e("h5",{className:"navbar__title",children:"SOURCE CODE ON GITHUB"}),n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/markdown-jsx.git",children:"Markdown-jsx"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/apollo-server.git",children:"Apollo-server"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/nextcms.git",children:"NextJs-CMS"})})]})]}),e("img",{src:"./tech/graphql.svg",alt:"logo",className:"technology__icon"})]}),e("img",{src:"./tech/redux.svg",alt:"logo",className:"technology__icon"})]})})})}),se=l.div`
+`,ie=()=>e(c,{children:e(se,{children:e("article",{className:"technology",children:t("div",{className:"l-flex l-flex--vw",children:[e("img",{src:"./tech/react.svg",alt:"react",className:"technology__icon"}),t("div",{className:"l-flex l-flex--column",children:[e("img",{src:"./tech/next.svg",alt:"logo",className:"technology__icon technology__icon--l"}),t("nav",{className:"navbar",children:[e("h5",{className:"navbar__title",children:"SOURCE CODE ON GITHUB"}),t("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/markdown-jsx.git",children:"Markdown-jsx"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/apollo-server.git",children:"Apollo-server"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/nextcms.git",children:"NextJs-CMS"})})]})]}),e("img",{src:"./tech/graphql.svg",alt:"logo",className:"technology__icon"})]}),e("img",{src:"./tech/redux.svg",alt:"logo",className:"technology__icon"})]})})})}),se=l.div`
   .technology {
     display: flex;
     align-items: center;
@@ -250,7 +250,7 @@ var A=Object.defineProperty,O=Object.defineProperties;var D=Object.getOwnPropert
           Pero las tecnolog\xEDas est\xE1n en constante cambios e innovaciones, de modo que
           hay que seguir aprendiendo y estudiando los nuevos conceptos y conocimientos de
           forma continua.
-`,ce=()=>e(c,{children:e(de,{children:e("article",{className:"l-flex",children:n("div",{className:"outlook",children:[e("h4",{className:"outlook__topic",children:"Mi perspectiva personal"}),e("img",{src:"./images/lamp.svg",alt:"developer",className:"outlook__image"}),e("p",{className:"outlook__text",children:le})]})})})}),de=l.div`
+`,ce=()=>e(c,{children:e(de,{children:e("article",{className:"l-flex",children:t("div",{className:"outlook",children:[e("h4",{className:"outlook__topic",children:"Mi perspectiva personal"}),e("img",{src:"./images/lamp.svg",alt:"developer",className:"outlook__image"}),e("p",{className:"outlook__text",children:le})]})})})}),de=l.div`
      display: grid;
      place-items: center;
      margin: 2em 0;
@@ -326,7 +326,7 @@ var A=Object.defineProperty,O=Object.defineProperties;var D=Object.getOwnPropert
   }
 
   ${a=>a.dark&&x`
-      background: ${({theme:t})=>t.grey800};
+      background: ${({theme:n})=>n.grey800};
       .navbar-links {
         a {
           color: #ffffff;
@@ -344,23 +344,23 @@ var A=Object.defineProperty,O=Object.defineProperties;var D=Object.getOwnPropert
     `}
 
   ${a=>a.light&&x`
-      background: ${({theme:t})=>t.grey100};
+      background: ${({theme:n})=>n.grey100};
       .navbar-links {
         a {
-          color: ${({theme:t})=>t.cyan900};
+          color: ${({theme:n})=>n.cyan900};
         }
       }
     `}
 
   ${a=>a.primary&&x`
-      background: ${({theme:t})=>t.blue500};
+      background: ${({theme:n})=>n.blue500};
       .navbar-links {
         a {
-          color: ${({theme:t})=>t.wt};
+          color: ${({theme:n})=>n.wt};
         }
       }
     `}
-`;function k(a){const t=["/about","/work","/blog","/"],i=J(),{pathname:r}=i,o=t.filter(s=>s!==r);return e(c,{children:e(me,{color:a.color,bg:a.bg,fontFamily:a.font,position:a.position,height:a.height,margin:a.margin,logo:a.logo,children:n("div",{className:"links",children:[e("div",{className:"logo",children:a.children}),o.map((s,d)=>e("div",{children:e(b,{className:"links__item",to:`${s}`,children:s==="/"?"home":s.slice(1)})},s+d))]})})})}const ge=l.div`
+`;function N(a){const n=["/about","/work","/blog","/"],r=H(),{pathname:i}=r,o=n.filter(s=>s!==i);return e(c,{children:e(me,{color:a.color,bg:a.bg,fontFamily:a.font,position:a.position,height:a.height,margin:a.margin,logo:a.logo,children:t("div",{className:"links",children:[e("div",{className:"logo",children:a.children}),o.map((s,d)=>e("div",{children:e(b,{className:"links__item",to:`${s}`,children:s==="/"?"home":s.slice(1)})},s+d))]})})})}const he=l.div`
   display: grid;
   place-items: center;
 
@@ -427,7 +427,7 @@ var A=Object.defineProperty,O=Object.defineProperties;var D=Object.getOwnPropert
 }
 
 }
-`;function he(){const{register:a,handleSubmit:t}=G();return e(c,{children:n(ge,{children:[e("h4",{className:"form-title",children:"Contact here!"}),n("form",{className:"l-form",onSubmit:t(r=>{console.log(r),fetch("http://formspree.io/gfouz1975@gmail.com",{method:"post",body:r}).then(o=>{if(o.ok)return o.text();throw"Error en la llamada Ajax"}).then(o=>{console.log(o)})}),method:"POST",children:[e("div",{className:"l-form__item",children:n("fieldset",{className:"l-form__fieldset",children:[e("legend",{children:"Your email"}),e("input",f({className:"l-form__input",type:"email",id:"email",name:"email",autoComplete:"off"},a("email",{required:!0,pattern:/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/})))]})}),e("div",{className:"l-form__item",children:n("fieldset",{className:"l-form__fieldset",children:[e("legend",{children:"Your message"}),e("textarea",f({className:"l-form__textfield",id:"msg",name:"message"},a("message",{required:!0,maxLength:120})))]})}),e("div",{className:"l-form__item",children:e("input",{className:"l-form__btn",type:"submit",value:"Send your message"})})]})]})})}const pe=()=>e(c,{children:e(z,{theme:F,children:e(ue,{children:n("div",{className:"l-grid",children:[e(oe,{}),e(re,{}),e(ce,{}),e(he,{}),e(k,{bg:"#071919"}),e("footer",{className:"l-grid__footer",children:n("h4",{className:"l-grid__title",children:["Gfouz \xA9 ",new Date().getFullYear()," Made with ReactJs"]})})]})})})}),ue=l.div`
+`;function ge(){const{register:a,handleSubmit:n}=J();return e(c,{children:t(he,{children:[e("h4",{className:"form-title",children:"Contact here!"}),t("form",{className:"l-form",onSubmit:n(i=>{console.log(i),fetch("http://formspree.io/gfouz1975@gmail.com",{method:"post",body:i}).then(o=>{if(o.ok)return o.text();throw"Error en la llamada Ajax"}).then(o=>{console.log(o)})}),method:"POST",children:[e("div",{className:"l-form__item",children:t("fieldset",{className:"l-form__fieldset",children:[e("legend",{children:"Your email"}),e("input",f({className:"l-form__input",type:"email",id:"email",name:"email",autoComplete:"off"},a("email",{required:!0,pattern:/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/})))]})}),e("div",{className:"l-form__item",children:t("fieldset",{className:"l-form__fieldset",children:[e("legend",{children:"Your message"}),e("textarea",f({className:"l-form__textfield",id:"msg",name:"message"},a("message",{required:!0,maxLength:120})))]})}),e("div",{className:"l-form__item",children:e("input",{className:"l-form__btn",type:"submit",value:"Send your message"})})]})]})})}const ue=()=>e(c,{children:e(z,{theme:I,children:e(pe,{children:t("div",{className:"l-grid",children:[e(oe,{}),e(ie,{}),e(ce,{}),e(ge,{}),e(N,{bg:"#071919"}),e("footer",{className:"l-grid__footer",children:t("h4",{className:"l-grid__title",children:["Gfouz \xA9 ",new Date().getFullYear()," Made with ReactJs"]})})]})})})}),pe=l.div`
   .l-grid {
     min-height: 100vh;
     display: grid;
@@ -621,14 +621,14 @@ var A=Object.defineProperty,O=Object.defineProperties;var D=Object.getOwnPropert
   el puntero con la posici\xF3n donde se encuentra el objeto real.
   Por tanto, si seguimos esta l\xF3gica, lo que \u2018const\u2019 est\xE1 convirtiendo 
   en inmutable no es el objeto en si, si no la referencia a ese objeto.
-`,_e=`
+`,ye=`
   La composici\xF3n es la piedra angular que nos permitir\xE1 a partir de 
   funciones puras gen\xE9ricas crear funciones m\xE1s espec\xEDficas para al 
   final construir nuestros programas.Similar a como en la m\xFAsica las notas 
   (funciones puras) conforman acordes (funciones de dominio compuestas)
    y los acordes conforman obras (pieza de software), la composici\xF3n ser\xE1 
    el pegamento que nos permitir\xE1 desarrollar nuestros programas.
-`,ve=`
+`,_e=`
   I use modern JavaScript frameworks such as React and Vue to create
   single page application or full static sites so that among my
   skills are HTML, CSS, SCSS and JAVASCRIPT. And i am not afraid of
@@ -638,7 +638,7 @@ var A=Object.defineProperty,O=Object.defineProperties;var D=Object.getOwnPropert
   year but eventually i realized that i needed to learn technologies
   that afford a job, so that i have been wagering on ReactJs as my
   favourite choosing.
-`,S=[{title:"Constantes de JavaScript",paragraph:be},{title:"Composici\xF3n funcional",paragraph:_e},{title:"introduction",paragraph:ve}],w={fontSize:"30px",color:"#455a64"},ye=[{icon:e(B,{style:w}),url:"https://github.com/gfouz",name:"github"},{icon:e(H,{style:w}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"telegram"},{icon:e(M,{style:w}),url:"https://github.com/gfouz",name:"email"},{icon:e(W,{style:w}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"whatsapp"}],xe=a=>e(c,{children:e(we,{height:a.height,children:e("nav",{className:"navbar",children:e("ul",{className:"navbar__list",children:ye.map(t=>e("li",{className:"navbar__item",children:e("a",{href:t.url,className:"navbar__link",children:t.icon})}))})})})}),we=l.div`
+`,S=[{title:"Constantes de JavaScript",paragraph:be},{title:"Composici\xF3n funcional",paragraph:ye},{title:"introduction",paragraph:_e}],w={fontSize:"30px",color:"#455a64"},ve=[{icon:e(G,{style:w}),url:"https://github.com/gfouz",name:"github"},{icon:e(W,{style:w}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"telegram"},{icon:e(B,{style:w}),url:"https://github.com/gfouz",name:"email"},{icon:e(M,{style:w}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"whatsapp"}],xe=a=>e(c,{children:e(we,{height:a.height,children:e("nav",{className:"navbar",children:e("ul",{className:"navbar__list",children:ve.map(n=>e("li",{className:"navbar__item",children:e("a",{href:n.url,className:"navbar__link",children:n.icon})}))})})})}),we=l.div`
   .navbar {
     height: ${a=>a.height||"70px"};
   }
@@ -656,7 +656,7 @@ var A=Object.defineProperty,O=Object.defineProperties;var D=Object.getOwnPropert
     padding: 0;
     margin: 0;
   }
-`,Ne=()=>{const a=p.exports.useRef(null),t=()=>{const i=a.current.textContent.split("");a.current.textContent="",i.forEach((r,o)=>{a.current.innerHTML+='<span style="transform:rotate('+(o+1)*20+'deg)">'+r+"</span>"})};return p.exports.useEffect(()=>{t()},[]),e(c,{children:n(fe,{children:[n("figure",{className:"upperbar",children:[e("div",{className:"upperbar__title-container",children:n("h1",{ref:a,className:"upperbar__title",children:[" ","GFOUZ"," "]})}),e("img",{src:"./images/handshake-red.svg",alt:"gfouz-logo",className:"upperbar__image"})]}),e(k,{height:"100px",bg:"#ffffff",color:"#ff0000",margin:"2em 0"}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__avatar-container",children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"outstanding__avatar"})}),e("h3",{className:"outstanding__title",children:"A brief introduction about me"}),e("p",{className:"outstanding__paragraph",children:S[2].paragraph})]}),n("article",{className:"outstanding__item",children:[e("img",{src:"./images/laptop.jpg",className:"outstanding__laptop-image",alt:"laptop"}),e("h4",{className:"outstanding__image-title",children:"ReactJs developer"})]})]}),n("article",{className:"technologies",children:[e("img",{src:"./images/react.svg",alt:"react"}),n("div",{className:"column",children:[e("img",{src:"./images/next.svg",alt:"next"}),e("h3",{children:"THIS IS MY STACK"}),e("img",{src:"./images/graphql.svg",alt:"graphql"})]}),e("img",{src:"./images/redux.svg",alt:"redux"})]}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__icon",children:e("img",{src:"./images/greylamp.svg",alt:"giovani"})}),e("h3",{className:"outstanding__title",children:"Conceptos importantes"}),e("p",{className:"outstanding__paragraph",children:S[0].paragraph})]}),n("article",{className:"outstanding__item",children:[e("h3",{className:"outstanding__title",children:"Tambien importante"}),e("p",{className:"outstanding__paragraph",children:S[1].paragraph}),e("h5",{className:"outstanding__stack",children:"STACK QUE UTILIZO:"}),n("div",{className:"list-group",children:[n("ul",{className:"list",children:[e("li",{children:"html"}),e("li",{children:"css"}),e("li",{children:"javascript"})]}),n("ul",{className:"list",children:[e("li",{children:"ReactJs"}),e("li",{children:"NextJs"}),e("li",{children:"scss"})]}),n("ul",{className:"list",children:[e("li",{children:"Redux"}),e("li",{children:"Graphql"}),e("li",{children:"Express"})]})]})]})]}),e(xe,{height:"250px"}),n("footer",{className:"bottom-bar",children:[" ","Gfouz \xA9 ",new Date().getFullYear()," "]})]})})};var N=[{id:1644015600,img:"deploy.jpg\r",title:"Continuous deployment.\r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 5, 2022\r",description:"Continuous deployment and...\r",position:"right\r",content:`\r
+`,ke=()=>{const a=u.exports.useRef(null),n=()=>{const r=a.current.textContent.split("");a.current.textContent="",r.forEach((i,o)=>{a.current.innerHTML+='<span style="transform:rotate('+(o+1)*20+'deg)">'+i+"</span>"})};return u.exports.useEffect(()=>{n()},[]),e(c,{children:t(fe,{children:[t("figure",{className:"upperbar",children:[e("div",{className:"upperbar__title-container",children:t("h1",{ref:a,className:"upperbar__title",children:[" ","GFOUZ"," "]})}),e("img",{src:"./images/handshake-red.svg",alt:"gfouz-logo",className:"upperbar__image"})]}),e(N,{height:"100px",bg:"#ffffff",color:"#ff0000",margin:"2em 0"}),t("section",{className:"outstanding",children:[t("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__avatar-container",children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"outstanding__avatar"})}),e("h3",{className:"outstanding__title",children:"A brief introduction about me"}),e("p",{className:"outstanding__paragraph",children:S[2].paragraph})]}),t("article",{className:"outstanding__item",children:[e("img",{src:"./images/laptop.jpg",className:"outstanding__laptop-image",alt:"laptop"}),e("h4",{className:"outstanding__image-title",children:"ReactJs developer"})]})]}),t("article",{className:"technologies",children:[e("img",{src:"./images/react.svg",alt:"react"}),t("div",{className:"column",children:[e("img",{src:"./images/next.svg",alt:"next"}),e("h3",{children:"THIS IS MY STACK"}),e("img",{src:"./images/graphql.svg",alt:"graphql"})]}),e("img",{src:"./images/redux.svg",alt:"redux"})]}),t("section",{className:"outstanding",children:[t("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__icon",children:e("img",{src:"./images/greylamp.svg",alt:"giovani"})}),e("h3",{className:"outstanding__title",children:"Conceptos importantes"}),e("p",{className:"outstanding__paragraph",children:S[0].paragraph})]}),t("article",{className:"outstanding__item",children:[e("h3",{className:"outstanding__title",children:"Tambien importante"}),e("p",{className:"outstanding__paragraph",children:S[1].paragraph}),e("h5",{className:"outstanding__stack",children:"STACK QUE UTILIZO:"}),t("div",{className:"list-group",children:[t("ul",{className:"list",children:[e("li",{children:"html"}),e("li",{children:"css"}),e("li",{children:"javascript"})]}),t("ul",{className:"list",children:[e("li",{children:"ReactJs"}),e("li",{children:"NextJs"}),e("li",{children:"scss"})]}),t("ul",{className:"list",children:[e("li",{children:"Redux"}),e("li",{children:"Graphql"}),e("li",{children:"Express"})]})]})]})]}),e(xe,{height:"250px"}),t("footer",{className:"bottom-bar",children:[" ","Gfouz \xA9 ",new Date().getFullYear()," "]})]})})};var k=[{id:1644015600,img:"deploy.jpg\r",title:"Continuous deployment.\r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 5, 2022\r",description:"Continuous deployment and...\r",position:"right\r",content:`\r
 Continuous integration (CI) and continuous delivery (CD) are two\r
 approaches to software development that are designed to improve code\r
 quality and enable rapid delivery and deployment of code. They are\r
@@ -747,14 +747,56 @@ en esa variable, si no que se est\xE1 almacenando una referencia \r
 del objeto. Se almacena el puntero con la posici\xF3n en memoria \r
 donde se encuentra el objeto real.\r
 \r
-`},{id:1642201200,img:"laptopstand.jpg\r",title:"composici\xF3n funcional\r",author:"Giovani Fouz Jim\xE9nez\r",date:"january 15, 2022\r",description:"El paradigma de la programaci\xF3n funcional es...\r",position:"top\r",content:`\r
-## Composici\xF3n funcional\r
-La composici\xF3n es la piedra angular que nos permitir\xE1 a partir de \r
-funciones puras gen\xE9ricas crear funciones m\xE1s espec\xEDficas para al \r
-final construir nuestros programas.Similar a como en la m\xFAsica las notas \r
-(funciones puras) conforman acordes (funciones de dominio compuestas)\r
-y los acordes conforman obras (pieza de software), la composici\xF3n ser\xE1 \r
-el pegamento que nos permitir\xE1 desarrollar nuestros programas.`},{id:1645052400,img:"golden.jpg\r",title:"Ternary operators \r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 17, 2022\r",description:"How to simplify your code with...\r",position:"center\r",content:`\r
+`},{id:1642201200,img:"laptopstand.jpg\r",title:"What is a hash table.\r",author:"Giovani Fouz Jim\xE9nez\r",date:"january 15, 2022\r",description:"What is a hash table...\r",position:"top\r",content:`\r
+## What is a hash table?\r
+A hash table (often called a hash map) is a data structure that maps\r
+keys to values. Hash tables combine lookup, insert, and delete\r
+operations in an efficient way. The key is sent to a hash function that\r
+performs arithmetic operations on it. The result (called the hash\r
+value or hash) is an index of the key-value pair.\r
+This data structure is widely used in many kinds of computer software,\r
+particularly for associative arrays, database indexing, caches, and\r
+sets. Usually, this operation returns the same hash for a given key.\r
+The performance of a hash table depends on three fundamental factors\r
+hash function, size of the hash table, and collision handling method.\r
+\r
+## Hash tables are made up of two parts:\r
+Object: An object with the table where the data is stored. The array holds all the key-value\r
+entries in the table. The size of the array should be set according to the amount of data expected.\r
+Hash function (or mapping function): This function determines the index of our key-value\r
+pair. It should be a one-way function and produce the a different hash for each key.\r
+Note: In JavaScript, hash tables are generally implemented using arrays\r
+as they provide access to elements in constant time.\r
+\r
+## Uses of hash tables\r
+Hash tables provide access to elements in constant time, so they are\r
+highly recommended for algorithms that prioritize search and data\r
+retrieval operations. Hashing is ideal for large amounts of data, as\r
+they take a constant amount of time to perform insertion, deletion,\r
+and search. In terms of time complexity, the operation is 0(1). On\r
+average, a hash table lookup is more efficient than other table lookup\r
+data structures.\r
+Some common uses of hash tables are:\r
+Database indexing\r
+Caches\r
+Unique data representation\r
+Lookup in an unsorted array\r
+Lookup in sorted array using binary search\r
+\r
+## What is a hash function?\r
+A hash function is a method or function that takes an item\u2019s key as an\r
+input, assigns a specific index to that key and returns the index\r
+whenever the key is looked up. This operation usually returns the same\r
+hash for a given key. A good hash function should be efficient to\r
+compute and uniformly distribute keys. Hash functions help to limit\r
+the range of the keys to the boundaries of the array, so we need a\r
+function that converts a large key into a smaller key. This is the job\r
+of the hash function.\r
+\r
+there is much more to talk on this interesting subject \r
+but i will cover it on a future article.\r
+\r
+Happy learning!`},{id:1645052400,img:"golden.jpg\r",title:"Ternary operators \r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 17, 2022\r",description:"How to simplify your code with...\r",position:"center\r",content:`\r
 ## Check Data Quickly with the Ternary Operator\r
 \r
 I love simple code. I\u2019ll always try to get\r
@@ -830,12 +872,13 @@ There\u2019s one caution we should keep in mind: Though we can chain multiple\r
 ternary expressions together, we should avoid doing so.\r
 Ternary expressions can simplify things, but use them when they add value\r
 and go back to standard 'if blocks' if they create too much ambiguity.\r
-`}];function ke(){return e(c,{children:e(je,{children:e("div",{className:"postlist",children:n("div",{className:"posts",children:[e("h3",{className:"posts__topic",children:"may you interest"}),N.length&&N.map((a,t)=>n("div",{className:"posts__card",children:[e("img",{className:"posts__image",src:`./images/${a.img}`,alt:"post"}),n("div",{className:"posts__card-text",children:[e("h4",{className:"posts__title",children:a.title}),n("small",{className:"posts__info",children:["Published on: ",a.date," by ",a.author]}),e("p",{className:"posts__description",children:a.description}),e(b,{className:"posts__link",to:`/post/${a.id}`,children:"Read More"})]})]},a.id))]})})})})}const je=l.div`
+`}];function Ne(){return e(c,{children:e(je,{children:e("div",{className:"postlist",children:t("div",{className:"posts",children:[e("h3",{className:"posts__topic",children:"may you interest"}),k.length&&k.map((a,n)=>t("div",{className:"posts__card",children:[e("img",{className:"posts__image",src:`./images/${a.img}`,alt:"post"}),t("div",{className:"posts__card-text",children:[e("h4",{className:"posts__title",children:a.title}),t("small",{className:"posts__info",children:["Published on: ",a.date," by ",a.author]}),e("p",{className:"posts__description",children:a.description}),e(b,{className:"posts__link",to:`/post/${a.id}`,children:"Read More"})]})]},a.id))]})})})})}const je=l.div`
  height: 100%;
  --violet: #820aa1;
  --blue: #3f8897;
  --black: #444444;
  --brown: #4b2c17;
+ --chocolate: #443c2d;
 
  @mixin bg {
    background-color: red;
@@ -850,7 +893,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
 
 }
 .posts__topic {
-   color: var(--brown);
+   color: var(--chocolate);
    font-family: literata;
    text-transform: uppercase;
 }
@@ -905,7 +948,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
 }
 
 
-`;function Se(){return e(c,{children:e(Ce,{children:n("div",{className:"l-blog",children:[e(k,{bg:"#25180c",color:"#ffffff"}),n("section",{className:"blog",children:[e("div",{className:"blog__image",children:e("h1",{className:"blog__title",children:"Let's be inquisitive as children."})}),e("article",{className:"blog__posts",children:e(ke,{})})]}),e("footer",{className:"blog-footer",children:n("h3",{children:["gfouz \xA9 ",new Date().getFullYear()," made with react"]})})]})})})}const Ce=l.div`
+`;function Se(){return e(c,{children:e(Ce,{children:t("div",{className:"l-blog",children:[e(N,{bg:"#25180c",color:"#ffffff"}),t("section",{className:"blog",children:[e("div",{className:"blog__image",children:e("h1",{className:"blog__title",children:"Let's be inquisitive as children."})}),e("article",{className:"blog__posts",children:e(Ne,{})})]}),e("footer",{className:"blog-footer",children:t("h3",{children:["gfouz \xA9 ",new Date().getFullYear()," made with react"]})})]})})})}const Ce=l.div`
   --violet: #820aa1;
   --grey: #222222;
   --blue: #3f8897;
@@ -952,7 +995,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     place-items: center;
     color: #ffffff;
   }
-`,ze=a=>{const t=L(),i=Y(),r=parseInt(t.id),o=a.posts.map(u=>u.id),s=o.indexOf(r),[d,g]=p.exports.useState(!0),[m,j]=p.exports.useState(s);p.exports.useEffect(()=>{i(`/post/${o[m]}`)},[m]);function _(){m<o.length-1?j(u=>u+1):g(!1),m===o.length-1?g(!1):g(!0)}function v(){m>0?j(u=>u-1):i("/blog"),g(!0)}return e(c,{children:e(Fe,{color:a.color,children:n("section",{className:"navigate",children:[e("nav",{className:"navigate__prev",children:e("button",{className:"btn btn-back",onClick:v,children:"PREV"})}),e("nav",{className:"navigate__next",children:e("button",{className:d?"btn":"btn  btn--disabled",onClick:_,children:"NEXT"})})]})})})},Fe=l.div`
+`,ze=a=>{const n=A(),r=U(),i=parseInt(n.id),o=a.posts.map(p=>p.id),s=o.indexOf(i),[d,h]=u.exports.useState(!0),[m,j]=u.exports.useState(s);u.exports.useEffect(()=>{r(`/post/${o[m]}`)},[m]);function y(){m<o.length-1?j(p=>p+1):h(!1),m===o.length-1?h(!1):h(!0)}function _(){m>0?j(p=>p-1):r("/blog"),h(!0)}return e(c,{children:e(Ie,{color:a.color,children:t("section",{className:"navigate",children:[e("nav",{className:"navigate__prev",children:e("button",{className:"btn btn-back",onClick:_,children:"PREV"})}),e("nav",{className:"navigate__next",children:e("button",{className:d?"btn":"btn  btn--disabled",onClick:y,children:"NEXT"})})]})})})},Ie=l.div`
   --violet: #820aa1;
   --blue: #3f8897;
   .navigate {
@@ -977,7 +1020,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     color: #ff0000;
     background-color: #999999;
   }
-`;function Ie(){const a={},t=L(),i=parseInt(t.id);N.forEach((o,s)=>{i===o.id&&(a.content=o.content?o.content:"no given content",a.id=o.id?o.id:"no given id",a.img=o.img?o.img:"no give data",a.position=o.position?o.position:"no given position")});const r={backgroundImage:`url(./images/${a.img})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:a.position,height:"400px"};return e(c,{children:e(qe,{children:e("div",{className:"l-post",children:n("section",{className:"post",children:[e(k,{bg:"#25180c",color:"#ffffff"}),e("div",{className:"post__image",style:r}),e(U,{id:a.id,className:"post__markdown",children:a.content,components:{code(j){var _=j,{node:o,inline:s,className:d,children:g}=_,m=T(_,["node","inline","className","children"]);const v=/language-(\w+)/.exec(d||"");return!s&&v?e(K,f({children:String(g).replace(/\n$/,""),style:V,language:v[1],PreTag:"div"},m)):e("code",R(f({className:d},m),{children:g}))}}}),e(ze,{posts:N})]})})})})}const qe=l.div`
+`;function Te(){const a={},n=A(),r=parseInt(n.id);k.forEach((o,s)=>{r===o.id&&(a.content=o.content?o.content:"no given content",a.id=o.id?o.id:"no given id",a.img=o.img?o.img:"no give data",a.position=o.position?o.position:"no given position")});const i={backgroundImage:`url(./images/${a.img})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:a.position,height:"400px"};return e(c,{children:e(Fe,{children:e("div",{className:"l-post",children:t("section",{className:"post",children:[e(N,{bg:"#25180c",color:"#ffffff"}),e("div",{className:"post__image",style:i}),e(Y,{id:a.id,className:"post__markdown",children:a.content,components:{code(j){var y=j,{node:o,inline:s,className:d,children:h}=y,m=R(y,["node","inline","className","children"]);const _=/language-(\w+)/.exec(d||"");return!s&&_?e(K,f({children:String(h).replace(/\n$/,""),style:V,language:_[1],PreTag:"div"},m)):e("code",E(f({className:d},m),{children:h}))}}}),e(ze,{posts:k})]})})})})}const Fe=l.div`
   .l-post {
     margin: 0 auto;
     border: 2px solid #f1f1f1;
@@ -998,11 +1041,11 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
       color: #373839;
       text-align: left;
       padding: 0.7em;
-      margin: 1em 0;
+      margin: 0;
     }
     
   }
-`,Ee=()=>e(c,{children:e(Re,{children:e("h1",{children:"the page you are looking for does not exist"})})}),Re=l.div`
+`,qe=()=>e(c,{children:e(Ee,{children:e("h1",{children:"the page you are looking for does not exist"})})}),Ee=l.div`
  
 
-`;Z.render(e(Q.StrictMode,{children:e(c,{children:n(z,{theme:F,children:[e($,{}),e(X,{children:n(ee,{children:[e(h,{path:"/",element:e(ne,{})}),e(h,{path:"/about",element:e(Ne,{})}),e(h,{path:"/work",element:e(pe,{})}),e(h,{path:"/blog",element:e(Se,{})}),e(h,{path:"/404",element:e(Ee,{})}),e(h,{path:"/post/:id",element:e(Ie,{})})]})})]})})}),document.getElementById("root"));
+`;Z.render(e(Q.StrictMode,{children:e(c,{children:t(z,{theme:I,children:[e(L,{}),e(X,{children:t(ee,{children:[e(g,{path:"/",element:e(te,{})}),e(g,{path:"/about",element:e(ke,{})}),e(g,{path:"/work",element:e(ue,{})}),e(g,{path:"/blog",element:e(Se,{})}),e(g,{path:"/404",element:e(qe,{})}),e(g,{path:"/post/:id",element:e(Te,{})})]})})]})})}),document.getElementById("root"));
