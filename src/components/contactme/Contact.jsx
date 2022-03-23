@@ -9,9 +9,9 @@ const Contact = (props) => {
       <StyledContact height={props.height}>
         <nav className="navbar">
           <ul className="navbar__list">
-            {icons.map((icon) => (
-              <li className="navbar__item">
-                <a href={icon.url} className="navbar__link">
+            {icons.map((icon, index) => (
+              <li className="navbar__item" key={index}>
+                <a href={icon.url} className="navbar__link" >
                   {icon.icon}
                 </a>
               </li>

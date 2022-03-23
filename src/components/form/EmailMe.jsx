@@ -45,25 +45,26 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const EmailMe = () => {
-  const[message, setMessage] = React.useState("");
+
+  const[text, setText] = React.useState("");
   const classes = useStyles();
-  const { control, handleSubmit } = useForm({
+  const { control, handleSubmit} = useForm({
     defaultValues: {
       email: "",
-      messages: "",
+      message: "",
     },
   });
   function onSubmit(data) {
-    axios.post('http://formspree.io/gfouz1975@gmail.com', {
+    axios.post('https://formsubmit.co/gfouz1975@gmail.com', {
       data: data
     })
     .then(function (response) {
       console.log(response);
-      setMessage(response.data)
     })
     .catch(function (error) {
       console.log(error);
     });
+
   }
   return (
     <Container>
@@ -83,7 +84,7 @@ const EmailMe = () => {
               pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
               required: true,
             }}
-            render={({ field, formState: { errors } }) => (
+            render={({ field, formState: { errors, isSubmitted } }) => (
               <div className={classes.form__input}>
                 <TextField
                   {...field}
@@ -104,19 +105,19 @@ const EmailMe = () => {
             )}
           />
           <Controller
-            name="messages"
+            name="message"
             control={control}
             rules={{ required: true }}
-            render={({ field, formState: { errors } }) => (
+            render={({ field, formState: { errors, isSubmitted} }) => (
               <div className={classes.form__input}>
                 <TextField
                   {...field}
                   variant="outlined"
                   margin="normal"
                   label="Message"
-                  color={errors.messages ? "secondary" : "primary"}
+                  color={errors.message ? "secondary" : "primary"}
                 />
-                {errors.messages?.type === "required" && (
+                {errors.message?.type === "required" && (
                   <span className={classes.warnings}>
                     This field must not be empty !
                   </span>
@@ -139,3 +140,15 @@ const EmailMe = () => {
   );
 };
 export default EmailMe;
+
+
+
+/*.post('http://formspree.io/gfouz1975@gmail.com', {
+      data: data
+    })
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });*/

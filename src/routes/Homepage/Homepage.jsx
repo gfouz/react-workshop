@@ -68,7 +68,7 @@ const StyledHome = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #222222;
     color: #888888;
     }

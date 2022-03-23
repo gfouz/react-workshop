@@ -34,6 +34,7 @@ const Work = () => {
 export default Work;
 
 const StyledWork = styled.div`
+  background-color: #f0f0f0; 
   .l-grid {
     min-height: 100vh;
     grid-template-column: 1fr;
