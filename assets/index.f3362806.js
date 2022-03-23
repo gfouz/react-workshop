@@ -1,4 +1,4 @@
-var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropertyDescriptors;var v=Object.getOwnPropertySymbols;var F=Object.prototype.hasOwnProperty,q=Object.prototype.propertyIsEnumerable;var T=(a,n,r)=>n in a?O(a,n,{enumerable:!0,configurable:!0,writable:!0,value:r}):a[n]=r,f=(a,n)=>{for(var r in n||(n={}))F.call(n,r)&&T(a,r,n[r]);if(v)for(var r of v(n))q.call(n,r)&&T(a,r,n[r]);return a},E=(a,n)=>$(a,D(n));var R=(a,n)=>{var r={};for(var i in a)F.call(a,i)&&n.indexOf(i)<0&&(r[i]=a[i]);if(a!=null&&v)for(var i of v(a))n.indexOf(i)<0&&q.call(a,i)&&(r[i]=a[i]);return r};import{W as P,j as C,s as l,F as z,r as u,L as b,C as x,u as H,a as J,b as G,c as W,d as B,e as M,f as A,g as U,R as Y,S as K,h as V,i as Z,k as Q,H as X,l as ee,m as g}from"./vendor.9d2514c4.js";const ae=function(){const n=document.createElement("link").relList;if(n&&n.supports&&n.supports("modulepreload"))return;for(const o of document.querySelectorAll('link[rel="modulepreload"]'))i(o);new MutationObserver(o=>{for(const s of o)if(s.type==="childList")for(const d of s.addedNodes)d.tagName==="LINK"&&d.rel==="modulepreload"&&i(d)}).observe(document,{childList:!0,subtree:!0});function r(o){const s={};return o.integrity&&(s.integrity=o.integrity),o.referrerpolicy&&(s.referrerPolicy=o.referrerpolicy),o.crossorigin==="use-credentials"?s.credentials="include":o.crossorigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function i(o){if(o.ep)return;o.ep=!0;const s=r(o);fetch(o.href,s)}};ae();const I={primaryDark:"#0D0C1D",primaryLight:"#EFFFFA",primaryHover:"#343078",primary:"#ffffff",darkGray:"#282c34",mystic:"#282c34",olive:"#282c34",githubLinks:"#069696",transparent:"#d4d4d42d",scionGreen:"#1ab601",bgGrey:"d5d5d5",ultraViolet:"#601d8c",bk:"#000000",greenBase:"#e5f8d2",greenA700:"#00c853",greenA200:"#69f0ae",green100:"#c8e6c9",lightGreen:"#76ff03",blueGrey900:"#263238",grey800:"#424242",grey500:"#9e9e9e",mobile:"576px",workbg:"linear-gradient(#071919, #173535)"},L=P`
+var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropertyDescriptors;var x=Object.getOwnPropertySymbols;var F=Object.prototype.hasOwnProperty,A=Object.prototype.propertyIsEnumerable;var q=(a,t,r)=>t in a?O(a,t,{enumerable:!0,configurable:!0,writable:!0,value:r}):a[t]=r,b=(a,t)=>{for(var r in t||(t={}))F.call(t,r)&&q(a,r,t[r]);if(x)for(var r of x(t))A.call(t,r)&&q(a,r,t[r]);return a},w=(a,t)=>H(a,J(t));var E=(a,t)=>{var r={};for(var s in a)F.call(a,s)&&t.indexOf(s)<0&&(r[s]=a[s]);if(a!=null&&x)for(var s of x(a))t.indexOf(s)<0&&A.call(a,s)&&(r[s]=a[s]);return r};import{W as P,j as T,s as m,F as S,r as g,L as y,C as k,u as G,m as M,a as W,b as B,A as U,d as Y,T as Z,c as R,e as $,B as K,f as V,g as Q,h as X,i as ee,k as D,l as ae,R as ne,S as te,n as oe,o as re,p as ie,H as se,q as le,t as p}from"./vendor.fcaf0f14.js";const ce=function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const o of document.querySelectorAll('link[rel="modulepreload"]'))s(o);new MutationObserver(o=>{for(const i of o)if(i.type==="childList")for(const c of i.addedNodes)c.tagName==="LINK"&&c.rel==="modulepreload"&&s(c)}).observe(document,{childList:!0,subtree:!0});function r(o){const i={};return o.integrity&&(i.integrity=o.integrity),o.referrerpolicy&&(i.referrerPolicy=o.referrerpolicy),o.crossorigin==="use-credentials"?i.credentials="include":o.crossorigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(o){if(o.ep)return;o.ep=!0;const i=r(o);fetch(o.href,i)}};ce();const I={primaryDark:"#0D0C1D",primaryLight:"#EFFFFA",primaryHover:"#343078",primary:"#ffffff",darkGray:"#282c34",mystic:"#282c34",olive:"#282c34",githubLinks:"#069696",transparent:"#d4d4d42d",scionGreen:"#1ab601",bgGrey:"d5d5d5",ultraViolet:"#601d8c",bk:"#000000",greenBase:"#e5f8d2",greenA700:"#00c853",greenA200:"#69f0ae",green100:"#c8e6c9",greenDark:"#071919",greenDK:"#173535",lightGreen:"#76ff03",blueGrey900:"#263238",grey800:"#424242",grey500:"#9e9e9e",mobile:"576px",fontcolor:"#444444",workbg:"linear-gradient(#071919, #173535)"},de={color:"#c51162",fontshadow:"1px 1px 9px #ffffff"},L=P`
   html, body {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
   }
   
 
-  `,e=C.exports.jsx,t=C.exports.jsxs,c=C.exports.Fragment,te=()=>e(z,{theme:I,children:t(u.exports.Fragment,{children:[e(L,{}),e(ne,{children:t("div",{className:"l-grid homepage",children:[t("section",{className:"homepage__item",children:[e("h1",{className:"homepage__title",children:"portfolio"}),e("div",{className:"homepage__line"})]}),e("nav",{className:"navbar",children:t("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e(b,{to:"/about",className:"navbar__link",children:"ABOUT"})}),e("li",{className:"navbar__item",children:e(b,{to:"/work",className:"navbar__link",children:"WORK"})}),e("li",{className:"navbar__item",children:e(b,{to:"/blog",className:"navbar__link",children:"BLOG"})})]})}),t("section",{className:"logo",children:[e("div",{className:"logo__image-container",children:e("img",{className:"logo__image",src:"./images/handshake-amber.svg",alt:"gfouz-logo"})}),e("h6",{className:"logo__skills",children:"WEB DEVELOPER"}),t("h1",{className:"logo__acronym",children:["GFOUZ \xA9 ",new Date().getFullYear()]})]})]})})]})}),ne=l.div`
+  `,e=T.exports.jsx,n=T.exports.jsxs,h=T.exports.Fragment,me=()=>e(S,{theme:I,children:n(g.exports.Fragment,{children:[e(L,{}),e(he,{children:n("div",{className:"l-grid homepage",children:[n("section",{className:"homepage__item",children:[e("h1",{className:"homepage__title",children:"portfolio"}),e("div",{className:"homepage__line"})]}),e("nav",{className:"navbar",children:n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e(y,{to:"/about",className:"navbar__link",children:"ABOUT"})}),e("li",{className:"navbar__item",children:e(y,{to:"/work",className:"navbar__link",children:"WORK"})}),e("li",{className:"navbar__item",children:e(y,{to:"/blog",className:"navbar__link",children:"BLOG"})})]})}),n("section",{className:"logo",children:[e("div",{className:"logo__image-container",children:e("img",{className:"logo__image",src:"./images/handshake-amber.svg",alt:"gfouz-logo"})}),e("h6",{className:"logo__skills",children:"WEB DEVELOPER"}),n("h1",{className:"logo__acronym",children:["GFOUZ \xA9 ",new Date().getFullYear()]})]})]})})]})}),he=m.div`
   --green: #88ce02;
   --blue: #40c4ff;
   --brown: #F1993F;
@@ -135,17 +135,14 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
       opacity: 1;
     }
   }
-`,oe=()=>e(re,{children:t("picture",{className:"l-flex-column",children:[t("div",{className:"logo",children:[e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"G"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"F"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"O"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"U"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"Z"})})]}),e("img",{src:"./images/workLogo.svg",alt:"logo",className:"logo__image"}),e("h1",{className:"logo__title",children:"WORK"})]})}),re=l.div`
-  --brick: #973443;
-  --clay: #7a4338;
-  --beige: #b38f55;
-  --amber: #e2cd9a;
-
-  .l-flex-column {
+`,ge=()=>e(h,{children:e(S,{theme:de,children:e(ue,{children:n("picture",{className:"l-logo",children:[n("div",{className:"logo",children:[e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"G"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"F"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"O"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"U"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"Z"})})]}),e("img",{src:"./images/workLogo.svg",alt:"logo",className:"logo__image"}),e("h1",{className:"logo__title",children:"WORK"})]})})})}),ue=m.div`
+  background-color: #f0f0f0; 
+  .l-logo {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding: 2.5em 0 0 0;
   }
   .logo {
     position: relative;
@@ -166,18 +163,18 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
     text-shadow: 1px 1px 9px #ffffff;
   }
   .logo__letter {
-    color: #ffffff;
+    color: ${({theme:a})=>a.color};
     margin: 0;
     font-size: 1.5em;
     font-family: literata;
   }
   .logo__title {
-    color: #ffffff;
-    text-shadow: 1px 1px 9px #ffffff;
+    margin: 1.5em 0;
+    color: ${({theme:a})=>a.color};
+    text-shadow: ${({theme:a})=>a.fontshadow};
   }
   .logo__image {
     width: 100px;
-    z-index: 10;
   }
   .logo__item:nth-child(1) {
     transform: rotate(-40deg);
@@ -194,11 +191,13 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
   .logo__item:nth-child(5) {
     transform: rotate(40deg);
   }
-`,ie=()=>e(c,{children:e(se,{children:e("article",{className:"technology",children:t("div",{className:"l-flex l-flex--vw",children:[e("img",{src:"./tech/react.svg",alt:"react",className:"technology__icon"}),t("div",{className:"l-flex l-flex--column",children:[e("img",{src:"./tech/next.svg",alt:"logo",className:"technology__icon technology__icon--l"}),t("nav",{className:"navbar",children:[e("h5",{className:"navbar__title",children:"SOURCE CODE ON GITHUB"}),t("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/markdown-jsx.git",children:"Markdown-jsx"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/apollo-server.git",children:"Apollo-server"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/nextcms.git",children:"NextJs-CMS"})})]})]}),e("img",{src:"./tech/graphql.svg",alt:"logo",className:"technology__icon"})]}),e("img",{src:"./tech/redux.svg",alt:"logo",className:"technology__icon"})]})})})}),se=l.div`
+`,pe=()=>e(h,{children:e(fe,{children:e("article",{className:"technology",children:n("div",{className:"l-flex l-flex--vw",children:[e("img",{src:"./tech/react.svg",alt:"react",className:"technology__icon"}),n("div",{className:"l-flex l-flex--column",children:[e("img",{src:"./tech/next.svg",alt:"logo",className:"technology__icon technology__icon--l"}),n("nav",{className:"navbar",children:[e("h5",{className:"navbar__title",children:"SOURCE CODE ON GITHUB"}),n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/markdown-jsx.git",children:"Markdown-jsx"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/apollo-server.git",children:"Apollo-server"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/nextcms.git",children:"NextJs-CMS"})})]})]}),e("img",{src:"./tech/graphql.svg",alt:"logo",className:"technology__icon"})]}),e("img",{src:"./tech/redux.svg",alt:"logo",className:"technology__icon"})]})})})}),fe=m.div`
   .technology {
     display: flex;
+    padding: 2.5em 0;
     align-items: center;
     justify-content: center;
+    background-color: #222222;
   }
   .l-flex {
     display: flex;
@@ -215,16 +214,15 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
 
   .navbar {
     &__title {
-      color: #ffffff;
+      color: #999999;
       font-family: literata;
-      border-bottom: 1px solid #18ffff;
     }
     &__item {
       margin: 0.4em 0;
       list-style-type: none;
     }
     &__link {
-      color: #ffffff;
+      color: #777777;
       text-decoration: none;
     }
   }
@@ -238,7 +236,7 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
       width: 100px;
     }
   }
-`,le=`S\xE9 que para gustos los colores, pero en mi caso he podido 
+`,be=`S\xE9 que para gustos los colores, pero en mi caso he podido 
           comprobar las cosas muy buenas y grandes beneficios que ofrece React Js y su
           ecosistema, esta tecnolog\xEDa me ha exigido aprender m\xE1s acerca de
           JavaScript y mejorar como desarrollador web. Tesla, Netflix, Whatsapp,
@@ -253,7 +251,7 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
           Pero las tecnolog\xEDas est\xE1n en constante cambios e innovaciones, de modo que
           hay que seguir aprendiendo y estudiando los nuevos conceptos y conocimientos de
           forma continua.
-`,ce=()=>e(c,{children:e(de,{children:e("article",{className:"l-flex",children:t("div",{className:"outlook",children:[e("h4",{className:"outlook__topic",children:"Mi perspectiva personal"}),e("img",{src:"./images/lamp.svg",alt:"developer",className:"outlook__image"}),e("p",{className:"outlook__text",children:le})]})})})}),de=l.div`
+`,ye=()=>e(h,{children:e(ve,{children:e("article",{className:"l-flex",children:n("div",{className:"outlook",children:[e("h4",{className:"outlook__topic",children:"Mi perspectiva personal"}),e("img",{src:"./images/lamp.svg",alt:"developer",className:"outlook__image"}),e("p",{className:"outlook__text",children:be})]})})})}),ve=m.div`
      display: grid;
      place-items: center;
      margin: 2em 0;
@@ -263,7 +261,7 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
      align-items: flex-start;
      justify-content: center;
      max-width: 800px;
-     color: #ffffff;
+     color: ${({theme:a})=>a.fontcolor};
      text-align: left;
      padding: 1em;
    }
@@ -271,7 +269,7 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
      font-size: calc(0.7em + 1vw);
      
      &__topic {
-        font-family: literata;
+        font-family: calibri;
         margin: 0.3em;
         text-align: center;
      }
@@ -284,7 +282,7 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
         margin: 0.3em;
      }
    }
-`,me=l.div`
+`,_e=m.div`
   --tallness: ${a=>a.height||"60px"};  
   
   width: 100%;
@@ -328,8 +326,8 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
     font-family: inherit;
   }
 
-  ${a=>a.dark&&x`
-      background: ${({theme:n})=>n.grey800};
+  ${a=>a.dark&&k`
+      background: ${({theme:t})=>t.grey800};
       .navbar-links {
         a {
           color: #ffffff;
@@ -337,7 +335,7 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
       }
     `}
 
-    ${a=>a.mixed&&x`
+    ${a=>a.mixed&&k`
       background-image: linear-gradient(#808080, #000000);
       .navbar-links {
         a {
@@ -346,103 +344,34 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
       }
     `}
 
-  ${a=>a.light&&x`
-      background: ${({theme:n})=>n.grey100};
+  ${a=>a.light&&k`
+      background: ${({theme:t})=>t.grey100};
       .navbar-links {
         a {
-          color: ${({theme:n})=>n.cyan900};
+          color: ${({theme:t})=>t.cyan900};
         }
       }
     `}
 
-  ${a=>a.primary&&x`
-      background: ${({theme:n})=>n.blue500};
+  ${a=>a.primary&&k`
+      background: ${({theme:t})=>t.blue500};
       .navbar-links {
         a {
-          color: ${({theme:n})=>n.wt};
+          color: ${({theme:t})=>t.wt};
         }
       }
     `}
-`;function N(a){const n=["/about","/work","/blog","/"],r=H(),{pathname:i}=r,o=n.filter(s=>s!==i);return e(c,{children:e(me,{color:a.color,bg:a.bg,fontFamily:a.font,position:a.position,height:a.height,margin:a.margin,logo:a.logo,children:t("div",{className:"links",children:[e("div",{className:"logo",children:a.children}),o.map((s,d)=>e("div",{children:e(b,{className:"links__item",to:`${s}`,children:s==="/"?"home":s.slice(1)})},s+d))]})})})}const he=l.div`
-  display: grid;
-  place-items: center;
-
-.form-title {
-  position: relative;
-  top: 20px;
-  color: #ffffff;
-  text-transform: uppercase;
-}  
-.l-form {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1em;
-
-  &__item {
-  width: 280px;
-  display: grid;
-  place-items: center;
-  padding: 1em;
-}
-  &__fieldset {
-  width: 250px;
-  border-radius: 5px;
-  color: #ffffff;
-}
-  &__input {
-  width: 200px;
-  height: 40px;
-  outline: none;
-  padding: 0;
-  margin: 0;
-  border: none;
-  outline: none;
-  color: #ffffff;
-  background-color: transparent;
-}
-  &__textfield {
-  width: 200px;
-  height: 70px;
-  resize: none;
-  border: none;
-  outline: none;
-  padding: 0;
-  color: #ffffff;
-  background-color: transparent;
-}
-  &__textfield:hover {
-  border-color: #651fff;
-}
-  &__btn {
-  padding: 0.7em;
-  font-weight: bolder;
-  border: none;
-  border-radius: 10px;
-  color: #ffffff;
-  background-color: #071919;
-}
-  &__btn:hover {
-  color: #071919;
-  background-color: #ffffff;
-}
-
-}
-`;function ge(){const{register:a,handleSubmit:n}=J();return e(c,{children:t(he,{children:[e("h4",{className:"form-title",children:"Contact here!"}),t("form",{className:"l-form",onSubmit:n(i=>{console.log(i),fetch("http://formspree.io/gfouz1975@gmail.com",{method:"post",body:i}).then(o=>{if(o.ok)return o.text();throw"Error en la llamada Ajax"}).then(o=>{console.log(o)})}),method:"POST",children:[e("div",{className:"l-form__item",children:t("fieldset",{className:"l-form__fieldset",children:[e("legend",{children:"Your email"}),e("input",f({className:"l-form__input",type:"email",id:"email",name:"email",autoComplete:"off"},a("email",{required:!0,pattern:/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/})))]})}),e("div",{className:"l-form__item",children:t("fieldset",{className:"l-form__fieldset",children:[e("legend",{children:"Your message"}),e("textarea",f({className:"l-form__textfield",id:"msg",name:"message"},a("message",{required:!0,maxLength:120})))]})}),e("div",{className:"l-form__item",children:e("input",{className:"l-form__btn",type:"submit",value:"Send your message"})})]})]})})}const ue=()=>e(c,{children:e(z,{theme:I,children:e(pe,{children:t("div",{className:"l-grid",children:[e(oe,{}),e(ie,{}),e(ce,{}),e(ge,{}),e(N,{bg:"#071919"}),e("footer",{className:"l-grid__footer",children:t("h4",{className:"l-grid__title",children:["Gfouz \xA9 ",new Date().getFullYear()," Made with ReactJs"]})})]})})})}),pe=l.div`
+`;function C(a){const t=["/about","/work","/blog","/"],r=G(),{pathname:s}=r,o=t.filter(i=>i!==s);return e(h,{children:e(_e,{color:a.color,bg:a.bg,fontFamily:a.font,position:a.position,height:a.height,margin:a.margin,logo:a.logo,children:n("div",{className:"links",children:[e("div",{className:"logo",children:a.children}),o.map((i,c)=>e("div",{children:e(y,{className:"links__item",to:`${i}`,children:i==="/"?"home":i.slice(1)})},i+c))]})})})}const xe=M(a=>({l_grid:{margin:"1em 0",display:"flex",flexDirection:"column",alignItems:"center",padding:"2em 0"},avatar:{margin:a.spacing(2),backgroundColor:a.palette.secondary.main},form:{width:"100%",marginTop:a.spacing(1)},form__input:{display:"flex",flexDirection:"column",alignItems:"center"},warnings:{color:"#c51162",textTransform:"uppercase",fontSize:"10px"},formHide:{display:"none"},submit:{display:"block",margin:"2em auto"}})),we=()=>{const[a,t]=g.exports.useState(""),r=xe(),{control:s,handleSubmit:o}=W({defaultValues:{email:"",messages:""}});function i(c){axios.post("http://formspree.io/gfouz1975@gmail.com",{data:c}).then(function(l){console.log(l),t(l.data)}).catch(function(l){console.log(l)})}return e(B,{children:n("div",{className:r.l_grid,children:[e(U,{className:r.avatar,children:e(Y,{})}),e(Z,{component:"h1",variant:"h6",children:"Contact me"}),n("form",{className:"form",onSubmit:o(i),children:[e(R,{name:"email",control:s,rules:{pattern:/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,required:!0},render:({field:c,formState:{errors:l}})=>{var d,u;return n("div",{className:r.form__input,children:[e($,w(b({},c),{variant:"outlined",margin:"normal",label:"Email",color:l.email?"secondary":"primary"})),((d=l.email)==null?void 0:d.type)==="pattern"&&e("span",{className:r.warnings,children:"email includes an @ symbol !"}),((u=l.email)==null?void 0:u.type)==="required"&&e("span",{className:r.warnings,children:"email is required !"})]})}}),e(R,{name:"messages",control:s,rules:{required:!0},render:({field:c,formState:{errors:l}})=>{var d;return n("div",{className:r.form__input,children:[e($,w(b({},c),{variant:"outlined",margin:"normal",label:"Message",color:l.messages?"secondary":"primary"})),((d=l.messages)==null?void 0:d.type)==="required"&&e("span",{className:r.warnings,children:"This field must not be empty !"})]})}}),e(K,{type:"submit",variant:"contained",color:"secondary",className:r.submit,children:"Submit"})]})]})})},ke=()=>e(h,{children:e(S,{theme:I,children:e(Ne,{children:n("div",{className:"l-grid",children:[e(C,{bg:"#f0f0f0",color:"#000000"}),e(ge,{}),e(pe,{}),e(ye,{}),e(we,{}),e("footer",{className:"l-grid__footer",children:n("h4",{className:"l-grid__title",children:["Gfouz \xA9 ",new Date().getFullYear()," Made with ReactJs"]})})]})})})}),Ne=m.div`
   .l-grid {
     min-height: 100vh;
-    display: grid;
     grid-template-column: 1fr;
-    grid-template-rows: 300px auto auto 400px 60px 70px;
-    background-image: linear-gradient(#071919, #173535);
+    grid-template-rows:60px 375px auto auto auto 70px;
     &__footer {
        height: 70px;
        display: grid;
        place-items: center;
        color: #ffffff;
-       background-color: #071919;
+       background-color: #222222;
        font-family: literata;
     }
     &__title {
@@ -450,7 +379,7 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
        font-size: 0.7em;
     }
   }
-`,fe=l.div`
+`,je=m.div`
   --red: #cb3837;
   --yellow: #ffc329;
   --brown: #a0450e;
@@ -610,7 +539,7 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
     transform-origin: bottom center;
     color: #ff0000;
   }
-`,be=`
+`,Se=`
   'const' nos va ayudar a declarar variables inmutables, 
   esto es, a declarar variables cuyo valor no pueda ser 
   cambiado a lo largo del ciclo de vida de una variable.
@@ -624,14 +553,14 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
   el puntero con la posici\xF3n donde se encuentra el objeto real.
   Por tanto, si seguimos esta l\xF3gica, lo que \u2018const\u2019 est\xE1 convirtiendo 
   en inmutable no es el objeto en si, si no la referencia a ese objeto.
-`,ye=`
+`,Ce=`
   La composici\xF3n es la piedra angular que nos permitir\xE1 a partir de 
   funciones puras gen\xE9ricas crear funciones m\xE1s espec\xEDficas para al 
   final construir nuestros programas.Similar a como en la m\xFAsica las notas 
   (funciones puras) conforman acordes (funciones de dominio compuestas)
    y los acordes conforman obras (pieza de software), la composici\xF3n ser\xE1 
    el pegamento que nos permitir\xE1 desarrollar nuestros programas.
-`,_e=`
+`,ze=`
   I use modern JavaScript frameworks such as React and Vue to create
   single page application or full static sites so that among my
   skills are HTML, CSS, SCSS and JAVASCRIPT. And i am not afraid of
@@ -641,7 +570,7 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
   year but eventually i realized that i needed to learn technologies
   that afford a job, so that i have been wagering on ReactJs as my
   favourite choosing.
-`,S=[{title:"Constantes de JavaScript",paragraph:be},{title:"Composici\xF3n funcional",paragraph:ye},{title:"introduction",paragraph:_e}],w={fontSize:"30px",color:"#455a64"},ve=[{icon:e(G,{style:w}),url:"https://github.com/gfouz",name:"github"},{icon:e(W,{style:w}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"telegram"},{icon:e(B,{style:w}),url:"https://github.com/gfouz",name:"email"},{icon:e(M,{style:w}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"whatsapp"}],xe=a=>e(c,{children:e(we,{height:a.height,children:e("nav",{className:"navbar",children:e("ul",{className:"navbar__list",children:ve.map(n=>e("li",{className:"navbar__item",children:e("a",{href:n.url,className:"navbar__link",children:n.icon})}))})})})}),we=l.div`
+`,z=[{title:"Constantes de JavaScript",paragraph:Se},{title:"Composici\xF3n funcional",paragraph:Ce},{title:"introduction",paragraph:ze}],N={fontSize:"30px",color:"#455a64"},Te=[{icon:e(V,{style:N}),url:"https://github.com/gfouz",name:"github"},{icon:e(Q,{style:N}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"telegram"},{icon:e(X,{style:N}),url:"https://github.com/gfouz",name:"email"},{icon:e(ee,{style:N}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"whatsapp"}],Ie=a=>e(h,{children:e(qe,{height:a.height,children:e("nav",{className:"navbar",children:e("ul",{className:"navbar__list",children:Te.map(t=>e("li",{className:"navbar__item",children:e("a",{href:t.url,className:"navbar__link",children:t.icon})}))})})})}),qe=m.div`
   .navbar {
     height: ${a=>a.height||"70px"};
   }
@@ -659,7 +588,7 @@ var O=Object.defineProperty,$=Object.defineProperties;var D=Object.getOwnPropert
     padding: 0;
     margin: 0;
   }
-`,ke=()=>{const a=u.exports.useRef(null),n=()=>{const r=a.current.textContent.split("");a.current.textContent="",r.forEach((i,o)=>{a.current.innerHTML+='<span style="transform:rotate('+(o+1)*20+'deg)">'+i+"</span>"})};return u.exports.useEffect(()=>{n()},[]),e(c,{children:t(fe,{children:[t("figure",{className:"upperbar",children:[e("div",{className:"upperbar__title-container",children:t("h1",{ref:a,className:"upperbar__title",children:[" ","GFOUZ"," "]})}),e("img",{src:"./images/handshake-red.svg",alt:"gfouz-logo",className:"upperbar__image"})]}),e(N,{height:"100px",bg:"#ffffff",color:"#ff0000",margin:"2em 0"}),t("section",{className:"outstanding",children:[t("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__avatar-container",children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"outstanding__avatar"})}),e("h3",{className:"outstanding__title",children:"A brief introduction about me"}),e("p",{className:"outstanding__paragraph",children:S[2].paragraph})]}),t("article",{className:"outstanding__item",children:[e("img",{src:"./images/laptop.jpg",className:"outstanding__laptop-image",alt:"laptop"}),e("h4",{className:"outstanding__image-title",children:"ReactJs developer"})]})]}),t("article",{className:"technologies",children:[e("img",{src:"./images/react.svg",alt:"react"}),t("div",{className:"column",children:[e("img",{src:"./images/next.svg",alt:"next"}),e("h3",{children:"THIS IS MY STACK"}),e("img",{src:"./images/graphql.svg",alt:"graphql"})]}),e("img",{src:"./images/redux.svg",alt:"redux"})]}),t("section",{className:"outstanding",children:[t("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__icon",children:e("img",{src:"./images/greylamp.svg",alt:"giovani"})}),e("h3",{className:"outstanding__title",children:"Conceptos importantes"}),e("p",{className:"outstanding__paragraph",children:S[0].paragraph})]}),t("article",{className:"outstanding__item",children:[e("h3",{className:"outstanding__title",children:"Tambien importante"}),e("p",{className:"outstanding__paragraph",children:S[1].paragraph}),e("h5",{className:"outstanding__stack",children:"STACK QUE UTILIZO:"}),t("div",{className:"list-group",children:[t("ul",{className:"list",children:[e("li",{children:"html"}),e("li",{children:"css"}),e("li",{children:"javascript"})]}),t("ul",{className:"list",children:[e("li",{children:"ReactJs"}),e("li",{children:"NextJs"}),e("li",{children:"scss"})]}),t("ul",{className:"list",children:[e("li",{children:"Redux"}),e("li",{children:"Graphql"}),e("li",{children:"Express"})]})]})]})]}),e(xe,{height:"250px"}),t("footer",{className:"bottom-bar",children:[" ","Gfouz \xA9 ",new Date().getFullYear()," "]})]})})};var k=[{id:1644015600,img:"deploy.jpg\r",title:"Continuous deployment.\r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 5, 2022\r",description:"Continuous deployment and...\r",position:"right\r",content:`\r
+`,Fe=()=>{const a=g.exports.useRef(null),t=()=>{const r=a.current.textContent.split("");a.current.textContent="",r.forEach((s,o)=>{a.current.innerHTML+='<span style="transform:rotate('+(o+1)*20+'deg)">'+s+"</span>"})};return g.exports.useEffect(()=>{t()},[]),e(h,{children:n(je,{children:[n("figure",{className:"upperbar",children:[e("div",{className:"upperbar__title-container",children:n("h1",{ref:a,className:"upperbar__title",children:[" ","GFOUZ"," "]})}),e("img",{src:"./images/handshake-red.svg",alt:"gfouz-logo",className:"upperbar__image"})]}),e(C,{height:"100px",bg:"#ffffff",color:"#ff0000",margin:"2em 0"}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__avatar-container",children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"outstanding__avatar"})}),e("h3",{className:"outstanding__title",children:"A brief introduction about me"}),e("p",{className:"outstanding__paragraph",children:z[2].paragraph})]}),n("article",{className:"outstanding__item",children:[e("img",{src:"./images/laptop.jpg",className:"outstanding__laptop-image",alt:"laptop"}),e("h4",{className:"outstanding__image-title",children:"ReactJs developer"})]})]}),n("article",{className:"technologies",children:[e("img",{src:"./images/react.svg",alt:"react"}),n("div",{className:"column",children:[e("img",{src:"./images/next.svg",alt:"next"}),e("h3",{children:"THIS IS MY STACK"}),e("img",{src:"./images/graphql.svg",alt:"graphql"})]}),e("img",{src:"./images/redux.svg",alt:"redux"})]}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__icon",children:e("img",{src:"./images/greylamp.svg",alt:"giovani"})}),e("h3",{className:"outstanding__title",children:"Conceptos importantes"}),e("p",{className:"outstanding__paragraph",children:z[0].paragraph})]}),n("article",{className:"outstanding__item",children:[e("h3",{className:"outstanding__title",children:"Tambien importante"}),e("p",{className:"outstanding__paragraph",children:z[1].paragraph}),e("h5",{className:"outstanding__stack",children:"STACK QUE UTILIZO:"}),n("div",{className:"list-group",children:[n("ul",{className:"list",children:[e("li",{children:"html"}),e("li",{children:"css"}),e("li",{children:"javascript"})]}),n("ul",{className:"list",children:[e("li",{children:"ReactJs"}),e("li",{children:"NextJs"}),e("li",{children:"scss"})]}),n("ul",{className:"list",children:[e("li",{children:"Redux"}),e("li",{children:"Graphql"}),e("li",{children:"Express"})]})]})]})]}),e(Ie,{height:"250px"}),n("footer",{className:"bottom-bar",children:[" ","Gfouz \xA9 ",new Date().getFullYear()," "]})]})})};var j=[{id:1644015600,img:"deploy.jpg\r",title:"Continuous deployment.\r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 5, 2022\r",description:"Continuous deployment and...\r",position:"right\r",content:`\r
 Continuous integration (CI) and continuous delivery (CD) are two\r
 approaches to software development that are designed to improve code\r
 quality and enable rapid delivery and deployment of code. They are\r
@@ -875,7 +804,7 @@ There\u2019s one caution we should keep in mind: Though we can chain multiple\r
 ternary expressions together, we should avoid doing so.\r
 Ternary expressions can simplify things, but use them when they add value\r
 and go back to standard 'if blocks' if they create too much ambiguity.\r
-`}];function Ne(){return e(c,{children:e(je,{children:e("div",{className:"postlist",children:t("div",{className:"posts",children:[e("h3",{className:"posts__topic",children:"you might interest"}),k.length&&k.map((a,n)=>t("div",{className:"posts__card",children:[e("img",{className:"posts__image",src:`./images/${a.img}`,alt:"post"}),t("div",{className:"posts__card-text",children:[e("h4",{className:"posts__title",children:a.title}),t("small",{className:"posts__info",children:["Published on: ",a.date," by ",a.author]}),e("p",{className:"posts__description",children:a.description}),e(b,{className:"posts__link",to:`/post/${a.id}`,children:"Read More"})]})]},a.id))]})})})})}const je=l.div`
+`}];function Ae(){return e(h,{children:e(Ee,{children:e("div",{className:"postlist",children:n("div",{className:"posts",children:[e("h3",{className:"posts__topic",children:"you might interest"}),j.length&&j.map((a,t)=>n("div",{className:"posts__card",children:[e("img",{className:"posts__image",src:`./images/${a.img}`,alt:"post"}),n("div",{className:"posts__card-text",children:[e("h4",{className:"posts__title",children:a.title}),n("small",{className:"posts__info",children:["Published on: ",a.date," by ",a.author]}),e("p",{className:"posts__description",children:a.description}),e(y,{className:"posts__link",to:`/post/${a.id}`,children:"Read More"})]})]},a.id))]})})})})}const Ee=m.div`
  height: 100%;
  --violet: #820aa1;
  --blue: #3f8897;
@@ -951,7 +880,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
 }
 
 
-`;function Se(){return e(c,{children:e(Ce,{children:t("div",{className:"l-blog",children:[e(N,{bg:"#25180c",color:"#ffffff"}),t("section",{className:"blog",children:[e("div",{className:"blog__image",children:e("h1",{className:"blog__title",children:"Let's be inquisitive as children."})}),e("article",{className:"blog__posts",children:e(Ne,{})})]}),e("footer",{className:"blog-footer",children:t("h3",{children:["gfouz \xA9 ",new Date().getFullYear()," made with react"]})})]})})})}const Ce=l.div`
+`;function Re(){return e(h,{children:e($e,{children:n("div",{className:"l-blog",children:[e(C,{bg:"#25180c",color:"#ffffff"}),n("section",{className:"blog",children:[e("div",{className:"blog__image",children:e("h1",{className:"blog__title",children:"Let's be inquisitive as children."})}),e("article",{className:"blog__posts",children:e(Ae,{})})]}),e("footer",{className:"blog-footer",children:n("h3",{children:["gfouz \xA9 ",new Date().getFullYear()," made with react"]})})]})})})}const $e=m.div`
   --violet: #820aa1;
   --grey: #222222;
   --blue: #3f8897;
@@ -998,7 +927,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     place-items: center;
     color: #ffffff;
   }
-`,ze=a=>{const n=A(),r=U(),i=parseInt(n.id),o=a.posts.map(p=>p.id),s=o.indexOf(i),[d,h]=u.exports.useState(!0),[m,j]=u.exports.useState(s);u.exports.useEffect(()=>{r(`/post/${o[m]}`)},[m]);function y(){m<o.length-1?j(p=>p+1):h(!1),m===o.length-1?h(!1):h(!0)}function _(){m>0?j(p=>p-1):r("/blog"),h(!0)}return e(c,{children:e(Ie,{color:a.color,children:t("section",{className:"navigate",children:[e("nav",{className:"navigate__prev",children:e("button",{className:"btn btn-back",onClick:_,children:"PREV"})}),e("nav",{className:"navigate__next",children:e("button",{className:d?"btn":"btn  btn--disabled",onClick:y,children:"NEXT"})})]})})})},Ie=l.div`
+`,De=a=>{const t=D(),r=ae(),s=parseInt(t.id),o=a.posts.map(f=>f.id),i=o.indexOf(s),[c,l]=g.exports.useState(!0),[d,u]=g.exports.useState(i);g.exports.useEffect(()=>{r(`/post/${o[d]}`)},[d]);function v(){d<o.length-1?u(f=>f+1):l(!1),d===o.length-1?l(!1):l(!0)}function _(){d>0?u(f=>f-1):r("/blog"),l(!0)}return e(h,{children:e(Le,{color:a.color,children:n("section",{className:"navigate",children:[e("nav",{className:"navigate__prev",children:e("button",{className:"btn btn-back",onClick:_,children:"PREV"})}),e("nav",{className:"navigate__next",children:e("button",{className:c?"btn":"btn  btn--disabled",onClick:v,children:"NEXT"})})]})})})},Le=m.div`
   --violet: #820aa1;
   --blue: #3f8897;
   .navigate {
@@ -1023,7 +952,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     color: #ff0000;
     background-color: #999999;
   }
-`;function Te(){const a={},n=A(),r=parseInt(n.id);k.forEach((o,s)=>{r===o.id&&(a.content=o.content?o.content:"no given content",a.id=o.id?o.id:"no given id",a.img=o.img?o.img:"no give data",a.position=o.position?o.position:"no given position")});const i={backgroundImage:`url(./images/${a.img})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:a.position,height:"400px"};return e(c,{children:e(Fe,{children:e("div",{className:"l-post",children:t("section",{className:"post",children:[e(N,{bg:"#25180c",color:"#ffffff"}),e("div",{className:"post__image",style:i}),e(Y,{id:a.id,className:"post__markdown",children:a.content,components:{code(j){var y=j,{node:o,inline:s,className:d,children:h}=y,m=R(y,["node","inline","className","children"]);const _=/language-(\w+)/.exec(d||"");return!s&&_?e(K,f({children:String(h).replace(/\n$/,""),style:V,language:_[1],PreTag:"div"},m)):e("code",E(f({className:d},m),{children:h}))}}}),e(ze,{posts:k})]})})})})}const Fe=l.div`
+`;function Oe(){const a={},t=D(),r=parseInt(t.id);j.forEach((o,i)=>{r===o.id&&(a.content=o.content?o.content:"no given content",a.id=o.id?o.id:"no given id",a.img=o.img?o.img:"no give data",a.position=o.position?o.position:"no given position")});const s={backgroundImage:`url(./images/${a.img})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:a.position,height:"400px"};return e(h,{children:e(He,{children:e("div",{className:"l-post",children:n("section",{className:"post",children:[e(C,{bg:"#25180c",color:"#ffffff"}),e("div",{className:"post__image",style:s}),e(ne,{id:a.id,className:"post__markdown",children:a.content,components:{code(u){var v=u,{node:o,inline:i,className:c,children:l}=v,d=E(v,["node","inline","className","children"]);const _=/language-(\w+)/.exec(c||"");return!i&&_?e(te,b({children:String(l).replace(/\n$/,""),style:oe,language:_[1],PreTag:"div"},d)):e("code",w(b({className:c},d),{children:l}))}}}),e(De,{posts:j})]})})})})}const He=m.div`
   .l-post {
     margin: 0 auto;
     border: 2px solid #f1f1f1;
@@ -1048,7 +977,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     }
     
   }
-`,qe=()=>e(c,{children:e(Ee,{children:e("h1",{children:"the page you are looking for does not exist"})})}),Ee=l.div`
+`,Je=()=>e(h,{children:e(Pe,{children:e("h1",{children:"the page you are looking for does not exist"})})}),Pe=m.div`
  
 
-`;Z.render(e(Q.StrictMode,{children:e(c,{children:t(z,{theme:I,children:[e(L,{}),e(X,{children:t(ee,{children:[e(g,{path:"/",element:e(te,{})}),e(g,{path:"/about",element:e(ke,{})}),e(g,{path:"/work",element:e(ue,{})}),e(g,{path:"/blog",element:e(Se,{})}),e(g,{path:"/404",element:e(qe,{})}),e(g,{path:"/post/:id",element:e(Te,{})})]})})]})})}),document.getElementById("root"));
+`;re.render(e(ie.StrictMode,{children:e(h,{children:n(S,{theme:I,children:[e(L,{}),e(se,{children:n(le,{children:[e(p,{path:"/",element:e(me,{})}),e(p,{path:"/about",element:e(Fe,{})}),e(p,{path:"/work",element:e(ke,{})}),e(p,{path:"/blog",element:e(Re,{})}),e(p,{path:"/404",element:e(Je,{})}),e(p,{path:"/post/:id",element:e(Oe,{})})]})})]})})}),document.getElementById("root"));
