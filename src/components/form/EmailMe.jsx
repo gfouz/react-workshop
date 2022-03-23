@@ -48,7 +48,7 @@ const EmailMe = () => {
 
   const[text, setText] = React.useState("");
   const classes = useStyles();
-  const { control, handleSubmit} = useForm({
+  const { control} = useForm({
     defaultValues: {
       email: "",
       message: "",
@@ -76,7 +76,7 @@ const EmailMe = () => {
           Contact me
         </Typography>
 
-        <form className="form" onSubmit={handleSubmit(onSubmit)}>
+        <form className="form" action="https://formspree.io/f/mbjwalqp" method="post">
           <Controller
             name="email"
             control={control}
@@ -143,7 +143,7 @@ export default EmailMe;
 
 
 
-/*.post('http://formspree.io/gfouz1975@gmail.com', {
+/*.post('https://formspree.io/f/mbjwalqp', {
       data: data
     })
     .then(function (response) {
