@@ -55,7 +55,7 @@ const EmailMe = () => {
     },
   });
   function onSubmit(data) {
-    axios.post('http://formspree.io/f/mbjwalqp', {
+    axios.post('https://formspree.io/f/mbjwalqp', {
       data: data
     })
     .then(function (response) {
