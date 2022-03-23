@@ -16,12 +16,19 @@ export const theme = {
   greenA700: "#00c853",
   greenA200:"#69f0ae",
   green100: "#c8e6c9",
+  greenDark: "#071919",
+  greenDK: "#173535",
   lightGreen: "#76ff03",
   blueGrey900:"#263238", 
   grey800: "#424242",
   grey500: "#9e9e9e",
   mobile: "576px",
+  fontcolor: "#444444",
   workbg:"linear-gradient(#071919, #173535)"
+};
+export const logo = {
+  color: "#c51162",
+  fontshadow:"1px 1px 9px #ffffff"
 };
 export const colors = {
   bk:"#000000",

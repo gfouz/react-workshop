@@ -1,5 +1,6 @@
 import * as React from 'react';
-import styled from "styled-components";
+import { theme } from "../../theme";
+import styled, { ThemeProvider } from "styled-components";
 import {outlook} from './constants'
 
 const Profile = () => {
@@ -32,7 +33,7 @@ const StyledProfile = styled.div`
      align-items: flex-start;
      justify-content: center;
      max-width: 800px;
-     color: #ffffff;
+     color: ${({theme})=>theme.fontcolor};
      text-align: left;
      padding: 1em;
    }
@@ -40,7 +41,7 @@ const StyledProfile = styled.div`
      font-size: calc(0.7em + 1vw);
      
      &__topic {
-        font-family: literata;
+        font-family: calibri;
         margin: 0.3em;
         text-align: center;
      }

@@ -1,10 +1,13 @@
 import * as React from 'react';
-import styled from "styled-components";
+import { logo } from "../../theme";
+import styled, { ThemeProvider } from "styled-components";
 
 const Logo = () => {
   return (
-    <StyledLogo>
-      <picture className="l-flex-column">
+   <>
+     <ThemeProvider theme={logo}>
+     <StyledLogo>
+      <picture className="l-logo">
         <div className="logo">
           <div className="logo__item">
             <h1 className="logo__letter">G</h1>
@@ -26,19 +29,18 @@ const Logo = () => {
         <h1 className="logo__title">WORK</h1>
       </picture>
     </StyledLogo>
+  </ThemeProvider>
+</>
   );
 };
 export const StyledLogo = styled.div`
-  --brick: #973443;
-  --clay: #7a4338;
-  --beige: #b38f55;
-  --amber: #e2cd9a;
-
-  .l-flex-column {
+  background-color: #f0f0f0; 
+  .l-logo {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding: 2.5em 0 0 0;
   }
   .logo {
     position: relative;
@@ -59,18 +61,18 @@ export const StyledLogo = styled.div`
     text-shadow: 1px 1px 9px #ffffff;
   }
   .logo__letter {
-    color: #ffffff;
+    color: ${({theme})=> theme.color};
     margin: 0;
     font-size: 1.5em;
     font-family: literata;
   }
   .logo__title {
-    color: #ffffff;
-    text-shadow: 1px 1px 9px #ffffff;
+    margin: 1.5em 0;
+    color: ${({theme})=> theme.color};
+    text-shadow: ${({theme})=> theme.fontshadow};
   }
   .logo__image {
     width: 100px;
-    z-index: 10;
   }
   .logo__item:nth-child(1) {
     transform: rotate(-40deg);

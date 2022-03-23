@@ -74,8 +74,10 @@ export default Project;
 const StyledProject = styled.div`
   .technology {
     display: flex;
+    padding: 2.5em 0;
     align-items: center;
     justify-content: center;
+    background-color: #222222;
   }
   .l-flex {
     display: flex;
@@ -92,16 +94,15 @@ const StyledProject = styled.div`
 
   .navbar {
     &__title {
-      color: #ffffff;
+      color: #999999;
       font-family: literata;
-      border-bottom: 1px solid #18ffff;
     }
     &__item {
       margin: 0.4em 0;
       list-style-type: none;
     }
     &__link {
-      color: #ffffff;
+      color: #777777;
       text-decoration: none;
     }
   }
