@@ -44,6 +44,8 @@ const StyledProfile = styled.div`
         font-family: calibri;
         margin: 0.3em;
         text-align: center;
+        color: #008DFF;
+        text-transform: uppercase;
      }
      &__image {
         float: left;

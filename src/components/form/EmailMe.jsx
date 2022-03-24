@@ -5,8 +5,10 @@ import Avatar from "@material-ui/core/Avatar";
 import Android from "@material-ui/icons/Android";
 import Typography from "@material-ui/core/Typography";
 import { TextField } from "@material-ui/core";
-import Button from "@material-ui/core/Button";
+import Button from "@material-ui/core/Button"; 
+import SendIcon from '@mui/icons-material/Send';
 import { useForm, Controller } from "react-hook-form";
+import Toast from './Toast'
 import axios from 'axios';
 
 const useStyles = makeStyles((theme) => ({
@@ -19,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   },
   avatar: {
     margin: theme.spacing(2),
-    backgroundColor: theme.palette.secondary.main,
+    backgroundColor: theme.palette.primary.main,
   },
   form: {
     width: "100%", // Fix IE 11 issue.
@@ -39,14 +41,14 @@ const useStyles = makeStyles((theme) => ({
     display: "none",
   },
   submit: {
-    display: "block",
     margin: "2em auto",
+
   },
 }));
 
 const EmailMe = () => {
 
-  const[text, setText] = React.useState("");
+  const[close, setClose] = React.useState(false);
   const classes = useStyles();
   const { control, handleSubmit} = useForm({
     defaultValues: {
@@ -55,6 +57,7 @@ const EmailMe = () => {
     },
   });
   function onSubmit(data) {
+    setClose(true)
     axios.post('https://formspree.io/f/mbjwalqp', {
       data: data
     })
@@ -108,7 +111,7 @@ const EmailMe = () => {
             name="message"
             control={control}
             rules={{ required: true }}
-            render={({ field, formState: { errors, isSubmitted} }) => (
+            render={({ field, formState: { errors} }) => (
               <div className={classes.form__input}>
                 <TextField
                   {...field}
@@ -125,16 +128,17 @@ const EmailMe = () => {
               </div>
             )}
           />
-
           <Button
-            type="submit"
-            variant="contained"
-            color="secondary"
-            className={classes.submit}
-          >
-            Submit
+           type="sumit"
+           size="medium"
+           color="primary"
+           variant="contained" 
+           className={classes.submit}
+           endIcon={<SendIcon />}>
+            Send
           </Button>
         </form>
+        <Toast close={close} setClose={setClose}/>
       </div>
     </Container>
   );

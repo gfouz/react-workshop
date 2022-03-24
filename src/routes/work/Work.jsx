@@ -1,5 +1,4 @@
 import React from "react";
-import {} from "react-icons/fa";
 import { theme, logo } from "../../theme";
 import styled, { ThemeProvider } from "styled-components";
 import Logo from "../../components/logo/Logo";
@@ -38,7 +37,7 @@ const StyledWork = styled.div`
   .l-grid {
     min-height: 100vh;
     grid-template-column: 1fr;
-    grid-template-rows:60px 375px auto auto auto 70px;
+    grid-template-rows:60px 375px auto auto auto  70px;
     &__footer {
        height: 70px;
        display: grid;
