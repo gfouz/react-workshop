@@ -27,7 +27,8 @@ export const theme = {
   workbg:"linear-gradient(#071919, #173535)"
 };
 export const logo = {
-  color: "#c51162",
+  blue: "#008DFF",
+  red: "#c51162",
   fontshadow:"1px 1px 9px #ffffff"
 };
 export const colors = {

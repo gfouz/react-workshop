@@ -1,9 +1,11 @@
 import * as React from 'react';
-import styled from "styled-components";
+import { theme, logo } from "../../theme";
+import styled, { ThemeProvider } from "styled-components";
 
 const Project = () => {
   return (
     <>
+      <ThemeProvider theme={logo}>
       <StyledProject>
         <article className="technology">
           <div className="l-flex l-flex--vw">
@@ -21,14 +23,14 @@ const Project = () => {
               />
 
               <nav className="navbar">
-                <h5 className="navbar__title">SOURCE CODE ON GITHUB</h5>
+                <h5 className="navbar__title"><span>SOURCE</span> CODE ON <span>GITHUB</span></h5>
                 <ul className="navbar__list">
                   <li className="navbar__item">
                     <a
                       className="navbar__link"
-                      href="https://github.com/gfouz/markdown-jsx.git"
+                      href="https://github.com/gfouz/react-workshop.git"
                     >
-                      Markdown-jsx
+                      React-workshop
                     </a>
                   </li>
                   <li className="navbar__item">
@@ -65,6 +67,7 @@ const Project = () => {
           </div>
         </article>
       </StyledProject>
+    </ThemeProvider>
     </>
   );
 };
@@ -72,12 +75,15 @@ const Project = () => {
 export default Project;
 
 const StyledProject = styled.div`
+  --yellow: #f9c035;
+  --blue: #008DFF;
+  --light: #999999;
   .technology {
     display: flex;
     padding: 2.5em 0;
     align-items: center;
     justify-content: center;
-    background-color: #222222;
+    background-color: #444444;
   }
   .l-flex {
     display: flex;
@@ -94,16 +100,22 @@ const StyledProject = styled.div`
 
   .navbar {
     &__title {
-      color: #999999;
+      color: #ffffff;
       font-family: literata;
     }
+    &__list {
+      text-align: center;
+    }
     &__item {
-      margin: 0.4em 0;
+      margin: 0.2em 0;
       list-style-type: none;
     }
     &__link {
-      color: #777777;
+      color: var(--light);
       text-decoration: none;
+    }
+    span {
+      color:var(--blue);
     }
   }
 

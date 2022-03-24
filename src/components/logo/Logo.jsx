@@ -61,14 +61,14 @@ export const StyledLogo = styled.div`
     text-shadow: 1px 1px 9px #ffffff;
   }
   .logo__letter {
-    color: ${({theme})=> theme.color};
+    color: ${({theme})=> theme.blue};
     margin: 0;
     font-size: 1.5em;
     font-family: literata;
   }
   .logo__title {
     margin: 1.5em 0;
-    color: ${({theme})=> theme.color};
+    color: ${({theme})=> theme.blue};
     text-shadow: ${({theme})=> theme.fontshadow};
   }
   .logo__image {

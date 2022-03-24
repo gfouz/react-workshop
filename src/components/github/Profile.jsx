@@ -1,11 +1,12 @@
 import * as React from 'react';
-import { theme } from "../../theme";
+import { theme, logo } from "../../theme";
 import styled, { ThemeProvider } from "styled-components";
 import {outlook} from './constants'
 
 const Profile = () => {
   return (
     <>
+     <ThemeProvider theme={logo}> 
       <StyledProfile>
         <article className="l-flex">
         <div className="outlook">
@@ -17,6 +18,7 @@ const Profile = () => {
         </div>
         </article>
       </StyledProfile>
+    </ThemeProvider>  
     </>
   );
 };

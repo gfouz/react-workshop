@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "2em 0"
   },
   avatar: {
-    margin: theme.spacing(2),
+    margin: theme.spacing(3),
     backgroundColor: theme.palette.primary.main,
   },
   form: {
@@ -31,6 +31,11 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+  },
+  title: {
+    color:"#3f51b5",
+    fontSize: "14px",
+    textTransform: "uppercase"
   },
   warnings: {
     color: "#c51162",
@@ -73,10 +78,10 @@ const EmailMe = () => {
     <Container>
       <div className={classes.l_grid}>
         <Avatar className={classes.avatar}>
-          <Android />
+          <img src="../../images/giov.svg" width="40px"/>
         </Avatar>
-        <Typography component="h1" variant="h6">
-          Contact me
+        <Typography component="h1" variant="h6" className={classes.title}>
+          contact here!
         </Typography>
 
         <form className="form" onSubmit={handleSubmit(onSubmit)}>
@@ -155,4 +160,4 @@ export default EmailMe;
     })
     .catch(function (error) {
       console.log(error);
-    });*/
+    });  #0099fb*/
