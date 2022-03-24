@@ -82,7 +82,7 @@ const StyledHome = styled.div`
       margin: 3em 0 0.1em 0;
       text-transform: uppercase;
       font-family: literata;
-      font-size: 3em;
+      font-size: 2.5em;
       color: var(--blue);
       animation: title 1s;
       animation-fill-mode: forwards;
@@ -120,7 +120,7 @@ const StyledHome = styled.div`
    &__image-container {
     width: 220px;
     height: auto;
-    margin: 1em 0;
+    margin: 2em 0 0 0;
    }
    &__image {
       width: 100px;
@@ -131,7 +131,7 @@ const StyledHome = styled.div`
       margin: 1em 0;
     }
     &__acronym {
-    margin: 1.5em 0;
+    margin: 3em 0;
     color: var(--white);
 
     }

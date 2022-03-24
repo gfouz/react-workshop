@@ -2,7 +2,7 @@ import * as React from "react";
 import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Avatar from "@material-ui/core/Avatar";
-import Android from "@material-ui/icons/Android";
+import Email from "@material-ui/icons/Email";
 import Typography from "@material-ui/core/Typography";
 import { TextField } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
@@ -76,7 +76,7 @@ const EmailMe = () => {
     <Container>
       <div className={classes.l_grid}>
         <Avatar className={classes.avatar}>
-          <img src="../../images/giov.svg" width="40px" />
+          <Email />
         </Avatar>
         <Typography component="h1" variant="h6" className={classes.title}>
           contact here!
