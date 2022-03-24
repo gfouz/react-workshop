@@ -1,7 +1,7 @@
 ---
 title: Inmutabilidad
 author: Giovani Fouz Jiménez
-description: Que significa inmutabilidad y porque es tan importante...
+description: Que significa inmutabilidad y...
 img: inmutable.jpg
 position: center
 date: febraury 21, 2022
@@ -51,8 +51,8 @@ a la propiedades de un objeto:
   const obj = {
     nombre: "Giovani",
   };
-  obj.apellidos = "propiedad, valor mutable";
-  obj.nombre = "cambio el valor,no hay excepción";
+  obj.apellidos = "propiedad, valor";
+  obj.nombre = "cambio el valor,no excepción";
 
   console.log(any);
 })();

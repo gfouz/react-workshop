@@ -64,12 +64,13 @@ const StyledPost = styled.div`
 .posts__card {
     display: flex;
     max-width: 700px;
-    height: 200px;
+    height: 150px;
     color: #c7bfa41;
     margin: 2em;
     transition: all 0.2s;
     text-align: left;
     font-family: literata;
+    font-size: 14px;
     border-radius: 5px;
     box-shadow: 1px 1px 10px #9c4508;
   }
@@ -89,7 +90,7 @@ const StyledPost = styled.div`
 .posts__title {
     color: #999999;
     margin: 0;
-    padding: 0 0.3em;
+    padding: 0;
     font-weight: bolder;
     text-transform: uppercase;
   }

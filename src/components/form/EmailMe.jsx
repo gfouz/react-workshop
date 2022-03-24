@@ -5,11 +5,11 @@ import Avatar from "@material-ui/core/Avatar";
 import Android from "@material-ui/icons/Android";
 import Typography from "@material-ui/core/Typography";
 import { TextField } from "@material-ui/core";
-import Button from "@material-ui/core/Button"; 
-import SendIcon from '@mui/icons-material/Send';
+import Button from "@material-ui/core/Button";
+import SendIcon from "@mui/icons-material/Send";
 import { useForm, Controller } from "react-hook-form";
-import Toast from './Toast'
-import axios from 'axios';
+import Toast from "./Toast";
+import axios from "axios";
 
 const useStyles = makeStyles((theme) => ({
   l_grid: {
@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    padding: "2em 0"
+    padding: "2em 0",
   },
   avatar: {
     margin: theme.spacing(3),
@@ -33,9 +33,9 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
   },
   title: {
-    color:"#3f51b5",
+    color: "#3f51b5",
     fontSize: "14px",
-    textTransform: "uppercase"
+    textTransform: "uppercase",
   },
   warnings: {
     color: "#c51162",
@@ -47,38 +47,36 @@ const useStyles = makeStyles((theme) => ({
   },
   submit: {
     margin: "2em auto",
-
   },
 }));
 
 const EmailMe = () => {
-
-  const[close, setClose] = React.useState(false);
+  const [close, setClose] = React.useState(false);
   const classes = useStyles();
-  const { control, handleSubmit} = useForm({
+  const { control, handleSubmit } = useForm({
     defaultValues: {
       email: "",
       message: "",
     },
   });
   function onSubmit(data) {
-    setClose(true)
-    axios.post('https://formspree.io/f/mbjwalqp', {
-      data: data
-    })
-    .then(function (response) {
-      console.log(response);
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
-
+    setClose(true);
+    axios
+      .post("https://formspree.io/f/mbjwalqp", {
+        data: data,
+      })
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   }
   return (
     <Container>
       <div className={classes.l_grid}>
         <Avatar className={classes.avatar}>
-          <img src="../../images/giov.svg" width="40px"/>
+          <img src="../../images/giov.svg" width="40px" />
         </Avatar>
         <Typography component="h1" variant="h6" className={classes.title}>
           contact here!
@@ -116,7 +114,7 @@ const EmailMe = () => {
             name="message"
             control={control}
             rules={{ required: true }}
-            render={({ field, formState: { errors} }) => (
+            render={({ field, formState: { errors } }) => (
               <div className={classes.form__input}>
                 <TextField
                   {...field}
@@ -134,23 +132,22 @@ const EmailMe = () => {
             )}
           />
           <Button
-           type="sumit"
-           size="medium"
-           color="primary"
-           variant="contained" 
-           className={classes.submit}
-           endIcon={<SendIcon />}>
+            type="sumit"
+            size="medium"
+            color="primary"
+            variant="contained"
+            className={classes.submit}
+            endIcon={<SendIcon />}
+          >
             Send
           </Button>
         </form>
-        <Toast close={close} setClose={setClose}/>
+        <Toast close={close} setClose={setClose} />
       </div>
     </Container>
   );
 };
 export default EmailMe;
-
-
 
 /*.post('https://formspree.io/f/mbjwalqp', {
       data: data

@@ -6,7 +6,7 @@ import { useParams } from "react-router";
 import ReactMarkdown from "react-markdown";
 import Header from "../../components/header/Header";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { ghcolors } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 function Post() {
   const slug = {};
@@ -44,7 +44,7 @@ function Post() {
                   return !inline && match ? (
                     <SyntaxHighlighter
                       children={String(children).replace(/\n$/, "")}
-                      style={dracula}
+                      style={ghcolors}
                       language={match[1]}
                       PreTag="div"
                       {...props}
@@ -67,6 +67,7 @@ function Post() {
 export default Post;
 
 const StyledPost = styled.div`
+  background-color: #f1f1f1;
   .l-post {
     margin: 0 auto;
     border: 2px solid #f1f1f1;
@@ -84,7 +85,7 @@ const StyledPost = styled.div`
       margin: 0;
     }
     p {
-      color: #373839;
+      color: #333333;
       text-align: left;
       padding: 0.7em;
       margin: 0;

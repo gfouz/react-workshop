@@ -1,7 +1,7 @@
 ---
 title: Continuous deployment.
 author: Giovani Fouz Jiménez
-description: Continuous deployment and...
+description: CI/CD workflow...
 img: deploy.jpg
 position: right
 date: febraury 5, 2022

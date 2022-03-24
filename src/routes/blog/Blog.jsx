@@ -11,7 +11,7 @@ function Blog() {
           <Header bg="#25180c" color="#ffffff" />
           <section className="blog">
               <div className="blog__image">
-                <h1 className="blog__title">Let's be inquisitive as children.</h1>
+                <h1 className="blog__title">Inquisitive as children.</h1>
               </div>
             <article className="blog__posts">
               <Postlist />

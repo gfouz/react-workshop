@@ -2,12 +2,12 @@
 title:  Convenciones Javascript. 
 author: Giovani Fouz Jiménez
 description: Como escribir código Javascript...
-img: xxx.jpg
-position: center
+img: javascript.jpg
+position: top
 date: march 27, 2022
 ---
 
-## Introducción
+## Guía de estilos Javascript.
 Hay muchas convenciones de codificación cuando se trata de usar el
 lenguaje de programación JavaScript. Las convenciones de codificación
 son pautas de estilo para la programación. Seguir esas convenciones
@@ -15,7 +15,7 @@ mejorará su codificación JavaScript y hará que su código sea fácil de
 mantener y de leer. Entonces, en este artículo, decidí mostrarte
 algunas convenciones de codificación simples que debes conocer.
 
-## Denominación de variables
+## Denominación de variables.
 El uso de variables en JavaScript parece ser una tarea muy simple,
 pero debe seguir algunas reglas al nombrar sus variables, por ejemplo,
 tendrá que usar camelCase para los nombres de los identificadores.
@@ -31,7 +31,7 @@ sigue estas reglas:
  let fullPrice = price + (price * tax);
 
 ```
-## Longitud de la línea
+## Longitud de la línea.
 Para mayor legibilidad, asegúrese de evitar líneas de más de 80
 caracteres. pero si su declaración de JavaScript no cabe en una línea,
 el mejor lugar donde puede romperla es después de una coma o un
@@ -44,7 +44,7 @@ operador. Eche un vistazo al siguiente ejemplo:
    "Hello World!";  
 
 ```
-## Espacios alrededor de los operadores
+## Espacios alrededor de los operadores.
 Siempre ponga espacios entre operadores ( = + - * / ) en su código
 JavaScript porque hace que se vea agradable y fácil de leer. Si lo
 hace como lo hicimos en el ejemplo siguiente, está bien.
@@ -54,7 +54,7 @@ let fullName = ["giovani", "fouz", "jiménez"];
 const fn = (params) => {};
 
 ```
-## Utilice nombres de archivo en minúsculas
+## Utilice nombres de archivo en minúsculas.
 La mayoría de los servidores web (apache…) distinguen entre mayúsculas
 y minúsculas en los nombres de archivos. Por otro lado, algunos
 servidores web (Microsoft) no distinguen entre mayúsculas y minúsculas
@@ -65,7 +65,7 @@ minúsculas, por lo que puede dañar su sitio web. Para evitar esa
 confusión, utilice siempre nombres de archivo en minúsculas (si es
 posible).
 
-## Reglas de declaración
+## Reglas de declaración.
 Existen algunas convenciones de codificación que debe tener en cuenta
 al escribir sus declaraciones de JavaScript:
 
@@ -96,7 +96,7 @@ if(weather === "sunny") {
 }
 
 ```
-## Conclusión
+## Conclusión.
 De modo que , seguir las convenciones de codificación en JavaScript
 hace que nuestro código sea mantenible y fácil de leer por otros
 desarrolladores. Solo quería enumerar estas reglas simples, porque

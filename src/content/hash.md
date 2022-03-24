@@ -1,7 +1,7 @@
 ---
 title: What is a hash table.
 author: Giovani Fouz Jiménez
-description: What is a hash table...
+description: Hash tables? ...
 img: laptopstand.jpg
 position: top
 date: january 15, 2022
