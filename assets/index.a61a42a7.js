@@ -1,4 +1,4 @@
-var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropertyDescriptors;var x=Object.getOwnPropertySymbols;var F=Object.prototype.hasOwnProperty,A=Object.prototype.propertyIsEnumerable;var q=(a,t,r)=>t in a?O(a,t,{enumerable:!0,configurable:!0,writable:!0,value:r}):a[t]=r,b=(a,t)=>{for(var r in t||(t={}))F.call(t,r)&&q(a,r,t[r]);if(x)for(var r of x(t))A.call(t,r)&&q(a,r,t[r]);return a},w=(a,t)=>H(a,J(t));var E=(a,t)=>{var r={};for(var s in a)F.call(a,s)&&t.indexOf(s)<0&&(r[s]=a[s]);if(a!=null&&x)for(var s of x(a))t.indexOf(s)<0&&A.call(a,s)&&(r[s]=a[s]);return r};import{W as P,j as T,s as m,F as S,r as g,L as y,C as k,u as G,m as M,a as W,b as B,A as U,d as Y,T as Z,c as R,e as $,B as K,f as V,g as Q,h as X,i as ee,k as ae,l as D,n as ne,R as te,S as oe,o as re,p as ie,q as se,H as le,t as ce,v as p}from"./vendor.12718d1c.js";const de=function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const o of document.querySelectorAll('link[rel="modulepreload"]'))s(o);new MutationObserver(o=>{for(const i of o)if(i.type==="childList")for(const c of i.addedNodes)c.tagName==="LINK"&&c.rel==="modulepreload"&&s(c)}).observe(document,{childList:!0,subtree:!0});function r(o){const i={};return o.integrity&&(i.integrity=o.integrity),o.referrerpolicy&&(i.referrerPolicy=o.referrerpolicy),o.crossorigin==="use-credentials"?i.credentials="include":o.crossorigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(o){if(o.ep)return;o.ep=!0;const i=r(o);fetch(o.href,i)}};de();const I={primaryDark:"#0D0C1D",primaryLight:"#EFFFFA",primaryHover:"#343078",primary:"#ffffff",darkGray:"#282c34",mystic:"#282c34",olive:"#282c34",githubLinks:"#069696",transparent:"#d4d4d42d",scionGreen:"#1ab601",bgGrey:"d5d5d5",ultraViolet:"#601d8c",bk:"#000000",greenBase:"#e5f8d2",greenA700:"#00c853",greenA200:"#69f0ae",green100:"#c8e6c9",greenDark:"#071919",greenDK:"#173535",lightGreen:"#76ff03",blueGrey900:"#263238",grey800:"#424242",grey500:"#9e9e9e",mobile:"576px",fontcolor:"#444444",workbg:"linear-gradient(#071919, #173535)"},me={color:"#c51162",fontshadow:"1px 1px 9px #ffffff"},L=P`
+var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropertyDescriptors;var _=Object.getOwnPropertySymbols;var F=Object.prototype.hasOwnProperty,A=Object.prototype.propertyIsEnumerable;var q=(a,t,i)=>t in a?O(a,t,{enumerable:!0,configurable:!0,writable:!0,value:i}):a[t]=i,f=(a,t)=>{for(var i in t||(t={}))F.call(t,i)&&q(a,i,t[i]);if(_)for(var i of _(t))A.call(t,i)&&q(a,i,t[i]);return a},x=(a,t)=>H(a,J(t));var E=(a,t)=>{var i={};for(var s in a)F.call(a,s)&&t.indexOf(s)<0&&(i[s]=a[s]);if(a!=null&&_)for(var s of _(a))t.indexOf(s)<0&&A.call(a,s)&&(i[s]=a[s]);return i};import{W as P,j as T,s as c,F as j,r as g,L as b,C as w,u as G,m as W,a as B,b as M,A as U,d as Y,T as Z,c as R,e as $,B as K,f as V,g as Q,h as X,i as ee,k as ae,l as D,n as ne,R as te,S as oe,o as re,p as ie,q as se,H as le,t as ce,v as u}from"./vendor.5782179f.js";const de=function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const o of document.querySelectorAll('link[rel="modulepreload"]'))s(o);new MutationObserver(o=>{for(const r of o)if(r.type==="childList")for(const m of r.addedNodes)m.tagName==="LINK"&&m.rel==="modulepreload"&&s(m)}).observe(document,{childList:!0,subtree:!0});function i(o){const r={};return o.integrity&&(r.integrity=o.integrity),o.referrerpolicy&&(r.referrerPolicy=o.referrerpolicy),o.crossorigin==="use-credentials"?r.credentials="include":o.crossorigin==="anonymous"?r.credentials="omit":r.credentials="same-origin",r}function s(o){if(o.ep)return;o.ep=!0;const r=i(o);fetch(o.href,r)}};de();const I={primaryDark:"#0D0C1D",primaryLight:"#EFFFFA",primaryHover:"#343078",primary:"#ffffff",darkGray:"#282c34",mystic:"#282c34",olive:"#282c34",githubLinks:"#069696",transparent:"#d4d4d42d",scionGreen:"#1ab601",bgGrey:"d5d5d5",ultraViolet:"#601d8c",bk:"#000000",greenBase:"#e5f8d2",greenA700:"#00c853",greenA200:"#69f0ae",green100:"#c8e6c9",greenDark:"#071919",greenDK:"#173535",lightGreen:"#76ff03",blueGrey900:"#263238",grey800:"#424242",grey500:"#9e9e9e",mobile:"576px",fontcolor:"#444444",workbg:"linear-gradient(#071919, #173535)"},me={color:"#c51162",fontshadow:"1px 1px 9px #ffffff"},L=P`
   html, body {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropert
   }
   
 
-  `,e=T.exports.jsx,n=T.exports.jsxs,h=T.exports.Fragment,he=()=>e(S,{theme:I,children:n(g.exports.Fragment,{children:[e(L,{}),e(ge,{children:n("div",{className:"l-grid homepage",children:[n("section",{className:"homepage__item",children:[e("h1",{className:"homepage__title",children:"portfolio"}),e("div",{className:"homepage__line"})]}),e("nav",{className:"navbar",children:n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e(y,{to:"/about",className:"navbar__link",children:"ABOUT"})}),e("li",{className:"navbar__item",children:e(y,{to:"/work",className:"navbar__link",children:"WORK"})}),e("li",{className:"navbar__item",children:e(y,{to:"/blog",className:"navbar__link",children:"BLOG"})})]})}),n("section",{className:"logo",children:[e("div",{className:"logo__image-container",children:e("img",{className:"logo__image",src:"./images/handshake-amber.svg",alt:"gfouz-logo"})}),e("h6",{className:"logo__skills",children:"WEB DEVELOPER"}),n("h1",{className:"logo__acronym",children:["GFOUZ \xA9 ",new Date().getFullYear()]})]})]})})]})}),ge=m.div`
+  `,e=T.exports.jsx,n=T.exports.jsxs,d=T.exports.Fragment,he=()=>e(j,{theme:I,children:n(g.exports.Fragment,{children:[e(L,{}),e(ge,{children:n("div",{className:"l-grid homepage",children:[n("section",{className:"homepage__item",children:[e("h1",{className:"homepage__title",children:"portfolio"}),e("div",{className:"homepage__line"})]}),e("nav",{className:"navbar",children:n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e(b,{to:"/about",className:"navbar__link",children:"ABOUT"})}),e("li",{className:"navbar__item",children:e(b,{to:"/work",className:"navbar__link",children:"WORK"})}),e("li",{className:"navbar__item",children:e(b,{to:"/blog",className:"navbar__link",children:"BLOG"})})]})}),n("section",{className:"logo",children:[e("div",{className:"logo__image-container",children:e("img",{className:"logo__image",src:"./images/handshake-amber.svg",alt:"gfouz-logo"})}),e("h6",{className:"logo__skills",children:"WEB DEVELOPER"}),n("h1",{className:"logo__acronym",children:["GFOUZ \xA9 ",new Date().getFullYear()]})]})]})})]})}),ge=c.div`
   --green: #88ce02;
   --blue: #40c4ff;
   --brown: #F1993F;
@@ -32,7 +32,7 @@ var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropert
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #222222;
     color: #888888;
     }
@@ -135,7 +135,7 @@ var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropert
       opacity: 1;
     }
   }
-`,ue=()=>e(h,{children:e(S,{theme:me,children:e(pe,{children:n("picture",{className:"l-logo",children:[n("div",{className:"logo",children:[e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"G"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"F"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"O"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"U"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"Z"})})]}),e("img",{src:"./images/workLogo.svg",alt:"logo",className:"logo__image"}),e("h1",{className:"logo__title",children:"WORK"})]})})})}),pe=m.div`
+`,ue=()=>e(d,{children:e(j,{theme:me,children:e(pe,{children:n("picture",{className:"l-logo",children:[n("div",{className:"logo",children:[e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"G"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"F"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"O"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"U"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"Z"})})]}),e("img",{src:"./images/workLogo.svg",alt:"logo",className:"logo__image"}),e("h1",{className:"logo__title",children:"WORK"})]})})})}),pe=c.div`
   background-color: #f0f0f0; 
   .l-logo {
     display: flex;
@@ -191,7 +191,7 @@ var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropert
   .logo__item:nth-child(5) {
     transform: rotate(40deg);
   }
-`,fe=()=>e(h,{children:e(be,{children:e("article",{className:"technology",children:n("div",{className:"l-flex l-flex--vw",children:[e("img",{src:"./tech/react.svg",alt:"react",className:"technology__icon"}),n("div",{className:"l-flex l-flex--column",children:[e("img",{src:"./tech/next.svg",alt:"logo",className:"technology__icon technology__icon--l"}),n("nav",{className:"navbar",children:[e("h5",{className:"navbar__title",children:"SOURCE CODE ON GITHUB"}),n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/markdown-jsx.git",children:"Markdown-jsx"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/apollo-server.git",children:"Apollo-server"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/nextcms.git",children:"NextJs-CMS"})})]})]}),e("img",{src:"./tech/graphql.svg",alt:"logo",className:"technology__icon"})]}),e("img",{src:"./tech/redux.svg",alt:"logo",className:"technology__icon"})]})})})}),be=m.div`
+`,fe=()=>e(d,{children:e(be,{children:e("article",{className:"technology",children:n("div",{className:"l-flex l-flex--vw",children:[e("img",{src:"./tech/react.svg",alt:"react",className:"technology__icon"}),n("div",{className:"l-flex l-flex--column",children:[e("img",{src:"./tech/next.svg",alt:"logo",className:"technology__icon technology__icon--l"}),n("nav",{className:"navbar",children:[e("h5",{className:"navbar__title",children:"SOURCE CODE ON GITHUB"}),n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/markdown-jsx.git",children:"Markdown-jsx"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/apollo-server.git",children:"Apollo-server"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/nextcms.git",children:"NextJs-CMS"})})]})]}),e("img",{src:"./tech/graphql.svg",alt:"logo",className:"technology__icon"})]}),e("img",{src:"./tech/redux.svg",alt:"logo",className:"technology__icon"})]})})})}),be=c.div`
   .technology {
     display: flex;
     padding: 2.5em 0;
@@ -251,7 +251,7 @@ var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropert
           Pero las tecnolog\xEDas est\xE1n en constante cambios e innovaciones, de modo que
           hay que seguir aprendiendo y estudiando los nuevos conceptos y conocimientos de
           forma continua.
-`,ve=()=>e(h,{children:e(_e,{children:e("article",{className:"l-flex",children:n("div",{className:"outlook",children:[e("h4",{className:"outlook__topic",children:"Mi perspectiva personal"}),e("img",{src:"./images/lamp.svg",alt:"developer",className:"outlook__image"}),e("p",{className:"outlook__text",children:ye})]})})})}),_e=m.div`
+`,ve=()=>e(d,{children:e(_e,{children:e("article",{className:"l-flex",children:n("div",{className:"outlook",children:[e("h4",{className:"outlook__topic",children:"Mi perspectiva personal"}),e("img",{src:"./images/lamp.svg",alt:"developer",className:"outlook__image"}),e("p",{className:"outlook__text",children:ye})]})})})}),_e=c.div`
      display: grid;
      place-items: center;
      margin: 2em 0;
@@ -282,7 +282,7 @@ var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropert
         margin: 0.3em;
      }
    }
-`,xe=m.div`
+`,xe=c.div`
   --tallness: ${a=>a.height||"60px"};  
   
   width: 100%;
@@ -326,7 +326,7 @@ var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropert
     font-family: inherit;
   }
 
-  ${a=>a.dark&&k`
+  ${a=>a.dark&&w`
       background: ${({theme:t})=>t.grey800};
       .navbar-links {
         a {
@@ -335,7 +335,7 @@ var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropert
       }
     `}
 
-    ${a=>a.mixed&&k`
+    ${a=>a.mixed&&w`
       background-image: linear-gradient(#808080, #000000);
       .navbar-links {
         a {
@@ -344,7 +344,7 @@ var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropert
       }
     `}
 
-  ${a=>a.light&&k`
+  ${a=>a.light&&w`
       background: ${({theme:t})=>t.grey100};
       .navbar-links {
         a {
@@ -353,7 +353,7 @@ var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropert
       }
     `}
 
-  ${a=>a.primary&&k`
+  ${a=>a.primary&&w`
       background: ${({theme:t})=>t.blue500};
       .navbar-links {
         a {
@@ -361,7 +361,8 @@ var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropert
         }
       }
     `}
-`;function C(a){const t=["/about","/work","/blog","/"],r=G(),{pathname:s}=r,o=t.filter(i=>i!==s);return e(h,{children:e(xe,{color:a.color,bg:a.bg,fontFamily:a.font,position:a.position,height:a.height,margin:a.margin,logo:a.logo,children:n("div",{className:"links",children:[e("div",{className:"logo",children:a.children}),o.map((i,c)=>e("div",{children:e(y,{className:"links__item",to:`${i}`,children:i==="/"?"home":i.slice(1)})},i+c))]})})})}const we=M(a=>({l_grid:{margin:"1em 0",display:"flex",flexDirection:"column",alignItems:"center",padding:"2em 0"},avatar:{margin:a.spacing(2),backgroundColor:a.palette.secondary.main},form:{width:"100%",marginTop:a.spacing(1)},form__input:{display:"flex",flexDirection:"column",alignItems:"center"},warnings:{color:"#c51162",textTransform:"uppercase",fontSize:"10px"},formHide:{display:"none"},submit:{display:"block",margin:"2em auto"}})),ke=()=>{const[a,t]=g.exports.useState(""),r=we(),{control:s,handleSubmit:o}=W({defaultValues:{email:"",messages:""}});function i(c){V.post("http://formspree.io/gfouz1975@gmail.com",{data:c}).then(function(l){console.log(l),t(l.data)}).catch(function(l){console.log(l)})}return e(B,{children:n("div",{className:r.l_grid,children:[e(U,{className:r.avatar,children:e(Y,{})}),e(Z,{component:"h1",variant:"h6",children:"Contact me"}),n("form",{className:"form",onSubmit:o(i),children:[e(R,{name:"email",control:s,rules:{pattern:/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,required:!0},render:({field:c,formState:{errors:l}})=>{var d,u;return n("div",{className:r.form__input,children:[e($,w(b({},c),{variant:"outlined",margin:"normal",label:"Email",color:l.email?"secondary":"primary"})),((d=l.email)==null?void 0:d.type)==="pattern"&&e("span",{className:r.warnings,children:"email includes an @ symbol !"}),((u=l.email)==null?void 0:u.type)==="required"&&e("span",{className:r.warnings,children:"email is required !"})]})}}),e(R,{name:"messages",control:s,rules:{required:!0},render:({field:c,formState:{errors:l}})=>{var d;return n("div",{className:r.form__input,children:[e($,w(b({},c),{variant:"outlined",margin:"normal",label:"Message",color:l.messages?"secondary":"primary"})),((d=l.messages)==null?void 0:d.type)==="required"&&e("span",{className:r.warnings,children:"This field must not be empty !"})]})}}),e(K,{type:"submit",variant:"contained",color:"secondary",className:r.submit,children:"Submit"})]})]})})},Ne=()=>e(h,{children:e(S,{theme:I,children:e(je,{children:n("div",{className:"l-grid",children:[e(C,{bg:"#f0f0f0",color:"#000000"}),e(ue,{}),e(fe,{}),e(ve,{}),e(ke,{}),e("footer",{className:"l-grid__footer",children:n("h4",{className:"l-grid__title",children:["Gfouz \xA9 ",new Date().getFullYear()," Made with ReactJs"]})})]})})})}),je=m.div`
+`;function S(a){const t=["/about","/work","/blog","/"],i=G(),{pathname:s}=i,o=t.filter(r=>r!==s);return e(d,{children:e(xe,{color:a.color,bg:a.bg,fontFamily:a.font,position:a.position,height:a.height,margin:a.margin,logo:a.logo,children:n("div",{className:"links",children:[e("div",{className:"logo",children:a.children}),o.map((r,m)=>e("div",{children:e(b,{className:"links__item",to:`${r}`,children:r==="/"?"home":r.slice(1)})},r+m))]})})})}const we=W(a=>({l_grid:{margin:"1em 0",display:"flex",flexDirection:"column",alignItems:"center",padding:"2em 0"},avatar:{margin:a.spacing(2),backgroundColor:a.palette.secondary.main},form:{width:"100%",marginTop:a.spacing(1)},form__input:{display:"flex",flexDirection:"column",alignItems:"center"},warnings:{color:"#c51162",textTransform:"uppercase",fontSize:"10px"},formHide:{display:"none"},submit:{display:"block",margin:"2em auto"}})),ke=()=>{g.exports.useState("");const a=we(),{control:t,handleSubmit:i}=B({defaultValues:{email:"",message:""}});function s(o){V.post("https://formsubmit.co/gfouz1975@gmail.com",{data:o}).then(function(r){console.log(r)}).catch(function(r){console.log(r)})}return e(M,{children:n("div",{className:a.l_grid,children:[e(U,{className:a.avatar,children:e(Y,{})}),e(Z,{component:"h1",variant:"h6",children:"Contact me"}),n("form",{className:"form",onSubmit:i(s),children:[e(R,{name:"email",control:t,rules:{pattern:/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,required:!0},render:({field:o,formState:{errors:r,isSubmitted:m}})=>{var l,h;return n("div",{className:a.form__input,children:[e($,x(f({},o),{variant:"outlined",margin:"normal",label:"Email",color:r.email?"secondary":"primary"})),((l=r.email)==null?void 0:l.type)==="pattern"&&e("span",{className:a.warnings,children:"email includes an @ symbol !"}),((h=r.email)==null?void 0:h.type)==="required"&&e("span",{className:a.warnings,children:"email is required !"})]})}}),e(R,{name:"message",control:t,rules:{required:!0},render:({field:o,formState:{errors:r,isSubmitted:m}})=>{var l;return n("div",{className:a.form__input,children:[e($,x(f({},o),{variant:"outlined",margin:"normal",label:"Message",color:r.message?"secondary":"primary"})),((l=r.message)==null?void 0:l.type)==="required"&&e("span",{className:a.warnings,children:"This field must not be empty !"})]})}}),e(K,{type:"submit",variant:"contained",color:"secondary",className:a.submit,children:"Submit"})]})]})})},Ne=()=>e(d,{children:e(j,{theme:I,children:e(je,{children:n("div",{className:"l-grid",children:[e(S,{bg:"#f0f0f0",color:"#000000"}),e(ue,{}),e(fe,{}),e(ve,{}),e(ke,{}),e("footer",{className:"l-grid__footer",children:n("h4",{className:"l-grid__title",children:["Gfouz \xA9 ",new Date().getFullYear()," Made with ReactJs"]})})]})})})}),je=c.div`
+  background-color: #f0f0f0; 
   .l-grid {
     min-height: 100vh;
     grid-template-column: 1fr;
@@ -379,7 +380,7 @@ var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropert
        font-size: 0.7em;
     }
   }
-`,Se=m.div`
+`,Se=c.div`
   --red: #cb3837;
   --yellow: #ffc329;
   --brown: #a0450e;
@@ -570,7 +571,7 @@ var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropert
   year but eventually i realized that i needed to learn technologies
   that afford a job, so that i have been wagering on ReactJs as my
   favourite choosing.
-`,z=[{title:"Constantes de JavaScript",paragraph:Ce},{title:"Composici\xF3n funcional",paragraph:ze},{title:"introduction",paragraph:Te}],N={fontSize:"30px",color:"#455a64"},Ie=[{icon:e(Q,{style:N}),url:"https://github.com/gfouz",name:"github"},{icon:e(X,{style:N}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"telegram"},{icon:e(ee,{style:N}),url:"https://github.com/gfouz",name:"email"},{icon:e(ae,{style:N}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"whatsapp"}],qe=a=>e(h,{children:e(Fe,{height:a.height,children:e("nav",{className:"navbar",children:e("ul",{className:"navbar__list",children:Ie.map(t=>e("li",{className:"navbar__item",children:e("a",{href:t.url,className:"navbar__link",children:t.icon})}))})})})}),Fe=m.div`
+`,z=[{title:"Constantes de JavaScript",paragraph:Ce},{title:"Composici\xF3n funcional",paragraph:ze},{title:"introduction",paragraph:Te}],k={fontSize:"30px",color:"#455a64"},Ie=[{icon:e(Q,{style:k}),url:"https://github.com/gfouz",name:"github"},{icon:e(X,{style:k}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"telegram"},{icon:e(ee,{style:k}),url:"https://github.com/gfouz",name:"email"},{icon:e(ae,{style:k}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"whatsapp"}],qe=a=>e(d,{children:e(Fe,{height:a.height,children:e("nav",{className:"navbar",children:e("ul",{className:"navbar__list",children:Ie.map((t,i)=>e("li",{className:"navbar__item",children:e("a",{href:t.url,className:"navbar__link",children:t.icon})},i))})})})}),Fe=c.div`
   .navbar {
     height: ${a=>a.height||"70px"};
   }
@@ -588,7 +589,7 @@ var O=Object.defineProperty,H=Object.defineProperties;var J=Object.getOwnPropert
     padding: 0;
     margin: 0;
   }
-`,Ae=()=>{const a=g.exports.useRef(null),t=()=>{const r=a.current.textContent.split("");a.current.textContent="",r.forEach((s,o)=>{a.current.innerHTML+='<span style="transform:rotate('+(o+1)*20+'deg)">'+s+"</span>"})};return g.exports.useEffect(()=>{t()},[]),e(h,{children:n(Se,{children:[n("figure",{className:"upperbar",children:[e("div",{className:"upperbar__title-container",children:n("h1",{ref:a,className:"upperbar__title",children:[" ","GFOUZ"," "]})}),e("img",{src:"./images/handshake-red.svg",alt:"gfouz-logo",className:"upperbar__image"})]}),e(C,{height:"100px",bg:"#ffffff",color:"#ff0000",margin:"2em 0"}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__avatar-container",children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"outstanding__avatar"})}),e("h3",{className:"outstanding__title",children:"A brief introduction about me"}),e("p",{className:"outstanding__paragraph",children:z[2].paragraph})]}),n("article",{className:"outstanding__item",children:[e("img",{src:"./images/laptop.jpg",className:"outstanding__laptop-image",alt:"laptop"}),e("h4",{className:"outstanding__image-title",children:"ReactJs developer"})]})]}),n("article",{className:"technologies",children:[e("img",{src:"./images/react.svg",alt:"react"}),n("div",{className:"column",children:[e("img",{src:"./images/next.svg",alt:"next"}),e("h3",{children:"THIS IS MY STACK"}),e("img",{src:"./images/graphql.svg",alt:"graphql"})]}),e("img",{src:"./images/redux.svg",alt:"redux"})]}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__icon",children:e("img",{src:"./images/greylamp.svg",alt:"giovani"})}),e("h3",{className:"outstanding__title",children:"Conceptos importantes"}),e("p",{className:"outstanding__paragraph",children:z[0].paragraph})]}),n("article",{className:"outstanding__item",children:[e("h3",{className:"outstanding__title",children:"Tambien importante"}),e("p",{className:"outstanding__paragraph",children:z[1].paragraph}),e("h5",{className:"outstanding__stack",children:"STACK QUE UTILIZO:"}),n("div",{className:"list-group",children:[n("ul",{className:"list",children:[e("li",{children:"html"}),e("li",{children:"css"}),e("li",{children:"javascript"})]}),n("ul",{className:"list",children:[e("li",{children:"ReactJs"}),e("li",{children:"NextJs"}),e("li",{children:"scss"})]}),n("ul",{className:"list",children:[e("li",{children:"Redux"}),e("li",{children:"Graphql"}),e("li",{children:"Express"})]})]})]})]}),e(qe,{height:"250px"}),n("footer",{className:"bottom-bar",children:[" ","Gfouz \xA9 ",new Date().getFullYear()," "]})]})})};var j=[{id:1644015600,img:"deploy.jpg\r",title:"Continuous deployment.\r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 5, 2022\r",description:"Continuous deployment and...\r",position:"right\r",content:`\r
+`,Ae=()=>{const a=g.exports.useRef(null),t=()=>{const i=a.current.textContent.split("");a.current.textContent="",i.forEach((s,o)=>{a.current.innerHTML+='<span style="transform:rotate('+(o+1)*20+'deg)">'+s+"</span>"})};return g.exports.useEffect(()=>{t()},[]),e(d,{children:n(Se,{children:[n("figure",{className:"upperbar",children:[e("div",{className:"upperbar__title-container",children:n("h1",{ref:a,className:"upperbar__title",children:[" ","GFOUZ"," "]})}),e("img",{src:"./images/handshake-red.svg",alt:"gfouz-logo",className:"upperbar__image"})]}),e(S,{height:"100px",bg:"#ffffff",color:"#ff0000",margin:"2em 0"}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__avatar-container",children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"outstanding__avatar"})}),e("h3",{className:"outstanding__title",children:"A brief introduction about me"}),e("p",{className:"outstanding__paragraph",children:z[2].paragraph})]}),n("article",{className:"outstanding__item",children:[e("img",{src:"./images/laptop.jpg",className:"outstanding__laptop-image",alt:"laptop"}),e("h4",{className:"outstanding__image-title",children:"ReactJs developer"})]})]}),n("article",{className:"technologies",children:[e("img",{src:"./images/react.svg",alt:"react"}),n("div",{className:"column",children:[e("img",{src:"./images/next.svg",alt:"next"}),e("h3",{children:"THIS IS MY STACK"}),e("img",{src:"./images/graphql.svg",alt:"graphql"})]}),e("img",{src:"./images/redux.svg",alt:"redux"})]}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__icon",children:e("img",{src:"./images/greylamp.svg",alt:"giovani"})}),e("h3",{className:"outstanding__title",children:"Conceptos importantes"}),e("p",{className:"outstanding__paragraph",children:z[0].paragraph})]}),n("article",{className:"outstanding__item",children:[e("h3",{className:"outstanding__title",children:"Tambien importante"}),e("p",{className:"outstanding__paragraph",children:z[1].paragraph}),e("h5",{className:"outstanding__stack",children:"STACK QUE UTILIZO:"}),n("div",{className:"list-group",children:[n("ul",{className:"list",children:[e("li",{children:"html"}),e("li",{children:"css"}),e("li",{children:"javascript"})]}),n("ul",{className:"list",children:[e("li",{children:"ReactJs"}),e("li",{children:"NextJs"}),e("li",{children:"scss"})]}),n("ul",{className:"list",children:[e("li",{children:"Redux"}),e("li",{children:"Graphql"}),e("li",{children:"Express"})]})]})]})]}),e(qe,{height:"250px"}),n("footer",{className:"bottom-bar",children:[" ","Gfouz \xA9 ",new Date().getFullYear()," "]})]})})};var N=[{id:1644015600,img:"deploy.jpg\r",title:"Continuous deployment.\r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 5, 2022\r",description:"Continuous deployment and...\r",position:"right\r",content:`\r
 Continuous integration (CI) and continuous delivery (CD) are two\r
 approaches to software development that are designed to improve code\r
 quality and enable rapid delivery and deployment of code. They are\r
@@ -804,7 +805,7 @@ There\u2019s one caution we should keep in mind: Though we can chain multiple\r
 ternary expressions together, we should avoid doing so.\r
 Ternary expressions can simplify things, but use them when they add value\r
 and go back to standard 'if blocks' if they create too much ambiguity.\r
-`}];function Ee(){return e(h,{children:e(Re,{children:e("div",{className:"postlist",children:n("div",{className:"posts",children:[e("h3",{className:"posts__topic",children:"you might interest"}),j.length&&j.map((a,t)=>n("div",{className:"posts__card",children:[e("img",{className:"posts__image",src:`./images/${a.img}`,alt:"post"}),n("div",{className:"posts__card-text",children:[e("h4",{className:"posts__title",children:a.title}),n("small",{className:"posts__info",children:["Published on: ",a.date," by ",a.author]}),e("p",{className:"posts__description",children:a.description}),e(y,{className:"posts__link",to:`/post/${a.id}`,children:"Read More"})]})]},a.id))]})})})})}const Re=m.div`
+`}];function Ee(){return e(d,{children:e(Re,{children:e("div",{className:"postlist",children:n("div",{className:"posts",children:[e("h3",{className:"posts__topic",children:"you might interest"}),N.length&&N.map((a,t)=>n("div",{className:"posts__card",children:[e("img",{className:"posts__image",src:`./images/${a.img}`,alt:"post"}),n("div",{className:"posts__card-text",children:[e("h4",{className:"posts__title",children:a.title}),n("small",{className:"posts__info",children:["Published on: ",a.date," by ",a.author]}),e("p",{className:"posts__description",children:a.description}),e(b,{className:"posts__link",to:`/post/${a.id}`,children:"Read More"})]})]},a.id))]})})})})}const Re=c.div`
  height: 100%;
  --violet: #820aa1;
  --blue: #3f8897;
@@ -880,7 +881,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
 }
 
 
-`;function $e(){return e(h,{children:e(De,{children:n("div",{className:"l-blog",children:[e(C,{bg:"#25180c",color:"#ffffff"}),n("section",{className:"blog",children:[e("div",{className:"blog__image",children:e("h1",{className:"blog__title",children:"Let's be inquisitive as children."})}),e("article",{className:"blog__posts",children:e(Ee,{})})]}),e("footer",{className:"blog-footer",children:n("h3",{children:["gfouz \xA9 ",new Date().getFullYear()," made with react"]})})]})})})}const De=m.div`
+`;function $e(){return e(d,{children:e(De,{children:n("div",{className:"l-blog",children:[e(S,{bg:"#25180c",color:"#ffffff"}),n("section",{className:"blog",children:[e("div",{className:"blog__image",children:e("h1",{className:"blog__title",children:"Let's be inquisitive as children."})}),e("article",{className:"blog__posts",children:e(Ee,{})})]}),e("footer",{className:"blog-footer",children:n("h3",{children:["gfouz \xA9 ",new Date().getFullYear()," made with react"]})})]})})})}const De=c.div`
   --violet: #820aa1;
   --grey: #222222;
   --blue: #3f8897;
@@ -927,7 +928,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     place-items: center;
     color: #ffffff;
   }
-`,Le=a=>{const t=D(),r=ne(),s=parseInt(t.id),o=a.posts.map(f=>f.id),i=o.indexOf(s),[c,l]=g.exports.useState(!0),[d,u]=g.exports.useState(i);g.exports.useEffect(()=>{r(`/post/${o[d]}`)},[d]);function v(){d<o.length-1?u(f=>f+1):l(!1),d===o.length-1?l(!1):l(!0)}function _(){d>0?u(f=>f-1):r("/blog"),l(!0)}return e(h,{children:e(Oe,{color:a.color,children:n("section",{className:"navigate",children:[e("nav",{className:"navigate__prev",children:e("button",{className:"btn btn-back",onClick:_,children:"PREV"})}),e("nav",{className:"navigate__next",children:e("button",{className:c?"btn":"btn  btn--disabled",onClick:v,children:"NEXT"})})]})})})},Oe=m.div`
+`,Le=a=>{const t=D(),i=ne(),s=parseInt(t.id),o=a.posts.map(p=>p.id),r=o.indexOf(s),[m,l]=g.exports.useState(!0),[h,C]=g.exports.useState(r);g.exports.useEffect(()=>{i(`/post/${o[h]}`)},[h]);function y(){h<o.length-1?C(p=>p+1):l(!1),h===o.length-1?l(!1):l(!0)}function v(){h>0?C(p=>p-1):i("/blog"),l(!0)}return e(d,{children:e(Oe,{color:a.color,children:n("section",{className:"navigate",children:[e("nav",{className:"navigate__prev",children:e("button",{className:"btn btn-back",onClick:v,children:"PREV"})}),e("nav",{className:"navigate__next",children:e("button",{className:m?"btn":"btn  btn--disabled",onClick:y,children:"NEXT"})})]})})})},Oe=c.div`
   --violet: #820aa1;
   --blue: #3f8897;
   .navigate {
@@ -952,7 +953,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     color: #ff0000;
     background-color: #999999;
   }
-`;function He(){const a={},t=D(),r=parseInt(t.id);j.forEach((o,i)=>{r===o.id&&(a.content=o.content?o.content:"no given content",a.id=o.id?o.id:"no given id",a.img=o.img?o.img:"no give data",a.position=o.position?o.position:"no given position")});const s={backgroundImage:`url(./images/${a.img})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:a.position,height:"400px"};return e(h,{children:e(Je,{children:e("div",{className:"l-post",children:n("section",{className:"post",children:[e(C,{bg:"#25180c",color:"#ffffff"}),e("div",{className:"post__image",style:s}),e(te,{id:a.id,className:"post__markdown",children:a.content,components:{code(u){var v=u,{node:o,inline:i,className:c,children:l}=v,d=E(v,["node","inline","className","children"]);const _=/language-(\w+)/.exec(c||"");return!i&&_?e(oe,b({children:String(l).replace(/\n$/,""),style:re,language:_[1],PreTag:"div"},d)):e("code",w(b({className:c},d),{children:l}))}}}),e(Le,{posts:j})]})})})})}const Je=m.div`
+`;function He(){const a={},t=D(),i=parseInt(t.id);N.forEach((o,r)=>{i===o.id&&(a.content=o.content?o.content:"no given content",a.id=o.id?o.id:"no given id",a.img=o.img?o.img:"no give data",a.position=o.position?o.position:"no given position")});const s={backgroundImage:`url(./images/${a.img})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:a.position,height:"400px"};return e(d,{children:e(Je,{children:e("div",{className:"l-post",children:n("section",{className:"post",children:[e(S,{bg:"#25180c",color:"#ffffff"}),e("div",{className:"post__image",style:s}),e(te,{id:a.id,className:"post__markdown",children:a.content,components:{code(C){var y=C,{node:o,inline:r,className:m,children:l}=y,h=E(y,["node","inline","className","children"]);const v=/language-(\w+)/.exec(m||"");return!r&&v?e(oe,f({children:String(l).replace(/\n$/,""),style:re,language:v[1],PreTag:"div"},h)):e("code",x(f({className:m},h),{children:l}))}}}),e(Le,{posts:N})]})})})})}const Je=c.div`
   .l-post {
     margin: 0 auto;
     border: 2px solid #f1f1f1;
@@ -977,7 +978,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     }
     
   }
-`,Pe=()=>e(h,{children:e(Ge,{children:e("h1",{children:"the page you are looking for does not exist"})})}),Ge=m.div`
+`,Pe=()=>e(d,{children:e(Ge,{children:e("h1",{children:"the page you are looking for does not exist"})})}),Ge=c.div`
  
 
-`;ie.render(e(se.StrictMode,{children:e(h,{children:n(S,{theme:I,children:[e(L,{}),e(le,{children:n(ce,{children:[e(p,{path:"/",element:e(he,{})}),e(p,{path:"/about",element:e(Ae,{})}),e(p,{path:"/work",element:e(Ne,{})}),e(p,{path:"/blog",element:e($e,{})}),e(p,{path:"/404",element:e(Pe,{})}),e(p,{path:"/post/:id",element:e(He,{})})]})})]})})}),document.getElementById("root"));
+`;ie.render(e(se.StrictMode,{children:e(d,{children:n(j,{theme:I,children:[e(L,{}),e(le,{children:n(ce,{children:[e(u,{path:"/",element:e(he,{})}),e(u,{path:"/about",element:e(Ae,{})}),e(u,{path:"/work",element:e(Ne,{})}),e(u,{path:"/blog",element:e($e,{})}),e(u,{path:"/404",element:e(Pe,{})}),e(u,{path:"/post/:id",element:e(He,{})})]})})]})})}),document.getElementById("root"));
