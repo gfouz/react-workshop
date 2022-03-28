@@ -1,4 +1,4 @@
-var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropertyDescriptors;var x=Object.getOwnPropertySymbols;var q=Object.prototype.hasOwnProperty,F=Object.prototype.propertyIsEnumerable;var T=(a,t,o)=>t in a?L(a,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):a[t]=o,y=(a,t)=>{for(var o in t||(t={}))q.call(t,o)&&T(a,o,t[o]);if(x)for(var o of x(t))F.call(t,o)&&T(a,o,t[o]);return a},w=(a,t)=>O(a,H(t));var E=(a,t)=>{var o={};for(var s in a)q.call(a,s)&&t.indexOf(s)<0&&(o[s]=a[s]);if(a!=null&&x)for(var s of x(a))t.indexOf(s)<0&&F.call(a,s)&&(o[s]=a[s]);return o};import{W as J,s as d,j as e,F as S,a as n,r as g,L as v,b as m,C as k,u as P,S as B,B as G,I as M,d as W,m as U,c as Y,e as Z,A as K,f as V,T as Q,g as D,h as A,i as X,k as ee,l as ae,n as ne,o as te,p as oe,q as re,t as $,v as ie,R as se,w as le,x as ce,y as de,z as me,H as he,D as ge,E as f}from"./vendor.2cfc5664.js";const ue=function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const r of document.querySelectorAll('link[rel="modulepreload"]'))s(r);new MutationObserver(r=>{for(const i of r)if(i.type==="childList")for(const c of i.addedNodes)c.tagName==="LINK"&&c.rel==="modulepreload"&&s(c)}).observe(document,{childList:!0,subtree:!0});function o(r){const i={};return r.integrity&&(i.integrity=r.integrity),r.referrerpolicy&&(i.referrerPolicy=r.referrerpolicy),r.crossorigin==="use-credentials"?i.credentials="include":r.crossorigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(r){if(r.ep)return;r.ep=!0;const i=o(r);fetch(r.href,i)}};ue();const I={primaryDark:"#0D0C1D",primaryLight:"#EFFFFA",primaryHover:"#343078",primary:"#ffffff",darkGray:"#282c34",mystic:"#282c34",olive:"#282c34",githubLinks:"#069696",transparent:"#d4d4d42d",scionGreen:"#1ab601",bgGrey:"d5d5d5",ultraViolet:"#601d8c",bk:"#000000",greenBase:"#e5f8d2",greenA700:"#00c853",greenA200:"#69f0ae",green100:"#c8e6c9",greenDark:"#071919",greenDK:"#173535",lightGreen:"#76ff03",blueGrey900:"#263238",grey800:"#424242",grey500:"#9e9e9e",mobile:"576px",fontcolor:"#444444",workbg:"linear-gradient(#071919, #173535)"},pe={color:"#c51162",fontshadow:"1px 1px 9px #ffffff"},R=J`
+var L=Object.defineProperty,H=Object.defineProperties;var O=Object.getOwnPropertyDescriptors;var w=Object.getOwnPropertySymbols;var T=Object.prototype.hasOwnProperty,F=Object.prototype.propertyIsEnumerable;var I=(a,r,t)=>r in a?L(a,r,{enumerable:!0,configurable:!0,writable:!0,value:t}):a[r]=t,y=(a,r)=>{for(var t in r||(r={}))T.call(r,t)&&I(a,t,r[t]);if(w)for(var t of w(r))F.call(r,t)&&I(a,t,r[t]);return a},k=(a,r)=>H(a,O(r));var E=(a,r)=>{var t={};for(var s in a)T.call(a,s)&&r.indexOf(s)<0&&(t[s]=a[s]);if(a!=null&&w)for(var s of w(a))r.indexOf(s)<0&&F.call(a,s)&&(t[s]=a[s]);return t};import{W as P,s as d,j as e,F as b,a as n,r as u,L as _,b as m,C as N,u as G,S as B,B as M,I as W,d as U,m as Y,c as Z,e as K,A as V,T as Q,f as D,g as A,h as X,i as ee,k as ae,l as ne,n as re,o as te,p as oe,q as J,t as ie,R as se,v as le,w as ce,x as de,y as me,H as he,z as ue,D as f}from"./vendor.06ecd7e4.js";const ge=function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const o of document.querySelectorAll('link[rel="modulepreload"]'))s(o);new MutationObserver(o=>{for(const i of o)if(i.type==="childList")for(const c of i.addedNodes)c.tagName==="LINK"&&c.rel==="modulepreload"&&s(c)}).observe(document,{childList:!0,subtree:!0});function t(o){const i={};return o.integrity&&(i.integrity=o.integrity),o.referrerpolicy&&(i.referrerPolicy=o.referrerpolicy),o.crossorigin==="use-credentials"?i.credentials="include":o.crossorigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(o){if(o.ep)return;o.ep=!0;const i=t(o);fetch(o.href,i)}};ge();const $={primaryDark:"#0D0C1D",primaryLight:"#EFFFFA",primaryHover:"#343078",primary:"#ffffff",darkGray:"#282c34",mystic:"#282c34",olive:"#282c34",githubLinks:"#069696",transparent:"#d4d4d42d",scionGreen:"#1ab601",bgGrey:"d5d5d5",ultraViolet:"#601d8c",bk:"#000000",greenBase:"#e5f8d2",greenA700:"#00c853",greenA200:"#69f0ae",green100:"#c8e6c9",greenDark:"#071919",greenDK:"#173535",lightGreen:"#76ff03",blueGrey900:"#263238",grey800:"#424242",grey500:"#9e9e9e",mobile:"576px",fontcolor:"#444444",workbg:"linear-gradient(#071919, #173535)"},z={blue:"#008DFF",red:"#c51162",fontshadow:"1px 1px 9px #ffffff"},R=P`
   html, body {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
   }
   
 
-  `,fe=()=>e(S,{theme:I,children:n(g.exports.Fragment,{children:[e(R,{}),e(be,{children:n("div",{className:"l-grid homepage",children:[n("section",{className:"homepage__item",children:[e("h1",{className:"homepage__title",children:"portfolio"}),e("div",{className:"homepage__line"})]}),e("nav",{className:"navbar",children:n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e(v,{to:"/about",className:"navbar__link",children:"ABOUT"})}),e("li",{className:"navbar__item",children:e(v,{to:"/work",className:"navbar__link",children:"WORK"})}),e("li",{className:"navbar__item",children:e(v,{to:"/blog",className:"navbar__link",children:"BLOG"})})]})}),n("section",{className:"logo",children:[e("div",{className:"logo__image-container",children:e("img",{className:"logo__image",src:"./images/handshake-amber.svg",alt:"gfouz-logo"})}),e("h6",{className:"logo__skills",children:"WEB DEVELOPER"}),n("h1",{className:"logo__acronym",children:["GFOUZ \xA9 ",new Date().getFullYear()]})]})]})})]})}),be=d.div`
+  `,pe=()=>e(b,{theme:$,children:n(u.exports.Fragment,{children:[e(R,{}),e(fe,{children:n("div",{className:"l-grid homepage",children:[n("section",{className:"homepage__item",children:[e("h1",{className:"homepage__title",children:"portfolio"}),e("div",{className:"homepage__line"})]}),e("nav",{className:"navbar",children:n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e(_,{to:"/about",className:"navbar__link",children:"ABOUT"})}),e("li",{className:"navbar__item",children:e(_,{to:"/work",className:"navbar__link",children:"WORK"})}),e("li",{className:"navbar__item",children:e(_,{to:"/blog",className:"navbar__link",children:"BLOG"})})]})}),n("section",{className:"logo",children:[e("div",{className:"logo__image-container",children:e("img",{className:"logo__image",src:"./images/handshake-amber.svg",alt:"gfouz-logo"})}),e("h6",{className:"logo__skills",children:"WEB DEVELOPER"}),n("h1",{className:"logo__acronym",children:["GFOUZ \xA9 ",new Date().getFullYear()]})]})]})})]})}),fe=d.div`
   --green: #88ce02;
   --blue: #40c4ff;
   --brown: #F1993F;
@@ -135,7 +135,7 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
       opacity: 1;
     }
   }
-`,ye=()=>e(m,{children:e(S,{theme:pe,children:e(ve,{children:n("picture",{className:"l-logo",children:[n("div",{className:"logo",children:[e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"G"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"F"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"O"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"U"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"Z"})})]}),e("img",{src:"./images/workLogo.svg",alt:"logo",className:"logo__image"}),e("h1",{className:"logo__title",children:"WORK"})]})})})}),ve=d.div`
+`,be=()=>e(m,{children:e(b,{theme:z,children:e(ve,{children:n("picture",{className:"l-logo",children:[n("div",{className:"logo",children:[e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"G"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"F"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"O"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"U"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"Z"})})]}),e("img",{src:"./images/workLogo.svg",alt:"logo",className:"logo__image"}),e("h1",{className:"logo__title",children:"WORK"})]})})})}),ve=d.div`
   background-color: #f0f0f0; 
   .l-logo {
     display: flex;
@@ -163,14 +163,14 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
     text-shadow: 1px 1px 9px #ffffff;
   }
   .logo__letter {
-    color: ${({theme:a})=>a.color};
+    color: ${({theme:a})=>a.blue};
     margin: 0;
     font-size: 1.5em;
     font-family: literata;
   }
   .logo__title {
     margin: 1.5em 0;
-    color: ${({theme:a})=>a.color};
+    color: ${({theme:a})=>a.blue};
     text-shadow: ${({theme:a})=>a.fontshadow};
   }
   .logo__image {
@@ -191,13 +191,16 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
   .logo__item:nth-child(5) {
     transform: rotate(40deg);
   }
-`,_e=()=>e(m,{children:e(xe,{children:e("article",{className:"technology",children:n("div",{className:"l-flex l-flex--vw",children:[e("img",{src:"./tech/react.svg",alt:"react",className:"technology__icon"}),n("div",{className:"l-flex l-flex--column",children:[e("img",{src:"./tech/next.svg",alt:"logo",className:"technology__icon technology__icon--l"}),n("nav",{className:"navbar",children:[e("h5",{className:"navbar__title",children:"SOURCE CODE ON GITHUB"}),n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/markdown-jsx.git",children:"Markdown-jsx"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/apollo-server.git",children:"Apollo-server"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/nextcms.git",children:"NextJs-CMS"})})]})]}),e("img",{src:"./tech/graphql.svg",alt:"logo",className:"technology__icon"})]}),e("img",{src:"./tech/redux.svg",alt:"logo",className:"technology__icon"})]})})})}),xe=d.div`
+`,ye=()=>e(m,{children:e(b,{theme:z,children:e(_e,{children:e("article",{className:"technology",children:n("div",{className:"l-flex l-flex--vw",children:[e("img",{src:"./tech/react.svg",alt:"react",className:"technology__icon"}),n("div",{className:"l-flex l-flex--column",children:[e("img",{src:"./tech/next.svg",alt:"logo",className:"technology__icon technology__icon--l"}),n("nav",{className:"navbar",children:[n("h5",{className:"navbar__title",children:[e("span",{children:"SOURCE"})," CODE ON ",e("span",{children:"GITHUB"})]}),n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/react-workshop.git",children:"React-workshop"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/apollo-server.git",children:"Apollo-server"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/nextcms.git",children:"NextJs-CMS"})})]})]}),e("img",{src:"./tech/graphql.svg",alt:"logo",className:"technology__icon"})]}),e("img",{src:"./tech/redux.svg",alt:"logo",className:"technology__icon"})]})})})})}),_e=d.div`
+  --yellow: #f9c035;
+  --blue: #008DFF;
+  --light: #999999;
   .technology {
     display: flex;
     padding: 2.5em 0;
     align-items: center;
     justify-content: center;
-    background-color: #222222;
+    background-color: #444444;
   }
   .l-flex {
     display: flex;
@@ -214,16 +217,22 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
 
   .navbar {
     &__title {
-      color: #999999;
+      color: #ffffff;
       font-family: literata;
     }
+    &__list {
+      text-align: center;
+    }
     &__item {
-      margin: 0.4em 0;
+      margin: 0.2em 0;
       list-style-type: none;
     }
     &__link {
-      color: #777777;
+      color: var(--light);
       text-decoration: none;
+    }
+    span {
+      color:var(--blue);
     }
   }
 
@@ -236,10 +245,11 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
       width: 100px;
     }
   }
-`,we=`S\xE9 que para gustos los colores, pero en mi caso he podido 
+`,xe=`S\xE9 que para gustos los colores, pero en mi caso he podido 
           comprobar las cosas muy buenas y grandes beneficios que ofrece React Js y su
           ecosistema, esta tecnolog\xEDa me ha exigido aprender m\xE1s acerca de
-          JavaScript y mejorar como desarrollador web. Tesla, Netflix, Whatsapp,
+          JavaScript y mejorar como desarrollador web aunque otros frameworks
+          tambien cumplen ese prop\xF3sito. Tesla, Netflix, Whatsapp,
           PayPal, Uber, BBC, Airbnb, Dropbox, evidentemente Facebook e Instagram
           y muchas otras, se han decidido por emplear React y estas empresas se
           encuentran ahora en la cima del \xE9xito de la industria de las
@@ -247,11 +257,11 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
           c\xF3digo simplificado de esta ligera herramienta la cual ha
           revolucionado con nuevas innovaciones la manera en que se crean las
           interfaces de usuarios. Opino que tambien hay otras tecnolog\xEDas de
-          gran importancia para ser incluidas en mi stack 
-          Pero las tecnolog\xEDas est\xE1n en constante cambios e innovaciones, de modo que
-          hay que seguir aprendiendo y estudiando los nuevos conceptos y conocimientos de
-          forma continua.
-`,ke=()=>e(m,{children:e(Ne,{children:e("article",{className:"l-flex",children:n("div",{className:"outlook",children:[e("h4",{className:"outlook__topic",children:"Mi perspectiva personal"}),e("img",{src:"./images/lamp.svg",alt:"developer",className:"outlook__image"}),e("p",{className:"outlook__text",children:we})]})})})}),Ne=d.div`
+          gran importancia para ser incluidas, las tecnolog\xEDas est\xE1n en constante cambios 
+          e innovaciones, asi que estoy interesado por aprender m\xE1s por ejemplo de Deno
+          junto a graphql y tambien las ventajas que nos ofrece para la creaci\xF3n de API 
+          en el back-end.
+`,we=()=>e(m,{children:e(b,{theme:z,children:e(ke,{children:e("article",{className:"l-flex",children:n("div",{className:"outlook",children:[e("h4",{className:"outlook__topic",children:"Mi perspectiva personal"}),e("img",{src:"./images/lamp.svg",alt:"developer",className:"outlook__image"}),e("p",{className:"outlook__text",children:xe})]})})})})}),ke=d.div`
      display: grid;
      place-items: center;
      margin: 2em 0;
@@ -284,7 +294,7 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
         margin: 0.3em;
      }
    }
-`,je=d.div`
+`,Ne=d.div`
   --tallness: ${a=>a.height||"60px"};  
   
   width: 100%;
@@ -328,8 +338,8 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
     font-family: inherit;
   }
 
-  ${a=>a.dark&&k`
-      background: ${({theme:t})=>t.grey800};
+  ${a=>a.dark&&N`
+      background: ${({theme:r})=>r.grey800};
       .navbar-links {
         a {
           color: #ffffff;
@@ -337,7 +347,7 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
       }
     `}
 
-    ${a=>a.mixed&&k`
+    ${a=>a.mixed&&N`
       background-image: linear-gradient(#808080, #000000);
       .navbar-links {
         a {
@@ -346,30 +356,33 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
       }
     `}
 
-  ${a=>a.light&&k`
-      background: ${({theme:t})=>t.grey100};
+  ${a=>a.light&&N`
+      background: ${({theme:r})=>r.grey100};
       .navbar-links {
         a {
-          color: ${({theme:t})=>t.cyan900};
+          color: ${({theme:r})=>r.cyan900};
         }
       }
     `}
 
-  ${a=>a.primary&&k`
-      background: ${({theme:t})=>t.blue500};
+  ${a=>a.primary&&N`
+      background: ${({theme:r})=>r.blue500};
       .navbar-links {
         a {
-          color: ${({theme:t})=>t.wt};
+          color: ${({theme:r})=>r.wt};
         }
       }
     `}
-`;function C(a){const t=["/about","/work","/blog","/"],o=P(),{pathname:s}=o,r=t.filter(i=>i!==s);return e(m,{children:e(je,{color:a.color,bg:a.bg,fontFamily:a.font,position:a.position,height:a.height,margin:a.margin,logo:a.logo,children:n("div",{className:"links",children:[e("div",{className:"logo",children:a.children}),r.map((i,c)=>e("div",{children:e(v,{className:"links__item",to:`${i}`,children:i==="/"?"home":i.slice(1)})},i+c))]})})})}function Se({close:a,setClose:t}){function o(r,i){i!=="clickaway"&&t(!1)}const s=n(g.exports.Fragment,{children:[e(G,{color:"primary",size:"small",onClick:o,children:"UNDO"}),e(M,{size:"small","aria-label":"close",color:"inherit",onClick:o,children:e(W,{fontSize:"small"})})]});return e("div",{children:e(B,{open:a,autoHideDuration:2e3,onClose:o,message:"SUBMITTED",action:s})})}const Ce=U(a=>({l_grid:{margin:"1em 0",display:"flex",flexDirection:"column",alignItems:"center",padding:"2em 0"},avatar:{margin:a.spacing(2),backgroundColor:a.palette.primary.main},form:{width:"100%",marginTop:a.spacing(1)},form__input:{display:"flex",flexDirection:"column",alignItems:"center"},warnings:{color:"#c51162",textTransform:"uppercase",fontSize:"10px"},formHide:{display:"none"},submit:{margin:"2em auto"}})),ze=()=>{const[a,t]=g.exports.useState(!1),o=Ce(),{control:s,handleSubmit:r}=Y({defaultValues:{email:"",message:""}});function i(c){t(!0),ae.post("https://formspree.io/f/mbjwalqp",{data:c}).then(function(l){console.log(l)}).catch(function(l){console.log(l)})}return e(Z,{children:n("div",{className:o.l_grid,children:[e(K,{className:o.avatar,children:e(V,{})}),e(Q,{component:"h1",variant:"h6",children:"Contact me"}),n("form",{className:"form",onSubmit:r(i),children:[e(D,{name:"email",control:s,rules:{pattern:/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,required:!0},render:({field:c,formState:{errors:l,isSubmitted:h}})=>{var p,u;return n("div",{className:o.form__input,children:[e(A,w(y({},c),{variant:"outlined",margin:"normal",label:"Email",color:l.email?"secondary":"primary"})),((p=l.email)==null?void 0:p.type)==="pattern"&&e("span",{className:o.warnings,children:"email includes an @ symbol !"}),((u=l.email)==null?void 0:u.type)==="required"&&e("span",{className:o.warnings,children:"email is required !"})]})}}),e(D,{name:"message",control:s,rules:{required:!0},render:({field:c,formState:{errors:l}})=>{var h;return n("div",{className:o.form__input,children:[e(A,w(y({},c),{variant:"outlined",margin:"normal",label:"Message",color:l.message?"secondary":"primary"})),((h=l.message)==null?void 0:h.type)==="required"&&e("span",{className:o.warnings,children:"This field must not be empty !"})]})}}),e(X,{type:"sumit",size:"medium",color:"primary",variant:"contained",className:o.submit,endIcon:e(ee,{}),children:"Send"})]}),e(Se,{close:a,setClose:t})]})})},Ie=()=>e(m,{children:e(S,{theme:I,children:e(Te,{children:n("div",{className:"l-grid",children:[e(C,{bg:"#f0f0f0",color:"#000000"}),e(ye,{}),e(_e,{}),e(ke,{}),e(ze,{}),e("footer",{className:"l-grid__footer",children:n("h4",{className:"l-grid__title",children:["Gfouz \xA9 ",new Date().getFullYear()," Made with ReactJs"]})})]})})})}),Te=d.div`
+`;function C(a){const r=["/about","/work","/blog","/"],t=G(),{pathname:s}=t,o=r.filter(i=>i!==s);return e(m,{children:e(Ne,{color:a.color,bg:a.bg,fontFamily:a.font,position:a.position,height:a.height,margin:a.margin,logo:a.logo,children:n("div",{className:"links",children:[e("div",{className:"logo",children:a.children}),o.map((i,c)=>e("div",{children:e(_,{className:"links__item",to:`${i}`,children:i==="/"?"home":i.slice(1)})},i+c))]})})})}function je({close:a,setClose:r}){function t(o,i){i!=="clickaway"&&r(!1)}const s=n(u.exports.Fragment,{children:[e(M,{color:"primary",size:"small",onClick:t,children:"UNDO"}),e(W,{size:"small","aria-label":"close",color:"inherit",onClick:t,children:e(U,{fontSize:"small"})})]});return e("div",{children:e(B,{open:a,autoHideDuration:2e3,onClose:t,message:"SUBMITTED",action:s})})}const Se=Y(a=>({l_grid:{margin:"1em 0",display:"flex",flexDirection:"column",alignItems:"center",padding:"2em 0"},avatar:{margin:a.spacing(3),backgroundColor:a.palette.primary.main},form:{width:"100%",marginTop:a.spacing(1)},form__input:{display:"flex",flexDirection:"column",alignItems:"center"},title:{color:"#3f51b5",fontSize:"14px",textTransform:"uppercase"},warnings:{color:"#c51162",textTransform:"uppercase",fontSize:"10px"},formHide:{display:"none"},submit:{margin:"2em auto"}})),ze=()=>{const[a,r]=u.exports.useState(!1),t=Se(),{control:s,handleSubmit:o}=Z({defaultValues:{email:"",message:""}});function i(c){r(!0),ae.post("https://formspree.io/f/mbjwalqp",{data:c}).then(function(l){console.log(l)}).catch(function(l){console.log(l)})}return e(K,{children:n("div",{className:t.l_grid,children:[e(V,{className:t.avatar,children:e("img",{src:"../../images/giov.svg",width:"40px"})}),e(Q,{component:"h1",variant:"h6",className:t.title,children:"contact here!"}),n("form",{className:"form",onSubmit:o(i),children:[e(D,{name:"email",control:s,rules:{pattern:/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,required:!0},render:({field:c,formState:{errors:l,isSubmitted:h}})=>{var p,g;return n("div",{className:t.form__input,children:[e(A,k(y({},c),{variant:"outlined",margin:"normal",label:"Email",color:l.email?"secondary":"primary"})),((p=l.email)==null?void 0:p.type)==="pattern"&&e("span",{className:t.warnings,children:"email includes an @ symbol !"}),((g=l.email)==null?void 0:g.type)==="required"&&e("span",{className:t.warnings,children:"email is required !"})]})}}),e(D,{name:"message",control:s,rules:{required:!0},render:({field:c,formState:{errors:l}})=>{var h;return n("div",{className:t.form__input,children:[e(A,k(y({},c),{variant:"outlined",margin:"normal",label:"Message",color:l.message?"secondary":"primary"})),((h=l.message)==null?void 0:h.type)==="required"&&e("span",{className:t.warnings,children:"This field must not be empty !"})]})}}),e(X,{type:"sumit",size:"medium",color:"primary",variant:"contained",className:t.submit,endIcon:e(ee,{}),children:"Send"})]}),e(je,{close:a,setClose:r})]})})},Ce=()=>e(m,{children:e(b,{theme:z,children:e(qe,{children:n("div",{className:"work l-grid",children:[e(C,{bg:"#f0f0f0",color:"#000000"}),e(be,{}),e(ye,{}),e(we,{}),e(ze,{}),e("footer",{className:"work__footer",children:n("h4",{className:"work__footer-title",children:["Gfouz \xA9 ",new Date().getFullYear()," Made with ReactJS."]})})]})})})}),qe=d.div`
+  --blue: #008DFF;
   background-color: #f0f0f0; 
   .l-grid {
     min-height: 100vh;
     grid-template-column: 1fr;
     grid-template-rows:60px 375px auto auto auto  70px;
-    &__footer {
+    
+  }
+  .work__footer {
        height: 70px;
        display: grid;
        place-items: center;
@@ -377,12 +390,12 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
        background-color: #222222;
        font-family: literata;
     }
-    &__title {
+    .work__footer-title {
        margin: 1em;
-       font-size: 0.7em;
+       font-family: calibri;
+       color: ${({theme:a})=>a.blue};
     }
-  }
-`,qe=d.div`
+`,Ie=d.div`
   --red: #cb3837;
   --yellow: #ffc329;
   --brown: #a0450e;
@@ -542,7 +555,7 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
     transform-origin: bottom center;
     color: #ff0000;
   }
-`,Fe=`
+`,Te=`
   'const' nos va ayudar a declarar variables inmutables, 
   esto es, a declarar variables cuyo valor no pueda ser 
   cambiado a lo largo del ciclo de vida de una variable.
@@ -556,14 +569,14 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
   el puntero con la posici\xF3n donde se encuentra el objeto real.
   Por tanto, si seguimos esta l\xF3gica, lo que \u2018const\u2019 est\xE1 convirtiendo 
   en inmutable no es el objeto en si, si no la referencia a ese objeto.
-`,Ee=`
+`,Fe=`
   La composici\xF3n es la piedra angular que nos permitir\xE1 a partir de 
   funciones puras gen\xE9ricas crear funciones m\xE1s espec\xEDficas para al 
   final construir nuestros programas.Similar a como en la m\xFAsica las notas 
   (funciones puras) conforman acordes (funciones de dominio compuestas)
    y los acordes conforman obras (pieza de software), la composici\xF3n ser\xE1 
    el pegamento que nos permitir\xE1 desarrollar nuestros programas.
-`,De=`
+`,Ee=`
   I use modern JavaScript frameworks such as React and Vue to create
   single page application or full static sites so that among my
   skills are HTML, CSS, SCSS and JAVASCRIPT. And i am not afraid of
@@ -573,7 +586,7 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
   year but eventually i realized that i needed to learn technologies
   that afford a job, so that i have been wagering on ReactJs as my
   favourite choosing.
-`,z=[{title:"Constantes de JavaScript",paragraph:Fe},{title:"Composici\xF3n funcional",paragraph:Ee},{title:"introduction",paragraph:De}],N={fontSize:"30px",color:"#455a64"},Ae=[{icon:e(ne,{style:N}),url:"https://github.com/gfouz",name:"github"},{icon:e(te,{style:N}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"telegram"},{icon:e(oe,{style:N}),url:"https://github.com/gfouz",name:"email"},{icon:e(re,{style:N}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"whatsapp"}],$e=a=>e(m,{children:e(Re,{height:a.height,children:e("nav",{className:"navbar",children:e("ul",{className:"navbar__list",children:Ae.map((t,o)=>e("li",{className:"navbar__item",children:e("a",{href:t.url,className:"navbar__link",children:t.icon})},o))})})})}),Re=d.div`
+`,q=[{title:"Constantes de JavaScript",paragraph:Te},{title:"Composici\xF3n funcional",paragraph:Fe},{title:"introduction",paragraph:Ee}],j={fontSize:"30px",color:"#455a64"},De=[{icon:e(ne,{style:j}),url:"https://github.com/gfouz",name:"github"},{icon:e(re,{style:j}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"telegram"},{icon:e(te,{style:j}),url:"https://github.com/gfouz",name:"email"},{icon:e(oe,{style:j}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"whatsapp"}],Ae=a=>e(m,{children:e(Je,{height:a.height,children:e("nav",{className:"navbar",children:e("ul",{className:"navbar__list",children:De.map((r,t)=>e("li",{className:"navbar__item",children:e("a",{href:r.url,className:"navbar__link",children:r.icon})},t))})})})}),Je=d.div`
   .navbar {
     height: ${a=>a.height||"70px"};
   }
@@ -591,7 +604,7 @@ var L=Object.defineProperty,O=Object.defineProperties;var H=Object.getOwnPropert
     padding: 0;
     margin: 0;
   }
-`,Le=()=>{const a=g.exports.useRef(null),t=()=>{const o=a.current.textContent.split("");a.current.textContent="",o.forEach((s,r)=>{a.current.innerHTML+='<span style="transform:rotate('+(r+1)*20+'deg)">'+s+"</span>"})};return g.exports.useEffect(()=>{t()},[]),e(m,{children:n(qe,{children:[n("figure",{className:"upperbar",children:[e("div",{className:"upperbar__title-container",children:n("h1",{ref:a,className:"upperbar__title",children:[" ","GFOUZ"," "]})}),e("img",{src:"./images/handshake-red.svg",alt:"gfouz-logo",className:"upperbar__image"})]}),e(C,{height:"100px",bg:"#ffffff",color:"#ff0000",margin:"2em 0"}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__avatar-container",children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"outstanding__avatar"})}),e("h3",{className:"outstanding__title",children:"A brief introduction about me"}),e("p",{className:"outstanding__paragraph",children:z[2].paragraph})]}),n("article",{className:"outstanding__item",children:[e("img",{src:"./images/laptop.jpg",className:"outstanding__laptop-image",alt:"laptop"}),e("h4",{className:"outstanding__image-title",children:"ReactJs developer"})]})]}),n("article",{className:"technologies",children:[e("img",{src:"./images/react.svg",alt:"react"}),n("div",{className:"column",children:[e("img",{src:"./images/next.svg",alt:"next"}),e("h3",{children:"THIS IS MY STACK"}),e("img",{src:"./images/graphql.svg",alt:"graphql"})]}),e("img",{src:"./images/redux.svg",alt:"redux"})]}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__icon",children:e("img",{src:"./images/greylamp.svg",alt:"giovani"})}),e("h3",{className:"outstanding__title",children:"Conceptos importantes"}),e("p",{className:"outstanding__paragraph",children:z[0].paragraph})]}),n("article",{className:"outstanding__item",children:[e("h3",{className:"outstanding__title",children:"Tambien importante"}),e("p",{className:"outstanding__paragraph",children:z[1].paragraph}),e("h5",{className:"outstanding__stack",children:"STACK QUE UTILIZO:"}),n("div",{className:"list-group",children:[n("ul",{className:"list",children:[e("li",{children:"html"}),e("li",{children:"css"}),e("li",{children:"javascript"})]}),n("ul",{className:"list",children:[e("li",{children:"ReactJs"}),e("li",{children:"NextJs"}),e("li",{children:"scss"})]}),n("ul",{className:"list",children:[e("li",{children:"Redux"}),e("li",{children:"Graphql"}),e("li",{children:"Express"})]})]})]})]}),e($e,{height:"250px"}),n("footer",{className:"bottom-bar",children:[" ","Gfouz \xA9 ",new Date().getFullYear()," "]})]})})};var j=[{id:1644015600,img:"deploy.jpg\r",title:"Continuous deployment.\r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 5, 2022\r",description:"Continuous deployment and...\r",position:"right\r",content:`\r
+`,$e=()=>{const a=u.exports.useRef(null),r=()=>{const t=a.current.textContent.split("");a.current.textContent="",t.forEach((s,o)=>{a.current.innerHTML+='<span style="transform:rotate('+(o+1)*20+'deg)">'+s+"</span>"})};return u.exports.useEffect(()=>{r()},[]),e(m,{children:n(Ie,{children:[n("figure",{className:"upperbar",children:[e("div",{className:"upperbar__title-container",children:n("h1",{ref:a,className:"upperbar__title",children:[" ","GFOUZ"," "]})}),e("img",{src:"./images/handshake-red.svg",alt:"gfouz-logo",className:"upperbar__image"})]}),e(C,{height:"100px",bg:"#ffffff",color:"#ff0000",margin:"2em 0"}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__avatar-container",children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"outstanding__avatar"})}),e("h3",{className:"outstanding__title",children:"A brief introduction about me"}),e("p",{className:"outstanding__paragraph",children:q[2].paragraph})]}),n("article",{className:"outstanding__item",children:[e("img",{src:"./images/laptop.jpg",className:"outstanding__laptop-image",alt:"laptop"}),e("h4",{className:"outstanding__image-title",children:"ReactJs developer"})]})]}),n("article",{className:"technologies",children:[e("img",{src:"./images/react.svg",alt:"react"}),n("div",{className:"column",children:[e("img",{src:"./images/next.svg",alt:"next"}),e("h3",{children:"THIS IS MY STACK"}),e("img",{src:"./images/graphql.svg",alt:"graphql"})]}),e("img",{src:"./images/redux.svg",alt:"redux"})]}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__icon",children:e("img",{src:"./images/greylamp.svg",alt:"giovani"})}),e("h3",{className:"outstanding__title",children:"Conceptos importantes"}),e("p",{className:"outstanding__paragraph",children:q[0].paragraph})]}),n("article",{className:"outstanding__item",children:[e("h3",{className:"outstanding__title",children:"Tambien importante"}),e("p",{className:"outstanding__paragraph",children:q[1].paragraph}),e("h5",{className:"outstanding__stack",children:"STACK QUE UTILIZO:"}),n("div",{className:"list-group",children:[n("ul",{className:"list",children:[e("li",{children:"html"}),e("li",{children:"css"}),e("li",{children:"javascript"})]}),n("ul",{className:"list",children:[e("li",{children:"ReactJs"}),e("li",{children:"NextJs"}),e("li",{children:"scss"})]}),n("ul",{className:"list",children:[e("li",{children:"Redux"}),e("li",{children:"Graphql"}),e("li",{children:"Express"})]})]})]})]}),e(Ae,{height:"250px"}),n("footer",{className:"bottom-bar",children:[" ","Gfouz \xA9 ",new Date().getFullYear()," "]})]})})};var S=[{id:1644015600,img:"deploy.jpg\r",title:"Continuous deployment.\r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 5, 2022\r",description:"CI/CD workflow...\r",position:"right\r",content:`\r
 Continuous integration (CI) and continuous delivery (CD) are two\r
 approaches to software development that are designed to improve code\r
 quality and enable rapid delivery and deployment of code. They are\r
@@ -624,7 +637,7 @@ deployment, customers get faster access to new features and bug fixes,\r
 and developers get more immediate feedback about the changes they\u2019ve\r
 made. \r
 \r
-Top CI/CD tools Some common CI/CD tools are: CloudBees`},{id:1645398e3,img:"inmutable.jpg\r",title:"Inmutabilidad\r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 21, 2022\r",description:"Que significa inmutabilidad y porque es tan importante...\r",position:"center\r",content:`\r
+Top CI/CD tools Some common CI/CD tools are: CloudBees`},{id:1645398e3,img:"inmutable.jpg\r",title:"Inmutabilidad\r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 21, 2022\r",description:"Que significa inmutabilidad y...\r",position:"center\r",content:`\r
 ## Mutable o Inmutable.\r
 \r
 El desarrollo con datos inmutables es un principio fundamental de la\r
@@ -669,8 +682,8 @@ a la propiedades de un objeto:\r
   const obj = {\r
     nombre: "Giovani",\r
   };\r
-  obj.apellidos = "propiedad, valor mutable";\r
-  obj.nombre = "cambio el valor,no hay excepci\xF3n";\r
+  obj.apellidos = "propiedad, valor";\r
+  obj.nombre = "cambio el valor,no excepci\xF3n";\r
 \r
   console.log(any);\r
 })();\r
@@ -682,7 +695,7 @@ en esa variable, si no que se est\xE1 almacenando una referencia \r
 del objeto. Se almacena el puntero con la posici\xF3n en memoria \r
 donde se encuentra el objeto real.\r
 \r
-`},{id:1642201200,img:"laptopstand.jpg\r",title:"What is a hash table.\r",author:"Giovani Fouz Jim\xE9nez\r",date:"january 15, 2022\r",description:"What is a hash table...\r",position:"top\r",content:`\r
+`},{id:1642201200,img:"laptopstand.jpg\r",title:"What is a hash table.\r",author:"Giovani Fouz Jim\xE9nez\r",date:"january 15, 2022\r",description:"Hash tables? ...\r",position:"top\r",content:`\r
 ## What is a hash table?\r
 A hash table (often called a hash map) is a data structure that maps\r
 keys to values. Hash tables combine lookup, insert, and delete\r
@@ -731,7 +744,104 @@ of the hash function.\r
 there is much more to talk on this interesting subject \r
 but i will cover it on a future article.\r
 \r
-Happy learning!`},{id:1645052400,img:"golden.jpg\r",title:"Ternary operators \r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 17, 2022\r",description:"How to simplify your code with...\r",position:"center\r",content:`\r
+Happy learning!`},{id:1648335600,img:"javascript.jpg\r",title:" Convenciones Javascript. \r",author:"Giovani Fouz Jim\xE9nez\r",date:"march 27, 2022\r",description:"Como escribir c\xF3digo Javascript...\r",position:"top\r",content:`\r
+## Gu\xEDa de estilos Javascript.\r
+Hay muchas convenciones de codificaci\xF3n cuando se trata de usar el\r
+lenguaje de programaci\xF3n JavaScript. Las convenciones de codificaci\xF3n\r
+son pautas de estilo para la programaci\xF3n. Seguir esas convenciones\r
+mejorar\xE1 su codificaci\xF3n JavaScript y har\xE1 que su c\xF3digo sea f\xE1cil de\r
+mantener y de leer. Entonces, en este art\xEDculo, decid\xED mostrarte\r
+algunas convenciones de codificaci\xF3n simples que debes conocer.\r
+\r
+## Denominaci\xF3n de variables.\r
+El uso de variables en JavaScript parece ser una tarea muy simple,\r
+pero debe seguir algunas reglas al nombrar sus variables, por ejemplo,\r
+tendr\xE1 que usar camelCase para los nombres de los identificadores.\r
+Todos los nombres deben comenzar con una letra . El siguiente ejemplo\r
+sigue estas reglas:\r
+\r
+\`\`\`js\r
+\r
+ let firstName = "giovani";\r
+ let lastName = "fouz"\r
+ let price = 19.99;\r
+ let tax = 0.15;\r
+ let fullPrice = price + (price * tax);\r
+\r
+\`\`\`\r
+## Longitud de la l\xEDnea.\r
+Para mayor legibilidad, aseg\xFArese de evitar l\xEDneas de m\xE1s de 80\r
+caracteres. pero si su declaraci\xF3n de JavaScript no cabe en una l\xEDnea,\r
+el mejor lugar donde puede romperla es despu\xE9s de una coma o un\r
+operador. Eche un vistazo al siguiente ejemplo:\r
+\r
+\`\`\`js\r
+ /*Estas reglas har\xE1n que nuestro c\xF3digo\r
+   sea f\xE1cil de leer y comprender. */\r
+   document.getElementById("id").innerHTML = \r
+   "Hello World!";  \r
+\r
+\`\`\`\r
+## Espacios alrededor de los operadores.\r
+Siempre ponga espacios entre operadores ( = + - * / ) en su c\xF3digo\r
+JavaScript porque hace que se vea agradable y f\xE1cil de leer. Si lo\r
+hace como lo hicimos en el ejemplo siguiente, est\xE1 bien.\r
+\`\`\`js\r
+let x = y + z;\r
+let fullName = ["giovani", "fouz", "jim\xE9nez"];\r
+const fn = (params) => {};\r
+\r
+\`\`\`\r
+## Utilice nombres de archivo en min\xFAsculas.\r
+La mayor\xEDa de los servidores web (apache\u2026) distinguen entre may\xFAsculas\r
+y min\xFAsculas en los nombres de archivos. Por otro lado, algunos\r
+servidores web (Microsoft) no distinguen entre may\xFAsculas y min\xFAsculas\r
+en los nombres de archivos. Entonces, digamos que se mud\xF3 del servidor\r
+Apache al servidor de Microsoft donde estaba usando may\xFAsculas para\r
+los nombres de archivo. Apache distingue entre may\xFAsculas y\r
+min\xFAsculas, por lo que puede da\xF1ar su sitio web. Para evitar esa\r
+confusi\xF3n, utilice siempre nombres de archivo en min\xFAsculas (si es\r
+posible).\r
+\r
+## Reglas de declaraci\xF3n.\r
+Existen algunas convenciones de codificaci\xF3n que debe tener en cuenta\r
+al escribir sus declaraciones de JavaScript:\r
+\r
+Siempre termine una declaraci\xF3n simple con un punto y coma.\r
+Coloque el corchete de apertura al final de la primera l\xEDnea.\r
+Utilice un espacio antes del soporte de apertura.\r
+Coloque el corchete de cierre en una nueva l\xEDnea, sin espacios iniciales.\r
+\r
+\`\`\`js\r
+// objetos y matrices.\r
+let frutas = ["mango", "peras", "manzana"];\r
+\r
+let person = {\r
+    firstName: "giovani",\r
+    lastName: "fouz",\r
+    age: 46,\r
+    hairColor: "brown"\r
+};\r
+\r
+\`\`\`\r
+\r
+\`\`\`js\r
+// condicionales en javascript.\r
+if(weather === "sunny") {\r
+    time = true;\r
+}else {\r
+    time = false;\r
+}\r
+\r
+\`\`\`\r
+## Conclusi\xF3n.\r
+De modo que , seguir las convenciones de codificaci\xF3n en JavaScript\r
+hace que nuestro c\xF3digo sea mantenible y f\xE1cil de leer por otros\r
+desarrolladores. Solo quer\xEDa enumerar estas reglas simples, porque\r
+todos los desarrolladores de JavaScript deber\xEDan considerarlas. As\xED\r
+que eso es todo para este art\xEDculo, si est\xE1 utilizando todas estas\r
+convenciones, eso es genial, est\xE1 en camino de convertirse en un buen\r
+desarrollador, o tal vez ya sea un buen desarrollador de JavaScript.`},{id:1645052400,img:"golden.jpg\r",title:"Ternary operators \r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 17, 2022\r",description:"How to simplify your code with...\r",position:"center\r",content:`\r
 ## Check Data Quickly with the Ternary Operator\r
 \r
 I love simple code. I\u2019ll always try to get\r
@@ -807,7 +917,7 @@ There\u2019s one caution we should keep in mind: Though we can chain multiple\r
 ternary expressions together, we should avoid doing so.\r
 Ternary expressions can simplify things, but use them when they add value\r
 and go back to standard 'if blocks' if they create too much ambiguity.\r
-`}];function Oe(){return e(m,{children:e(He,{children:e("div",{className:"postlist",children:n("div",{className:"posts",children:[e("h3",{className:"posts__topic",children:"you might interest"}),j.length&&j.map((a,t)=>n("div",{className:"posts__card",children:[e("img",{className:"posts__image",src:`./images/${a.img}`,alt:"post"}),n("div",{className:"posts__card-text",children:[e("h4",{className:"posts__title",children:a.title}),n("small",{className:"posts__info",children:["Published on: ",a.date," by ",a.author]}),e("p",{className:"posts__description",children:a.description}),e(v,{className:"posts__link",to:`/post/${a.id}`,children:"Read More"})]})]},a.id))]})})})})}const He=d.div`
+`}];function Re(){return e(m,{children:e(Le,{children:e("div",{className:"postlist",children:n("div",{className:"posts",children:[e("h3",{className:"posts__topic",children:"you might interest"}),S.length&&S.map((a,r)=>n("div",{className:"posts__card",children:[e("img",{className:"posts__image",src:`./images/${a.img}`,alt:"post"}),n("div",{className:"posts__card-text",children:[e("h4",{className:"posts__title",children:a.title}),n("small",{className:"posts__info",children:["Published on: ",a.date," by ",a.author]}),e("p",{className:"posts__description",children:a.description}),e(_,{className:"posts__link",to:`/post/${a.id}`,children:"Read More"})]})]},a.id))]})})})})}const Le=d.div`
  height: 100%;
  --violet: #820aa1;
  --blue: #3f8897;
@@ -835,12 +945,13 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
 .posts__card {
     display: flex;
     max-width: 700px;
-    height: 200px;
+    height: 150px;
     color: #c7bfa41;
     margin: 2em;
     transition: all 0.2s;
     text-align: left;
     font-family: literata;
+    font-size: 14px;
     border-radius: 5px;
     box-shadow: 1px 1px 10px #9c4508;
   }
@@ -860,7 +971,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
 .posts__title {
     color: #999999;
     margin: 0;
-    padding: 0 0.3em;
+    padding: 0;
     font-weight: bolder;
     text-transform: uppercase;
   }
@@ -883,7 +994,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
 }
 
 
-`;function Je(){return e(m,{children:e(Pe,{children:n("div",{className:"l-blog",children:[e(C,{bg:"#25180c",color:"#ffffff"}),n("section",{className:"blog",children:[e("div",{className:"blog__image",children:e("h1",{className:"blog__title",children:"Let's be inquisitive as children."})}),e("article",{className:"blog__posts",children:e(Oe,{})})]}),e("footer",{className:"blog-footer",children:n("h3",{children:["gfouz \xA9 ",new Date().getFullYear()," made with react"]})})]})})})}const Pe=d.div`
+`;function He(){return e(m,{children:e(Oe,{children:n("div",{className:"l-blog",children:[e(C,{bg:"#25180c",color:"#ffffff"}),n("section",{className:"blog",children:[e("div",{className:"blog__image",children:e("h1",{className:"blog__title",children:"Inquisitive as children."})}),e("article",{className:"blog__posts",children:e(Re,{})})]}),e("footer",{className:"blog-footer",children:n("h3",{children:["gfouz \xA9 ",new Date().getFullYear()," made with react"]})})]})})})}const Oe=d.div`
   --violet: #820aa1;
   --grey: #222222;
   --blue: #3f8897;
@@ -930,7 +1041,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     place-items: center;
     color: #ffffff;
   }
-`,Be=a=>{const t=$(),o=ie(),s=parseInt(t.id),r=a.posts.map(b=>b.id),i=r.indexOf(s),[c,l]=g.exports.useState(!0),[h,p]=g.exports.useState(i);g.exports.useEffect(()=>{o(`/post/${r[h]}`)},[h]);function u(){h<r.length-1?p(b=>b+1):l(!1),h===r.length-1?l(!1):l(!0)}function _(){h>0?p(b=>b-1):o("/blog"),l(!0)}return e(m,{children:e(Ge,{color:a.color,children:n("section",{className:"navigate",children:[e("nav",{className:"navigate__prev",children:e("button",{className:"btn btn-back",onClick:_,children:"PREV"})}),e("nav",{className:"navigate__next",children:e("button",{className:c?"btn":"btn  btn--disabled",onClick:u,children:"NEXT"})})]})})})},Ge=d.div`
+`,Pe=a=>{const r=J(),t=ie(),s=parseInt(r.id),o=a.posts.map(v=>v.id),i=o.indexOf(s),[c,l]=u.exports.useState(!0),[h,p]=u.exports.useState(i);u.exports.useEffect(()=>{t(`/post/${o[h]}`)},[h]);function g(){h<o.length-1?p(v=>v+1):l(!1),h===o.length-1?l(!1):l(!0)}function x(){h>0?p(v=>v-1):t("/blog"),l(!0)}return e(m,{children:e(Ge,{color:a.color,children:n("section",{className:"navigate",children:[e("nav",{className:"navigate__prev",children:e("button",{className:"btn btn-back",onClick:x,children:"PREV"})}),e("nav",{className:"navigate__next",children:e("button",{className:c?"btn":"btn  btn--disabled",onClick:g,children:"NEXT"})})]})})})},Ge=d.div`
   --violet: #820aa1;
   --blue: #3f8897;
   .navigate {
@@ -955,7 +1066,8 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     color: #ff0000;
     background-color: #999999;
   }
-`;function Me(){const a={},t=$(),o=parseInt(t.id);j.forEach((r,i)=>{o===r.id&&(a.content=r.content?r.content:"no given content",a.id=r.id?r.id:"no given id",a.img=r.img?r.img:"no give data",a.position=r.position?r.position:"no given position")});const s={backgroundImage:`url(./images/${a.img})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:a.position,height:"400px"};return e(m,{children:e(We,{children:e("div",{className:"l-post",children:n("section",{className:"post",children:[e(C,{bg:"#25180c",color:"#ffffff"}),e("div",{className:"post__image",style:s}),e(se,{id:a.id,className:"post__markdown",children:a.content,components:{code(p){var u=p,{node:r,inline:i,className:c,children:l}=u,h=E(u,["node","inline","className","children"]);const _=/language-(\w+)/.exec(c||"");return!i&&_?e(le,y({children:String(l).replace(/\n$/,""),style:ce,language:_[1],PreTag:"div"},h)):e("code",w(y({className:c},h),{children:l}))}}}),e(Be,{posts:j})]})})})})}const We=d.div`
+`;function Be(){const a={},r=J(),t=parseInt(r.id);S.forEach((o,i)=>{t===o.id&&(a.content=o.content?o.content:"no given content",a.id=o.id?o.id:"no given id",a.img=o.img?o.img:"no give data",a.position=o.position?o.position:"no given position")});const s={backgroundImage:`url(./images/${a.img})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:a.position,height:"400px"};return e(m,{children:e(Me,{children:e("div",{className:"l-post",children:n("section",{className:"post",children:[e(C,{bg:"#25180c",color:"#ffffff"}),e("div",{className:"post__image",style:s}),e(se,{id:a.id,className:"post__markdown",children:a.content,components:{code(p){var g=p,{node:o,inline:i,className:c,children:l}=g,h=E(g,["node","inline","className","children"]);const x=/language-(\w+)/.exec(c||"");return!i&&x?e(le,y({children:String(l).replace(/\n$/,""),style:ce,language:x[1],PreTag:"div"},h)):e("code",k(y({className:c},h),{children:l}))}}}),e(Pe,{posts:S})]})})})})}const Me=d.div`
+  background-color: #f1f1f1;
   .l-post {
     margin: 0 auto;
     border: 2px solid #f1f1f1;
@@ -973,14 +1085,14 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
       margin: 0;
     }
     p {
-      color: #373839;
+      color: #333333;
       text-align: left;
       padding: 0.7em;
       margin: 0;
     }
     
   }
-`,Ue=()=>e(m,{children:e(Ye,{children:e("h1",{children:"the page you are looking for does not exist"})})}),Ye=d.div`
+`,We=()=>e(m,{children:e(Ue,{children:e("h1",{children:"the page you are looking for does not exist"})})}),Ue=d.div`
  
 
-`;de.render(e(me.StrictMode,{children:e(m,{children:n(S,{theme:I,children:[e(R,{}),e(he,{children:n(ge,{children:[e(f,{path:"/",element:e(fe,{})}),e(f,{path:"/about",element:e(Le,{})}),e(f,{path:"/work",element:e(Ie,{})}),e(f,{path:"/blog",element:e(Je,{})}),e(f,{path:"/404",element:e(Ue,{})}),e(f,{path:"/post/:id",element:e(Me,{})})]})})]})})}),document.getElementById("root"));
+`;de.render(e(me.StrictMode,{children:e(m,{children:n(b,{theme:$,children:[e(R,{}),e(he,{children:n(ue,{children:[e(f,{path:"/",element:e(pe,{})}),e(f,{path:"/about",element:e($e,{})}),e(f,{path:"/work",element:e(Ce,{})}),e(f,{path:"/blog",element:e(He,{})}),e(f,{path:"/404",element:e(We,{})}),e(f,{path:"/post/:id",element:e(Be,{})})]})})]})})}),document.getElementById("root"));
