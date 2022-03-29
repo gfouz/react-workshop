@@ -30,9 +30,9 @@ function Post() {
   return (
     <>
       <StyledPost>
-        <div className="l-post">
+        <Container>
           <section className="post">
-             <Header bg="#25180c" color="#ffffff" />
+             <Header bg="transparent" color="#222222" />
             <div className="post__image" style = {styles}></div> 
             <ReactMarkdown
               id={slug.id}
@@ -59,29 +59,30 @@ function Post() {
             />
             <Navigate posts={posts} />
           </section>
-        </div>
+        </Container>
       </StyledPost>
     </>
   );
 }
 export default Post;
 
-const StyledPost = styled.div`
-  background-color: #f1f1f1;
-  .l-post {
-    margin: 0 auto;
+const Container = styled.div`
+     margin: 0 auto;
     border: 2px solid #f1f1f1;
     @media (min-width: 700px) {
-      max-width: 80%;
+      max-width: 85%;
     }
-  }
+`;
+
+const StyledPost = styled.div`
+  background-color: #f1f1f1;
   .post__markdown {
     margin: 2em 0;
     padding: 0 0 3em 0;
     h2 {
       text-align: left;
       color: #444444;
-      padding: 0 0.7em;
+      padding: 0 0.5em;
       margin: 0;
     }
     p {

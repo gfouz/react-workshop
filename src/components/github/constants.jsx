@@ -14,6 +14,6 @@ export const outlook = `Sé que para gustos los colores, pero en mi caso he podi
           interfaces de usuarios. Opino que tambien hay otras tecnologías de
           gran importancia para ser incluidas, las tecnologías están en constante cambios 
           e innovaciones, asi que estoy interesado por aprender más por ejemplo de Deno
-          junto a graphql y tambien las ventajas que nos ofrece para la creación de API 
+          junto a graphql y websockets las ventajas que nos ofrece para la creación de API 
           en el back-end.
 `;

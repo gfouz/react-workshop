@@ -7,16 +7,16 @@ function PostList() {
   return (
     <>
       <StyledPost>
-        <div className="postlist">
-          <div className="posts">
-            <h3 className="posts__topic">you might interest</h3>
+        <Container>
+           <h3 className="main-title">you might interest</h3>
+          <CardList>
             {postlist.length &&
               postlist.map((post, i) => {
                 return (
-                  <div className="posts__card" key={post.id}>
+                  <Card className="post__card--hover" key={post.id}>
                     <img className="posts__image" src={`./images/${post.img}`} alt="post"/>
-                    <div className="posts__card-text">
-                      <h4 className="posts__title">{post.title}</h4>
+                    <CardBody>
+                      <h5 className="posts__title">{post.title}</h5>
                       <small className="posts__info">
                         Published on: {post.date} by {post.author}
                       </small>
@@ -24,12 +24,12 @@ function PostList() {
                       <Link className="posts__link" to={`/post/${post.id}`}>
                         Read More
                       </Link>
-                    </div>
-                  </div>
+                    </CardBody>
+                  </Card>
                 );
               })}
-          </div>
-        </div>
+          </CardList>
+        </Container>
       </StyledPost>
     </>
   );
@@ -37,63 +37,33 @@ function PostList() {
 export default PostList;
 
 const StyledPost = styled.div`
- height: 100%;
- --violet: #820aa1;
- --blue: #3f8897;
- --black: #444444;
- --brown: #4b2c17;
- --chocolate: #443c2d;
-
- @mixin bg {
-   background-color: red;
- }
-.postlist {
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100%;
-    margin: 3em 0;
-
+ background-color: #e1e1e1e1;
+ min-height: 100%;
 }
-.posts__topic {
-   color: var(--chocolate);
-   font-family: literata;
-   text-transform: uppercase;
+`;
+
+const Container = styled.div`
+padding: 2em 0;
+max-width:960px;
+.main-title {
+color: #444444;
+font-family: literata;
+text-transform: uppercase;
 }
-.posts__card {
-    display: flex;
-    max-width: 700px;
-    height: 150px;
-    color: #c7bfa41;
-    margin: 2em;
-    transition: all 0.2s;
-    text-align: left;
-    font-family: literata;
-    font-size: 14px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 10px #9c4508;
-  }
-.posts__card:hover {
+`;
+const CardList = styled.div`
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 1em 0;
+@media (max-width: 970px){
+  justify-content: center;
+}
+.post__card--hover:hover {
   transform: scale(1.02);
+  background-color: #000000;
   box-shadow: 1px 1px 10px #000000;
 }
-.posts__card-text {
-    border-color:#0168b8;
-    border-radius: 5px;
-    padding: 1em;
-    margin: 0 0.5em;
-    color: #333333;
-    font-size: calc(0.6em + 1vw)
-} 
-
-.posts__title {
-    color: #999999;
-    margin: 0;
-    padding: 0;
-    font-weight: bolder;
-    text-transform: uppercase;
-  }
 .posts__image {
    max-width: 150px;
    height: auto;
@@ -102,7 +72,35 @@ const StyledPost = styled.div`
 .posts__body {
   
  }
-.posts__description {
+`;
+const Card = styled.div`
+  display: flex;
+  height: 170px;
+  max-width: 470px;
+  color: #c7bfa41;
+  margin: 1em 0;
+  transition: all 0.2s;
+  text-align: left;
+  font-family: literata;
+  font-size: 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #ffffff;
+`;
+const CardBody = styled.div`
+  border-color:#0168b8;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 0 0.5em;
+  color: #333333;
+  .posts__title {
+  color: #999999;
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+  text-transform: uppercase;
+  }
+  .posts__description {
   color: #999999;
 }
 .posts__link {
@@ -111,8 +109,6 @@ const StyledPost = styled.div`
   margin: 0 0 1em 0;
   color: #0168b8;
 }
-
-
 `;
 
 // {/*  */} these are comments

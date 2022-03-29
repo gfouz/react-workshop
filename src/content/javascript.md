@@ -1,7 +1,7 @@
 ---
 title:  Convenciones Javascript. 
 author: Giovani Fouz Jiménez
-description: Como escribir código Javascript...
+description: Una guía de estilos...
 img: javascript.jpg
 position: top
 date: march 27, 2022
