@@ -37,7 +37,7 @@ function PostList() {
 export default PostList;
 
 const StyledPost = styled.div`
- background-color: #e1e1e1e1;
+ background-color: #eeeeee;
  min-height: 100%;
 }
 `;
@@ -54,9 +54,9 @@ text-transform: uppercase;
 const CardList = styled.div`
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;
+justify-content: space-evenly;
 padding: 1em 0;
-@media (max-width: 970px){
+@media (max-width: 880px){
   justify-content: center;
 }
 .post__card--hover:hover {
@@ -76,9 +76,9 @@ padding: 1em 0;
 const Card = styled.div`
   display: flex;
   height: 170px;
-  max-width: 470px;
+  max-width: 400px;
   color: #c7bfa41;
-  margin: 1em 0;
+  margin: 1em;
   transition: all 0.2s;
   text-align: left;
   font-family: literata;

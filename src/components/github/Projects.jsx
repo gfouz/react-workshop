@@ -81,9 +81,10 @@ const StyledProject = styled.div`
   .technology {
     display: flex;
     padding: 2.5em 0;
+    margin: 0;
     align-items: center;
     justify-content: center;
-    background-color: #444444;
+    background-color: #1A1819;
   }
   .l-flex {
     display: flex;
@@ -111,7 +112,7 @@ const StyledProject = styled.div`
       list-style-type: none;
     }
     &__link {
-      color: var(--light);
+      color: #b5903f;
       text-decoration: none;
     }
     span {

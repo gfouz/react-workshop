@@ -36,7 +36,7 @@ function Blog() {
 export default Blog;
 
 const StyledBlog = styled.div`
-  background-color: #e1e1e1e1;
+  background-color: #eeeeee;
   .blog__image {
     display: flex;
     align-items: flex-end;
