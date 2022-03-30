@@ -1,4 +1,4 @@
-var L=Object.defineProperty,H=Object.defineProperties;var O=Object.getOwnPropertyDescriptors;var w=Object.getOwnPropertySymbols;var T=Object.prototype.hasOwnProperty,F=Object.prototype.propertyIsEnumerable;var I=(a,r,t)=>r in a?L(a,r,{enumerable:!0,configurable:!0,writable:!0,value:t}):a[r]=t,y=(a,r)=>{for(var t in r||(r={}))T.call(r,t)&&I(a,t,r[t]);if(w)for(var t of w(r))F.call(r,t)&&I(a,t,r[t]);return a},k=(a,r)=>H(a,O(r));var E=(a,r)=>{var t={};for(var s in a)T.call(a,s)&&r.indexOf(s)<0&&(t[s]=a[s]);if(a!=null&&w)for(var s of w(a))r.indexOf(s)<0&&F.call(a,s)&&(t[s]=a[s]);return t};import{W as P,s as d,j as e,F as b,a as n,r as u,L as _,b as m,C as N,u as G,S as B,B as M,I as W,d as U,m as Y,c as Z,e as K,A as V,f as Q,T as X,g as D,h as A,i as ee,k as ae,l as ne,n as re,o as te,p as oe,q as ie,t as J,v as se,R as le,w as ce,x as de,y as me,z as he,H as ue,D as ge,E as f}from"./vendor.304e806b.js";const pe=function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const o of document.querySelectorAll('link[rel="modulepreload"]'))s(o);new MutationObserver(o=>{for(const i of o)if(i.type==="childList")for(const c of i.addedNodes)c.tagName==="LINK"&&c.rel==="modulepreload"&&s(c)}).observe(document,{childList:!0,subtree:!0});function t(o){const i={};return o.integrity&&(i.integrity=o.integrity),o.referrerpolicy&&(i.referrerPolicy=o.referrerpolicy),o.crossorigin==="use-credentials"?i.credentials="include":o.crossorigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(o){if(o.ep)return;o.ep=!0;const i=t(o);fetch(o.href,i)}};pe();const $={primaryDark:"#0D0C1D",primaryLight:"#EFFFFA",primaryHover:"#343078",primary:"#ffffff",darkGray:"#282c34",mystic:"#282c34",olive:"#282c34",githubLinks:"#069696",transparent:"#d4d4d42d",scionGreen:"#1ab601",bgGrey:"d5d5d5",ultraViolet:"#601d8c",bk:"#000000",greenBase:"#e5f8d2",greenA700:"#00c853",greenA200:"#69f0ae",green100:"#c8e6c9",greenDark:"#071919",greenDK:"#173535",lightGreen:"#76ff03",blueGrey900:"#263238",grey800:"#424242",grey500:"#9e9e9e",mobile:"576px",fontcolor:"#444444",workbg:"linear-gradient(#071919, #173535)"},z={blue:"#008DFF",red:"#c51162",fontshadow:"1px 1px 9px #ffffff"},R=P`
+var R=Object.defineProperty,H=Object.defineProperties;var O=Object.getOwnPropertyDescriptors;var w=Object.getOwnPropertySymbols;var T=Object.prototype.hasOwnProperty,E=Object.prototype.propertyIsEnumerable;var I=(a,r,t)=>r in a?R(a,r,{enumerable:!0,configurable:!0,writable:!0,value:t}):a[r]=t,y=(a,r)=>{for(var t in r||(r={}))T.call(r,t)&&I(a,t,r[t]);if(w)for(var t of w(r))E.call(r,t)&&I(a,t,r[t]);return a},k=(a,r)=>H(a,O(r));var F=(a,r)=>{var t={};for(var s in a)T.call(a,s)&&r.indexOf(s)<0&&(t[s]=a[s]);if(a!=null&&w)for(var s of w(a))r.indexOf(s)<0&&E.call(a,s)&&(t[s]=a[s]);return t};import{W as P,s as l,j as e,F as b,a as n,r as u,L as _,b as m,C as N,u as B,S as G,B as M,I as W,d as U,m as Y,c as Z,e as K,A as V,f as Q,T as X,g as D,h as A,i as ee,k as ae,l as ne,n as re,o as te,p as oe,q as ie,t as $,v as se,R as le,w as ce,x as de,y as me,z as he,H as ue,D as ge,E as f}from"./vendor.f67739b1.js";const pe=function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const o of document.querySelectorAll('link[rel="modulepreload"]'))s(o);new MutationObserver(o=>{for(const i of o)if(i.type==="childList")for(const d of i.addedNodes)d.tagName==="LINK"&&d.rel==="modulepreload"&&s(d)}).observe(document,{childList:!0,subtree:!0});function t(o){const i={};return o.integrity&&(i.integrity=o.integrity),o.referrerpolicy&&(i.referrerPolicy=o.referrerpolicy),o.crossorigin==="use-credentials"?i.credentials="include":o.crossorigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(o){if(o.ep)return;o.ep=!0;const i=t(o);fetch(o.href,i)}};pe();const J={primaryDark:"#0D0C1D",primaryLight:"#EFFFFA",primaryHover:"#343078",primary:"#ffffff",darkGray:"#282c34",mystic:"#282c34",olive:"#282c34",githubLinks:"#069696",transparent:"#d4d4d42d",scionGreen:"#1ab601",bgGrey:"d5d5d5",ultraViolet:"#601d8c",bk:"#000000",greenBase:"#e5f8d2",greenA700:"#00c853",greenA200:"#69f0ae",green100:"#c8e6c9",greenDark:"#071919",greenDK:"#173535",lightGreen:"#76ff03",blueGrey900:"#263238",grey800:"#424242",grey500:"#9e9e9e",mobile:"576px",fontcolor:"#444444",workbg:"linear-gradient(#071919, #173535)"},C={blue:"#008DFF",red:"#c51162",fontshadow:"1px 1px 9px #ffffff"},L=P`
   html, body {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ var L=Object.defineProperty,H=Object.defineProperties;var O=Object.getOwnPropert
   }
   
 
-  `,fe=()=>e(b,{theme:$,children:n(u.exports.Fragment,{children:[e(R,{}),e(be,{children:n("div",{className:"l-grid homepage",children:[n("section",{className:"homepage__item",children:[e("h1",{className:"homepage__title",children:"portfolio"}),e("div",{className:"homepage__line"})]}),e("nav",{className:"navbar",children:n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e(_,{to:"/about",className:"navbar__link",children:"ABOUT"})}),e("li",{className:"navbar__item",children:e(_,{to:"/work",className:"navbar__link",children:"WORK"})}),e("li",{className:"navbar__item",children:e(_,{to:"/blog",className:"navbar__link",children:"BLOG"})})]})}),n("section",{className:"logo",children:[e("div",{className:"logo__image-container",children:e("img",{className:"logo__image",src:"./images/handshake-amber.svg",alt:"gfouz-logo"})}),e("h6",{className:"logo__skills",children:"WEB DEVELOPER"}),n("h1",{className:"logo__acronym",children:["GFOUZ \xA9 ",new Date().getFullYear()]})]})]})})]})}),be=d.div`
+  `,fe=()=>e(b,{theme:J,children:n(u.exports.Fragment,{children:[e(L,{}),e(be,{children:n("div",{className:"l-grid homepage",children:[n("section",{className:"homepage__item",children:[e("h1",{className:"homepage__title",children:"portfolio"}),e("div",{className:"homepage__line"})]}),e("nav",{className:"navbar",children:n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e(_,{to:"/about",className:"navbar__link",children:"ABOUT"})}),e("li",{className:"navbar__item",children:e(_,{to:"/work",className:"navbar__link",children:"WORK"})}),e("li",{className:"navbar__item",children:e(_,{to:"/blog",className:"navbar__link",children:"BLOG"})})]})}),n("section",{className:"logo",children:[e("div",{className:"logo__image-container",children:e("img",{className:"logo__image",src:"./images/handshake-amber.svg",alt:"gfouz-logo"})}),e("h6",{className:"logo__skills",children:"WEB DEVELOPER"}),n("h1",{className:"logo__acronym",children:["GFOUZ \xA9 ",new Date().getFullYear()]})]})]})})]})}),be=l.div`
   --green: #88ce02;
   --blue: #40c4ff;
   --brown: #F1993F;
@@ -135,7 +135,7 @@ var L=Object.defineProperty,H=Object.defineProperties;var O=Object.getOwnPropert
       opacity: 1;
     }
   }
-`,ve=()=>e(m,{children:e(b,{theme:z,children:e(ye,{children:n("picture",{className:"l-logo",children:[n("div",{className:"logo",children:[e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"G"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"F"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"O"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"U"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"Z"})})]}),e("img",{src:"./images/workLogo.svg",alt:"logo",className:"logo__image"}),e("h1",{className:"logo__title",children:"WORK"})]})})})}),ye=d.div`
+`,ve=()=>e(m,{children:e(b,{theme:C,children:e(ye,{children:n("picture",{className:"l-logo",children:[n("div",{className:"logo",children:[e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"G"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"F"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"O"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"U"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"Z"})})]}),e("img",{src:"./images/workLogo.svg",alt:"logo",className:"logo__image"}),e("h1",{className:"logo__title",children:"WORK"})]})})})}),ye=l.div`
   background-color: #f0f0f0; 
   .l-logo {
     display: flex;
@@ -191,7 +191,7 @@ var L=Object.defineProperty,H=Object.defineProperties;var O=Object.getOwnPropert
   .logo__item:nth-child(5) {
     transform: rotate(40deg);
   }
-`,_e=()=>e(m,{children:e(b,{theme:z,children:e(xe,{children:e("article",{className:"technology",children:n("div",{className:"l-flex l-flex--vw",children:[e("img",{src:"./tech/react.svg",alt:"react",className:"technology__icon"}),n("div",{className:"l-flex l-flex--column",children:[e("img",{src:"./tech/next.svg",alt:"logo",className:"technology__icon technology__icon--l"}),n("nav",{className:"navbar",children:[n("h5",{className:"navbar__title",children:[e("span",{children:"SOURCE"})," CODE ON ",e("span",{children:"GITHUB"})]}),n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/react-workshop.git",children:"React-workshop"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/apollo-server.git",children:"Apollo-server"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/nextcms.git",children:"NextJs-CMS"})})]})]}),e("img",{src:"./tech/graphql.svg",alt:"logo",className:"technology__icon"})]}),e("img",{src:"./tech/redux.svg",alt:"logo",className:"technology__icon"})]})})})})}),xe=d.div`
+`,_e=()=>e(m,{children:e(b,{theme:C,children:e(xe,{children:e("article",{className:"technology",children:n("div",{className:"l-flex l-flex--vw",children:[e("img",{src:"./tech/react.svg",alt:"react",className:"technology__icon"}),n("div",{className:"l-flex l-flex--column",children:[e("img",{src:"./tech/next.svg",alt:"logo",className:"technology__icon technology__icon--l"}),n("nav",{className:"navbar",children:[n("h5",{className:"navbar__title",children:[e("span",{children:"SOURCE"})," CODE ON ",e("span",{children:"GITHUB"})]}),n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/react-workshop.git",children:"React-workshop"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/apollo-server.git",children:"Apollo-server"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/nextcms.git",children:"NextJs-CMS"})})]})]}),e("img",{src:"./tech/graphql.svg",alt:"logo",className:"technology__icon"})]}),e("img",{src:"./tech/redux.svg",alt:"logo",className:"technology__icon"})]})})})})}),xe=l.div`
   --yellow: #f9c035;
   --blue: #008DFF;
   --light: #999999;
@@ -259,9 +259,9 @@ var L=Object.defineProperty,H=Object.defineProperties;var O=Object.getOwnPropert
           interfaces de usuarios. Opino que tambien hay otras tecnolog\xEDas de
           gran importancia para ser incluidas, las tecnolog\xEDas est\xE1n en constante cambios 
           e innovaciones, asi que estoy interesado por aprender m\xE1s por ejemplo de Deno
-          junto a graphql y tambien las ventajas que nos ofrece para la creaci\xF3n de API 
+          junto a graphql y websockets las ventajas que nos ofrece para la creaci\xF3n de API 
           en el back-end.
-`,ke=()=>e(m,{children:e(b,{theme:z,children:e(Ne,{children:e("article",{className:"l-flex",children:n("div",{className:"outlook",children:[e("h4",{className:"outlook__topic",children:"Mi perspectiva personal"}),e("img",{src:"./images/lamp.svg",alt:"developer",className:"outlook__image"}),e("p",{className:"outlook__text",children:we})]})})})})}),Ne=d.div`
+`,ke=()=>e(m,{children:e(b,{theme:C,children:e(Ne,{children:e("article",{className:"l-flex",children:n("div",{className:"outlook",children:[e("h4",{className:"outlook__topic",children:"Mi perspectiva personal"}),e("img",{src:"./images/lamp.svg",alt:"developer",className:"outlook__image"}),e("p",{className:"outlook__text",children:we})]})})})})}),Ne=l.div`
      display: grid;
      place-items: center;
      margin: 2em 0;
@@ -294,7 +294,7 @@ var L=Object.defineProperty,H=Object.defineProperties;var O=Object.getOwnPropert
         margin: 0.3em;
      }
    }
-`,je=d.div`
+`,je=l.div`
   --tallness: ${a=>a.height||"60px"};  
   
   width: 100%;
@@ -373,7 +373,7 @@ var L=Object.defineProperty,H=Object.defineProperties;var O=Object.getOwnPropert
         }
       }
     `}
-`;function C(a){const r=["/about","/work","/blog","/"],t=G(),{pathname:s}=t,o=r.filter(i=>i!==s);return e(m,{children:e(je,{color:a.color,bg:a.bg,fontFamily:a.font,position:a.position,height:a.height,margin:a.margin,logo:a.logo,children:n("div",{className:"links",children:[e("div",{className:"logo",children:a.children}),o.map((i,c)=>e("div",{children:e(_,{className:"links__item",to:`${i}`,children:i==="/"?"home":i.slice(1)})},i+c))]})})})}function Se({close:a,setClose:r}){function t(o,i){i!=="clickaway"&&r(!1)}const s=n(u.exports.Fragment,{children:[e(M,{color:"primary",size:"small",onClick:t,children:"UNDO"}),e(W,{size:"small","aria-label":"close",color:"inherit",onClick:t,children:e(U,{fontSize:"small"})})]});return e("div",{children:e(B,{open:a,autoHideDuration:2e3,onClose:t,message:"SUBMITTED",action:s})})}const ze=Y(a=>({l_grid:{margin:"1em 0",display:"flex",flexDirection:"column",alignItems:"center",padding:"2em 0"},avatar:{margin:a.spacing(3),backgroundColor:a.palette.primary.main},form:{width:"100%",marginTop:a.spacing(1)},form__input:{display:"flex",flexDirection:"column",alignItems:"center"},title:{color:"#3f51b5",fontSize:"14px",textTransform:"uppercase"},warnings:{color:"#c51162",textTransform:"uppercase",fontSize:"10px"},formHide:{display:"none"},submit:{margin:"2em auto"}})),Ce=()=>{const[a,r]=u.exports.useState(!1),t=ze(),{control:s,handleSubmit:o}=Z({defaultValues:{email:"",message:""}});function i(c){r(!0),ne.post("https://formspree.io/f/mbjwalqp",{data:c}).then(function(l){console.log(l)}).catch(function(l){console.log(l)})}return e(K,{children:n("div",{className:t.l_grid,children:[e(V,{className:t.avatar,children:e(Q,{})}),e(X,{component:"h1",variant:"h6",className:t.title,children:"contact here!"}),n("form",{className:"form",onSubmit:o(i),children:[e(D,{name:"email",control:s,rules:{pattern:/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,required:!0},render:({field:c,formState:{errors:l,isSubmitted:h}})=>{var p,g;return n("div",{className:t.form__input,children:[e(A,k(y({},c),{variant:"outlined",margin:"normal",label:"Email",color:l.email?"secondary":"primary"})),((p=l.email)==null?void 0:p.type)==="pattern"&&e("span",{className:t.warnings,children:"email includes an @ symbol !"}),((g=l.email)==null?void 0:g.type)==="required"&&e("span",{className:t.warnings,children:"email is required !"})]})}}),e(D,{name:"message",control:s,rules:{required:!0},render:({field:c,formState:{errors:l}})=>{var h;return n("div",{className:t.form__input,children:[e(A,k(y({},c),{variant:"outlined",margin:"normal",label:"Message",color:l.message?"secondary":"primary"})),((h=l.message)==null?void 0:h.type)==="required"&&e("span",{className:t.warnings,children:"This field must not be empty !"})]})}}),e(ee,{type:"sumit",size:"medium",color:"primary",variant:"contained",className:t.submit,endIcon:e(ae,{}),children:"Send"})]}),e(Se,{close:a,setClose:r})]})})},qe=()=>e(m,{children:e(b,{theme:z,children:e(Ie,{children:n("div",{className:"work l-grid",children:[e(C,{bg:"#f0f0f0",color:"#000000"}),e(ve,{}),e(_e,{}),e(ke,{}),e(Ce,{}),e("footer",{className:"work__footer",children:n("h4",{className:"work__footer-title",children:["Gfouz \xA9 ",new Date().getFullYear()," Made with ReactJS."]})})]})})})}),Ie=d.div`
+`;function z(a){const r=["/about","/work","/blog","/"],t=B(),{pathname:s}=t,o=r.filter(i=>i!==s);return e(m,{children:e(je,{color:a.color,bg:a.bg,fontFamily:a.font,position:a.position,height:a.height,margin:a.margin,logo:a.logo,children:n("div",{className:"links",children:[e("div",{className:"logo",children:a.children}),o.map((i,d)=>e("div",{children:e(_,{className:"links__item",to:`${i}`,children:i==="/"?"home":i.slice(1)})},i+d))]})})})}function Se({close:a,setClose:r}){function t(o,i){i!=="clickaway"&&r(!1)}const s=n(u.exports.Fragment,{children:[e(M,{color:"primary",size:"small",onClick:t,children:"UNDO"}),e(W,{size:"small","aria-label":"close",color:"inherit",onClick:t,children:e(U,{fontSize:"small"})})]});return e("div",{children:e(G,{open:a,autoHideDuration:2e3,onClose:t,message:"SUBMITTED",action:s})})}const Ce=Y(a=>({l_grid:{margin:"1em 0",display:"flex",flexDirection:"column",alignItems:"center",padding:"2em 0"},avatar:{margin:a.spacing(3),backgroundColor:a.palette.primary.main},form:{width:"100%",marginTop:a.spacing(1)},form__input:{display:"flex",flexDirection:"column",alignItems:"center"},title:{color:"#3f51b5",fontSize:"14px",textTransform:"uppercase"},warnings:{color:"#c51162",textTransform:"uppercase",fontSize:"10px"},formHide:{display:"none"},submit:{margin:"2em auto"}})),ze=()=>{const[a,r]=u.exports.useState(!1),t=Ce(),{control:s,handleSubmit:o}=Z({defaultValues:{email:"",message:""}});function i(d){r(!0),ne.post("https://formspree.io/f/mbjwalqp",{data:d}).then(function(c){console.log(c)}).catch(function(c){console.log(c)})}return e(K,{children:n("div",{className:t.l_grid,children:[e(V,{className:t.avatar,children:e(Q,{})}),e(X,{component:"h1",variant:"h6",className:t.title,children:"contact here!"}),n("form",{className:"form",onSubmit:o(i),children:[e(D,{name:"email",control:s,rules:{pattern:/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,required:!0},render:({field:d,formState:{errors:c,isSubmitted:h}})=>{var p,g;return n("div",{className:t.form__input,children:[e(A,k(y({},d),{variant:"outlined",margin:"normal",label:"Email",color:c.email?"secondary":"primary"})),((p=c.email)==null?void 0:p.type)==="pattern"&&e("span",{className:t.warnings,children:"email includes an @ symbol !"}),((g=c.email)==null?void 0:g.type)==="required"&&e("span",{className:t.warnings,children:"email is required !"})]})}}),e(D,{name:"message",control:s,rules:{required:!0},render:({field:d,formState:{errors:c}})=>{var h;return n("div",{className:t.form__input,children:[e(A,k(y({},d),{variant:"outlined",margin:"normal",label:"Message",color:c.message?"secondary":"primary"})),((h=c.message)==null?void 0:h.type)==="required"&&e("span",{className:t.warnings,children:"This field must not be empty !"})]})}}),e(ee,{type:"sumit",size:"medium",color:"primary",variant:"contained",className:t.submit,endIcon:e(ae,{}),children:"Send"})]}),e(Se,{close:a,setClose:r})]})})},qe=()=>e(m,{children:e(b,{theme:C,children:e(Ie,{children:n("div",{className:"work l-grid",children:[e(z,{bg:"#f0f0f0",color:"#000000"}),e(ve,{}),e(_e,{}),e(ke,{}),e(ze,{}),e("footer",{className:"work__footer",children:n("h4",{className:"work__footer-title",children:["Gfouz \xA9 ",new Date().getFullYear()," Made with ReactJS."]})})]})})})}),Ie=l.div`
   --blue: #008DFF;
   background-color: #f0f0f0; 
   .l-grid {
@@ -395,7 +395,7 @@ var L=Object.defineProperty,H=Object.defineProperties;var O=Object.getOwnPropert
        font-family: calibri;
        color: ${({theme:a})=>a.blue};
     }
-`,Te=d.div`
+`,Te=l.div`
   --red: #cb3837;
   --yellow: #ffc329;
   --brown: #a0450e;
@@ -555,7 +555,7 @@ var L=Object.defineProperty,H=Object.defineProperties;var O=Object.getOwnPropert
     transform-origin: bottom center;
     color: #ff0000;
   }
-`,Fe=`
+`,Ee=`
   'const' nos va ayudar a declarar variables inmutables, 
   esto es, a declarar variables cuyo valor no pueda ser 
   cambiado a lo largo del ciclo de vida de una variable.
@@ -569,7 +569,7 @@ var L=Object.defineProperty,H=Object.defineProperties;var O=Object.getOwnPropert
   el puntero con la posici\xF3n donde se encuentra el objeto real.
   Por tanto, si seguimos esta l\xF3gica, lo que \u2018const\u2019 est\xE1 convirtiendo 
   en inmutable no es el objeto en si, si no la referencia a ese objeto.
-`,Ee=`
+`,Fe=`
   La composici\xF3n es la piedra angular que nos permitir\xE1 a partir de 
   funciones puras gen\xE9ricas crear funciones m\xE1s espec\xEDficas para al 
   final construir nuestros programas.Similar a como en la m\xFAsica las notas 
@@ -586,7 +586,7 @@ var L=Object.defineProperty,H=Object.defineProperties;var O=Object.getOwnPropert
   year but eventually i realized that i needed to learn technologies
   that afford a job, so that i have been wagering on ReactJs as my
   favourite choosing.
-`,q=[{title:"Constantes de JavaScript",paragraph:Fe},{title:"Composici\xF3n funcional",paragraph:Ee},{title:"introduction",paragraph:De}],j={fontSize:"30px",color:"#455a64"},Ae=[{icon:e(re,{style:j}),url:"https://github.com/gfouz",name:"github"},{icon:e(te,{style:j}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"telegram"},{icon:e(oe,{style:j}),url:"https://github.com/gfouz",name:"email"},{icon:e(ie,{style:j}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"whatsapp"}],Je=a=>e(m,{children:e($e,{height:a.height,children:e("nav",{className:"navbar",children:e("ul",{className:"navbar__list",children:Ae.map((r,t)=>e("li",{className:"navbar__item",children:e("a",{href:r.url,className:"navbar__link",children:r.icon})},t))})})})}),$e=d.div`
+`,q=[{title:"Constantes de JavaScript",paragraph:Ee},{title:"Composici\xF3n funcional",paragraph:Fe},{title:"introduction",paragraph:De}],j={fontSize:"30px",color:"#455a64"},Ae=[{icon:e(re,{style:j}),url:"https://github.com/gfouz",name:"github"},{icon:e(te,{style:j}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"telegram"},{icon:e(oe,{style:j}),url:"https://github.com/gfouz",name:"email"},{icon:e(ie,{style:j}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"whatsapp"}],$e=a=>e(m,{children:e(Je,{height:a.height,children:e("nav",{className:"navbar",children:e("ul",{className:"navbar__list",children:Ae.map((r,t)=>e("li",{className:"navbar__item",children:e("a",{href:r.url,className:"navbar__link",children:r.icon})},t))})})})}),Je=l.div`
   .navbar {
     height: ${a=>a.height||"70px"};
   }
@@ -604,7 +604,7 @@ var L=Object.defineProperty,H=Object.defineProperties;var O=Object.getOwnPropert
     padding: 0;
     margin: 0;
   }
-`,Re=()=>{const a=u.exports.useRef(null),r=()=>{const t=a.current.textContent.split("");a.current.textContent="",t.forEach((s,o)=>{a.current.innerHTML+='<span style="transform:rotate('+(o+1)*20+'deg)">'+s+"</span>"})};return u.exports.useEffect(()=>{r()},[]),e(m,{children:n(Te,{children:[n("figure",{className:"upperbar",children:[e("div",{className:"upperbar__title-container",children:n("h1",{ref:a,className:"upperbar__title",children:[" ","GFOUZ"," "]})}),e("img",{src:"./images/handshake-red.svg",alt:"gfouz-logo",className:"upperbar__image"})]}),e(C,{height:"100px",bg:"#ffffff",color:"#ff0000",margin:"2em 0"}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__avatar-container",children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"outstanding__avatar"})}),e("h3",{className:"outstanding__title",children:"A brief introduction about me"}),e("p",{className:"outstanding__paragraph",children:q[2].paragraph})]}),n("article",{className:"outstanding__item",children:[e("img",{src:"./images/laptop.jpg",className:"outstanding__laptop-image",alt:"laptop"}),e("h4",{className:"outstanding__image-title",children:"ReactJs developer"})]})]}),n("article",{className:"technologies",children:[e("img",{src:"./images/react.svg",alt:"react"}),n("div",{className:"column",children:[e("img",{src:"./images/next.svg",alt:"next"}),e("h3",{children:"THIS IS MY STACK"}),e("img",{src:"./images/graphql.svg",alt:"graphql"})]}),e("img",{src:"./images/redux.svg",alt:"redux"})]}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__icon",children:e("img",{src:"./images/greylamp.svg",alt:"giovani"})}),e("h3",{className:"outstanding__title",children:"Conceptos importantes"}),e("p",{className:"outstanding__paragraph",children:q[0].paragraph})]}),n("article",{className:"outstanding__item",children:[e("h3",{className:"outstanding__title",children:"Tambien importante"}),e("p",{className:"outstanding__paragraph",children:q[1].paragraph}),e("h5",{className:"outstanding__stack",children:"STACK QUE UTILIZO:"}),n("div",{className:"list-group",children:[n("ul",{className:"list",children:[e("li",{children:"html"}),e("li",{children:"css"}),e("li",{children:"javascript"})]}),n("ul",{className:"list",children:[e("li",{children:"ReactJs"}),e("li",{children:"NextJs"}),e("li",{children:"scss"})]}),n("ul",{className:"list",children:[e("li",{children:"Redux"}),e("li",{children:"Graphql"}),e("li",{children:"Express"})]})]})]})]}),e(Je,{height:"250px"}),n("footer",{className:"bottom-bar",children:[" ","Gfouz \xA9 ",new Date().getFullYear()," "]})]})})};var S=[{id:1644015600,img:"deploy.jpg\r",title:"Continuous deployment.\r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 5, 2022\r",description:"CI/CD workflow...\r",position:"right\r",content:`\r
+`,Le=()=>{const a=u.exports.useRef(null),r=()=>{const t=a.current.textContent.split("");a.current.textContent="",t.forEach((s,o)=>{a.current.innerHTML+='<span style="transform:rotate('+(o+1)*20+'deg)">'+s+"</span>"})};return u.exports.useEffect(()=>{r()},[]),e(m,{children:n(Te,{children:[n("figure",{className:"upperbar",children:[e("div",{className:"upperbar__title-container",children:n("h1",{ref:a,className:"upperbar__title",children:[" ","GFOUZ"," "]})}),e("img",{src:"./images/handshake-red.svg",alt:"gfouz-logo",className:"upperbar__image"})]}),e(z,{height:"100px",bg:"#ffffff",color:"#ff0000",margin:"2em 0"}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__avatar-container",children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"outstanding__avatar"})}),e("h3",{className:"outstanding__title",children:"A brief introduction about me"}),e("p",{className:"outstanding__paragraph",children:q[2].paragraph})]}),n("article",{className:"outstanding__item",children:[e("img",{src:"./images/laptop.jpg",className:"outstanding__laptop-image",alt:"laptop"}),e("h4",{className:"outstanding__image-title",children:"ReactJs developer"})]})]}),n("article",{className:"technologies",children:[e("img",{src:"./images/react.svg",alt:"react"}),n("div",{className:"column",children:[e("img",{src:"./images/next.svg",alt:"next"}),e("h3",{children:"THIS IS MY STACK"}),e("img",{src:"./images/graphql.svg",alt:"graphql"})]}),e("img",{src:"./images/redux.svg",alt:"redux"})]}),n("section",{className:"outstanding",children:[n("article",{className:"outstanding__item",children:[e("div",{className:"outstanding__icon",children:e("img",{src:"./images/greylamp.svg",alt:"giovani"})}),e("h3",{className:"outstanding__title",children:"Conceptos importantes"}),e("p",{className:"outstanding__paragraph",children:q[0].paragraph})]}),n("article",{className:"outstanding__item",children:[e("h3",{className:"outstanding__title",children:"Tambien importante"}),e("p",{className:"outstanding__paragraph",children:q[1].paragraph}),e("h5",{className:"outstanding__stack",children:"STACK QUE UTILIZO:"}),n("div",{className:"list-group",children:[n("ul",{className:"list",children:[e("li",{children:"html"}),e("li",{children:"css"}),e("li",{children:"javascript"})]}),n("ul",{className:"list",children:[e("li",{children:"ReactJs"}),e("li",{children:"NextJs"}),e("li",{children:"scss"})]}),n("ul",{className:"list",children:[e("li",{children:"Redux"}),e("li",{children:"Graphql"}),e("li",{children:"Express"})]})]})]})]}),e($e,{height:"250px"}),n("footer",{className:"bottom-bar",children:[" ","Gfouz \xA9 ",new Date().getFullYear()," "]})]})})};var S=[{id:1644015600,img:"deploy.jpg\r",title:"Continuous deployment.\r",author:"Giovani Fouz Jim\xE9nez\r",date:"febraury 5, 2022\r",description:"CI/CD workflow...\r",position:"right\r",content:`\r
 Continuous integration (CI) and continuous delivery (CD) are two\r
 approaches to software development that are designed to improve code\r
 quality and enable rapid delivery and deployment of code. They are\r
@@ -744,7 +744,7 @@ of the hash function.\r
 there is much more to talk on this interesting subject \r
 but i will cover it on a future article.\r
 \r
-Happy learning!`},{id:1648335600,img:"javascript.jpg\r",title:" Convenciones Javascript. \r",author:"Giovani Fouz Jim\xE9nez\r",date:"march 27, 2022\r",description:"Como escribir c\xF3digo Javascript...\r",position:"top\r",content:`\r
+Happy learning!`},{id:1648335600,img:"javascript.jpg\r",title:" Convenciones Javascript. \r",author:"Giovani Fouz Jim\xE9nez\r",date:"march 27, 2022\r",description:"Una gu\xEDa de estilos...\r",position:"top\r",content:`\r
 ## Gu\xEDa de estilos Javascript.\r
 Hay muchas convenciones de codificaci\xF3n cuando se trata de usar el\r
 lenguaje de programaci\xF3n JavaScript. Las convenciones de codificaci\xF3n\r
@@ -917,64 +917,31 @@ There\u2019s one caution we should keep in mind: Though we can chain multiple\r
 ternary expressions together, we should avoid doing so.\r
 Ternary expressions can simplify things, but use them when they add value\r
 and go back to standard 'if blocks' if they create too much ambiguity.\r
-`}];function Le(){return e(m,{children:e(He,{children:e("div",{className:"postlist",children:n("div",{className:"posts",children:[e("h3",{className:"posts__topic",children:"you might interest"}),S.length&&S.map((a,r)=>n("div",{className:"posts__card",children:[e("img",{className:"posts__image",src:`./images/${a.img}`,alt:"post"}),n("div",{className:"posts__card-text",children:[e("h4",{className:"posts__title",children:a.title}),n("small",{className:"posts__info",children:["Published on: ",a.date," by ",a.author]}),e("p",{className:"posts__description",children:a.description}),e(_,{className:"posts__link",to:`/post/${a.id}`,children:"Read More"})]})]},a.id))]})})})})}const He=d.div`
- height: 100%;
- --violet: #820aa1;
- --blue: #3f8897;
- --black: #444444;
- --brown: #4b2c17;
- --chocolate: #443c2d;
-
- @mixin bg {
-   background-color: red;
- }
-.postlist {
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100%;
-    margin: 3em 0;
-
+`}];function Re(){return e(m,{children:e(He,{children:n(Oe,{children:[e("h3",{className:"main-title",children:"you might interest"}),e(Pe,{children:S.length&&S.map((a,r)=>n(Be,{className:"post__card--hover",children:[e("img",{className:"posts__image",src:`./images/${a.img}`,alt:"post"}),n(Ge,{children:[e("h5",{className:"posts__title",children:a.title}),n("small",{className:"posts__info",children:["Published on: ",a.date," by ",a.author]}),e("p",{className:"posts__description",children:a.description}),e(_,{className:"posts__link",to:`/post/${a.id}`,children:"Read More"})]})]},a.id))})]})})})}const He=l.div`
+ background-color: #e1e1e1e1;
+ min-height: 100%;
 }
-.posts__topic {
-   color: var(--chocolate);
-   font-family: literata;
-   text-transform: uppercase;
+`,Oe=l.div`
+padding: 2em 0;
+max-width:960px;
+.main-title {
+color: #444444;
+font-family: literata;
+text-transform: uppercase;
 }
-.posts__card {
-    display: flex;
-    max-width: 700px;
-    height: 150px;
-    color: #c7bfa41;
-    margin: 2em;
-    transition: all 0.2s;
-    text-align: left;
-    font-family: literata;
-    font-size: 14px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 10px #9c4508;
-  }
-.posts__card:hover {
+`,Pe=l.div`
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 1em 0;
+@media (max-width: 970px){
+  justify-content: center;
+}
+.post__card--hover:hover {
   transform: scale(1.02);
+  background-color: #000000;
   box-shadow: 1px 1px 10px #000000;
 }
-.posts__card-text {
-    border-color:#0168b8;
-    border-radius: 5px;
-    padding: 1em;
-    margin: 0 0.5em;
-    color: #333333;
-    font-size: calc(0.6em + 1vw)
-} 
-
-.posts__title {
-    color: #999999;
-    margin: 0;
-    padding: 0;
-    font-weight: bolder;
-    text-transform: uppercase;
-  }
 .posts__image {
    max-width: 150px;
    height: auto;
@@ -983,7 +950,33 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
 .posts__body {
   
  }
-.posts__description {
+`,Be=l.div`
+  display: flex;
+  height: 170px;
+  max-width: 470px;
+  color: #c7bfa41;
+  margin: 1em 0;
+  transition: all 0.2s;
+  text-align: left;
+  font-family: literata;
+  font-size: 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #ffffff;
+`,Ge=l.div`
+  border-color:#0168b8;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 0 0.5em;
+  color: #333333;
+  .posts__title {
+  color: #999999;
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+  text-transform: uppercase;
+  }
+  .posts__description {
   color: #999999;
 }
 .posts__link {
@@ -992,27 +985,8 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
   margin: 0 0 1em 0;
   color: #0168b8;
 }
-
-
-`;function Oe(){return e(m,{children:e(Pe,{children:n("div",{className:"l-blog",children:[e(C,{bg:"#25180c",color:"#ffffff"}),n("section",{className:"blog",children:[e("div",{className:"blog__image",children:e("h1",{className:"blog__title",children:"Inquisitive as children."})}),e("article",{className:"blog__posts",children:e(Le,{})})]}),e("footer",{className:"blog-footer",children:n("h3",{children:["gfouz \xA9 ",new Date().getFullYear()," made with react"]})})]})})})}const Pe=d.div`
-  --violet: #820aa1;
-  --grey: #222222;
-  --blue: #3f8897;
-  --brown: #25180c;
-
-  .l-blog {
-    display: grid;
-    grid-template-rows: 60px auto 60px;
-    grid-template-cols: 1fr;
-    min-height: 100vh;
-  }
-  .blog {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-
-  }
+`;function Me(){return u.exports.useEffect(()=>{const a=()=>{document.title=window.innerWidth};window.addEventListener("resize",a)},[]),e(m,{children:e(We,{children:n(Ue,{children:[e(z,{bg:"#25180c",color:"#ffffff"}),n(Ye,{children:[e("div",{className:"blog__image",children:e("h1",{className:"blog__title",children:"Inquisitive as children."})}),e("article",{className:"blog__posts",children:e(Re,{})})]}),e("footer",{className:"blog-footer",children:n("h3",{children:["gfouz \xA9 ",new Date().getFullYear()," made with react"]})})]})})})}const We=l.div`
+  background-color: #e1e1e1e1;
   .blog__image {
     display: flex;
     align-items: flex-end;
@@ -1033,15 +1007,24 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     padding: 0 5px;
     border-radius: 9px;
   }
-    
   }
   .blog-footer {
-    background-color: var(--brown);
+    background-color: #25180c;
     display: grid;
     place-items: center;
     color: #ffffff;
   }
-`,Ge=a=>{const r=J(),t=se(),s=parseInt(r.id),o=a.posts.map(v=>v.id),i=o.indexOf(s),[c,l]=u.exports.useState(!0),[h,p]=u.exports.useState(i);u.exports.useEffect(()=>{t(`/post/${o[h]}`)},[h]);function g(){h<o.length-1?p(v=>v+1):l(!1),h===o.length-1?l(!1):l(!0)}function x(){h>0?p(v=>v-1):t("/blog"),l(!0)}return e(m,{children:e(Be,{color:a.color,children:n("section",{className:"navigate",children:[e("nav",{className:"navigate__prev",children:e("button",{className:"btn btn-back",onClick:x,children:"PREV"})}),e("nav",{className:"navigate__next",children:e("button",{className:c?"btn":"btn  btn--disabled",onClick:g,children:"NEXT"})})]})})})},Be=d.div`
+`,Ue=l.div`
+  display: grid;
+  grid-template-rows: 60px auto 60px;
+  grid-template-cols: 1fr;
+  min-height: 100vh;
+`,Ye=l.div`
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: flex-start;
+`,Ze=a=>{const r=$(),t=se(),s=parseInt(r.id),o=a.posts.map(v=>v.id),i=o.indexOf(s),[d,c]=u.exports.useState(!0),[h,p]=u.exports.useState(i);u.exports.useEffect(()=>{t(`/post/${o[h]}`)},[h]);function g(){h<o.length-1?p(v=>v+1):c(!1),h===o.length-1?c(!1):c(!0)}function x(){h>0?p(v=>v-1):t("/blog"),c(!0)}return e(m,{children:e(Ke,{color:a.color,children:n("section",{className:"navigate",children:[e("nav",{className:"navigate__prev",children:e("button",{className:"btn btn-back",onClick:x,children:"PREV"})}),e("nav",{className:"navigate__next",children:e("button",{className:d?"btn":"btn  btn--disabled",onClick:g,children:"NEXT"})})]})})})},Ke=l.div`
   --violet: #820aa1;
   --blue: #3f8897;
   .navigate {
@@ -1066,22 +1049,21 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     color: #ff0000;
     background-color: #999999;
   }
-`;function Me(){const a={},r=J(),t=parseInt(r.id);S.forEach((o,i)=>{t===o.id&&(a.content=o.content?o.content:"no given content",a.id=o.id?o.id:"no given id",a.img=o.img?o.img:"no give data",a.position=o.position?o.position:"no given position")});const s={backgroundImage:`url(./images/${a.img})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:a.position,height:"400px"};return e(m,{children:e(We,{children:e("div",{className:"l-post",children:n("section",{className:"post",children:[e(C,{bg:"#25180c",color:"#ffffff"}),e("div",{className:"post__image",style:s}),e(le,{id:a.id,className:"post__markdown",children:a.content,components:{code(p){var g=p,{node:o,inline:i,className:c,children:l}=g,h=E(g,["node","inline","className","children"]);const x=/language-(\w+)/.exec(c||"");return!i&&x?e(ce,y({children:String(l).replace(/\n$/,""),style:de,language:x[1],PreTag:"div"},h)):e("code",k(y({className:c},h),{children:l}))}}}),e(Ge,{posts:S})]})})})})}const We=d.div`
-  background-color: #f1f1f1;
-  .l-post {
-    margin: 0 auto;
+`;function Ve(){const a={},r=$(),t=parseInt(r.id);S.forEach((o,i)=>{t===o.id&&(a.content=o.content?o.content:"no given content",a.id=o.id?o.id:"no given id",a.img=o.img?o.img:"no give data",a.position=o.position?o.position:"no given position")});const s={backgroundImage:`url(./images/${a.img})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:a.position,height:"400px"};return e(m,{children:e(Xe,{children:e(Qe,{children:n("section",{className:"post",children:[e(z,{bg:"transparent",color:"#222222"}),e("div",{className:"post__image",style:s}),e(le,{id:a.id,className:"post__markdown",children:a.content,components:{code(p){var g=p,{node:o,inline:i,className:d,children:c}=g,h=F(g,["node","inline","className","children"]);const x=/language-(\w+)/.exec(d||"");return!i&&x?e(ce,y({children:String(c).replace(/\n$/,""),style:de,language:x[1],PreTag:"div"},h)):e("code",k(y({className:d},h),{children:c}))}}}),e(Ze,{posts:S})]})})})})}const Qe=l.div`
+     margin: 0 auto;
     border: 2px solid #f1f1f1;
     @media (min-width: 700px) {
-      max-width: 80%;
+      max-width: 85%;
     }
-  }
+`,Xe=l.div`
+  background-color: #f1f1f1;
   .post__markdown {
     margin: 2em 0;
     padding: 0 0 3em 0;
     h2 {
       text-align: left;
       color: #444444;
-      padding: 0 0.7em;
+      padding: 0 0.5em;
       margin: 0;
     }
     p {
@@ -1092,7 +1074,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     }
     
   }
-`,Ue=()=>e(m,{children:e(Ye,{children:e("h1",{children:"the page you are looking for does not exist"})})}),Ye=d.div`
+`,ea=()=>e(m,{children:e(aa,{children:e("h1",{children:"the page you are looking for does not exist"})})}),aa=l.div`
  
 
-`;me.render(e(he.StrictMode,{children:e(m,{children:n(b,{theme:$,children:[e(R,{}),e(ue,{children:n(ge,{children:[e(f,{path:"/",element:e(fe,{})}),e(f,{path:"/about",element:e(Re,{})}),e(f,{path:"/work",element:e(qe,{})}),e(f,{path:"/blog",element:e(Oe,{})}),e(f,{path:"/404",element:e(Ue,{})}),e(f,{path:"/post/:id",element:e(Me,{})})]})})]})})}),document.getElementById("root"));
+`;me.render(e(he.StrictMode,{children:e(m,{children:n(b,{theme:J,children:[e(L,{}),e(ue,{children:n(ge,{children:[e(f,{path:"/",element:e(fe,{})}),e(f,{path:"/about",element:e(Le,{})}),e(f,{path:"/work",element:e(qe,{})}),e(f,{path:"/blog",element:e(Me,{})}),e(f,{path:"/404",element:e(ea,{})}),e(f,{path:"/post/:id",element:e(Ve,{})})]})})]})})}),document.getElementById("root"));
