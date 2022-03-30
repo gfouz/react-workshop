@@ -1,5 +1,23 @@
 import styled from "styled-components";
 
+export const StyledAbout = styled.div`
+  --base-red: #ce5041;
+  --blue: #0476ca;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px 60px 370px  auto auto auto 250px 70px;
+  .outstanding__icon {
+    margin: 0 0 0 2em;
+    float: left;
+    img {
+      width: 70px;
+    }
+  }
+  
+`;
 export const MainImage = styled.div`
   position: relative;
   background-color: var(--base-red);
@@ -54,34 +72,16 @@ export const Article = styled.article`
     margin: 0.5em 1em;
     color: #777777;
   }  
-`;
-export const StyledAbout = styled.div`
-  --base-red: #ce5041;
-  --blue: #0476ca;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 250px 60px 370px  auto auto auto 250px 70px;
-  
-  
   .article__image-title {
     position: absolute;
     left: 20px;
-    color: #ffffff;
-    text-shadow: 1px 1px 9px #000000;
+    color: #682012;
+    text-shadow: 1px 1px 9px #ffffff;
     text-transform: uppercase;
+    font-family: calibri;
   }
-  .outstanding__icon {
-    margin: 0 0 0 2em;
-    float: left;
-    img {
-      width: 70px;
-    }
-  }
-  
 `;
+
 export const CurvedTitle = styled.div`
   height: 370px;
   display: grid;
@@ -103,7 +103,7 @@ export const CurvedTitle = styled.div`
     height: 160px;
     font-size: 45px;
     transform-origin: bottom center;
-    color: #000000;
+    color: #682012;
     font-family: calibri;
   }
   .arch__icon {
@@ -111,7 +111,7 @@ export const CurvedTitle = styled.div`
   }
  .arch__frase {
    text-transform: uppercase;
-   color: #000000;
+   color: #682012;
    font-family: calibri;
  }
 `;

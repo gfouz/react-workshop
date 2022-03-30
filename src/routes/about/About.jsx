@@ -46,7 +46,7 @@ const About = () => {
             alt="gfouz-logo"
             className="arch__icon"
           />
-           <h6 className="arch__frase">the value of time is not understood until it ends</h6>
+           <h3 className="arch__frase">web developer</h3>
         </CurvedTitle>
         <Section style= {{backgroundColor: "#f5f5f5", padding:"2em 0"}}>
           <Article>
