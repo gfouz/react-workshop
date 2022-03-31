@@ -32,15 +32,6 @@ export const MainImage = styled.div`
   min-width: 100%;
   height: 250px;
   color: #ffffff;
-  .main__logo {
-    position: absolute;
-    left:20%;
-    top: 60%;
-    color: #044034;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
-    font-family: calibri;
-  }
   img {
     max-width: 100%;
     height: 250px;
@@ -174,7 +165,7 @@ export const TechStack = styled.div`
   }
   .techstack__title {
     font-family: calibri;
-    color: #ff0000;
+    color: #3fb38e;
     
   }
 `;

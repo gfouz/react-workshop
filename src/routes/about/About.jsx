@@ -26,7 +26,6 @@ const About = () => {
     <>
       <StyledAbout>
         <MainImage>
-          <h1 className="main__logo">gfouz</h1>
           <img src="./images/about1.jpg" alt="clock" />
         </MainImage>
         <Header 
