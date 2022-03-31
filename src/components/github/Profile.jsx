@@ -64,7 +64,7 @@ const Outlook = styled.div`
         font-family: literata, Verdana, Times New Roman, calibri;
         margin: 0.3em;
         text-align: center;
-        color: #008DFF;
+        color: #325c96;
         text-transform: uppercase;
      }
   .outlook__image {
@@ -75,8 +75,9 @@ const Outlook = styled.div`
   .outlook__text {
         margin: 0.3em;
         font-family: calibri;
+        font-size: calc(0.7em + 1vw);
      }
-  font-size: calc(0.7em + 1vw);
+ 
 `;
 export const Myavatar = styled.div`
     border-radius: 50%;

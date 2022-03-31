@@ -6,7 +6,7 @@ import { icons } from "./icons";
 const Contact = (props) => {
   return (
     <>
-      <StyledContact height={props.height}>
+      <StyledContact height={props.height} border={props.border} bgcolor={props.bgcolor} >
         <nav className="navbar">
           <ul className="navbar__list">
             {icons.map((icon, index) => (
@@ -27,7 +27,11 @@ export default Contact;
 
 const StyledContact = styled.div`
   .navbar {
+    border-radius: 10px;
     height: ${(props) => props.height || "70px"};
+    border: ${(props)=> props.border || "none"};
+    background-color: ${(props) => props.bgcolor || "transparent"};
+    padding:0;
   }
   .navbar__list {
     height: 100%;
@@ -36,8 +40,9 @@ const StyledContact = styled.div`
     align-items: center;
   }
   .navbar__item {
+    padding:0;
     list-style-type: none;
-    margin: 2em;
+    margin: 1em;
   }
   .navbar__link {
     padding: 0;

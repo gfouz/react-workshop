@@ -21,19 +21,19 @@ function Post() {
     }
   });
   const styles = {
-     backgroundImage: `url(./images/${slug.img})`,
-     backgroundRepeat: "no-repeat",
-     backgroundSize: "cover",
-     backgroundPosition: slug.position,
-     height: "400px"
-  }
+    backgroundImage: `url(./images/${slug.img})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: slug.position,
+    height: "400px",
+  };
   return (
     <>
       <StyledPost>
         <Container>
           <section className="post">
-             <Header bg="transparent" color="#222222" />
-            <div className="post__image" style = {styles}></div> 
+            <Header bg="transparent" color="#222222" />
+            <div className="post__image" style={styles}></div>
             <ReactMarkdown
               id={slug.id}
               className="post__markdown"
@@ -67,11 +67,11 @@ function Post() {
 export default Post;
 
 const Container = styled.div`
-     margin: 0 auto;
-    border: 2px solid #f1f1f1;
-    @media (min-width: 700px) {
-      max-width: 85%;
-    }
+  margin: 0 auto;
+  border: 2px solid #f1f1f1;
+  @media (min-width: 700px) {
+    max-width: 85%;
+  }
 `;
 
 const StyledPost = styled.div`
@@ -91,9 +91,7 @@ const StyledPost = styled.div`
       padding: 0.7em;
       margin: 0;
     }
-    
   }
 `;
-
 
 /*<img className="post__image" src={`./images/${slug.img}`} alt="post" />*/

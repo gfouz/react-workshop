@@ -1,25 +1,24 @@
-import * as React from 'react';
+import * as React from "react";
 import styled from "styled-components";
 import Postlist from "./Postlist";
 import Header from "../../components/header/Header";
 
 function Blog() {
-
-  React.useEffect(()=> {
-      const windowWidth = ()=> {
-        document.title = window.innerWidth;
-      }
-      window.addEventListener('resize', windowWidth);
-  }, [])
+  React.useEffect(() => {
+    const windowWidth = () => {
+      document.title = window.innerWidth;
+    };
+    window.addEventListener("resize", windowWidth);
+  }, []);
   return (
     <>
       <StyledBlog>
         <BlogLayout>
           <Header bg="#25180c" color="#ffffff" />
           <Main>
-              <div className="blog__image">
-                <h1 className="blog__title">Inquisitive as children.</h1>
-              </div>
+            <div className="blog__image">
+              <h1 className="blog__title">Inquisitive as children.</h1>
+            </div>
             <article className="blog__posts">
               <Postlist />
             </article>
@@ -65,15 +64,15 @@ const StyledBlog = styled.div`
     color: #ffffff;
   }
 `;
-  const BlogLayout = styled.div`
+const BlogLayout = styled.div`
   display: grid;
   grid-template-rows: 60px auto 60px;
   grid-template-cols: 1fr;
   min-height: 100vh;
 `;
- const Main = styled.div`
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: flex-start;
+const Main = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 `;

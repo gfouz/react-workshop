@@ -2,8 +2,8 @@ import * as React from 'react';
 import { FaTelegram, FaWhatsapp, FaEnvelope, FaGitAlt } from "react-icons/fa";
 
 const fa = {
-  fontSize: "30px",
-  color: "#0476ca",
+  fontSize: "20px",
+  color: "#ff0000",
 };
 
 export const icons = [

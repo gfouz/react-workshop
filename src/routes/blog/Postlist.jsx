@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react";
 import styled from "styled-components";
 import postlist from "../../posts.json";
 import { Link } from "react-router-dom";
@@ -8,13 +8,17 @@ function PostList() {
     <>
       <StyledPost>
         <Container>
-           <h3 className="main-title">you might interest</h3>
+          <h3 className="main-title">you might interest</h3>
           <CardList>
             {postlist.length &&
               postlist.map((post, i) => {
                 return (
                   <Card className="post__card--hover" key={post.id}>
-                    <img className="posts__image" src={`./images/${post.img}`} alt="post"/>
+                    <img
+                      className="posts__image"
+                      src={`./images/${post.img}`}
+                      alt="post"
+                    />
                     <CardBody>
                       <h5 className="posts__title">{post.title}</h5>
                       <small className="posts__info">
@@ -43,35 +47,35 @@ const StyledPost = styled.div`
 `;
 
 const Container = styled.div`
-padding: 2em 0;
-max-width:960px;
-.main-title {
-color: #444444;
-font-family: literata;
-text-transform: uppercase;
-}
+  padding: 2em 0;
+  max-width: 960px;
+  .main-title {
+    color: #444444;
+    font-family: literata;
+    text-transform: uppercase;
+  }
 `;
 const CardList = styled.div`
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-padding: 1em 0;
-@media (max-width: 880px){
-  justify-content: center;
-}
-.post__card--hover:hover {
-  transform: scale(1.02);
-  background-color: #000000;
-  box-shadow: 1px 1px 10px #000000;
-}
-.posts__image {
-   max-width: 150px;
-   height: auto;
-   object-fit: cover;
-}  
-.posts__body {
-  
- }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1em 0;
+  @media (max-width: 880px) {
+    justify-content: center;
+  }
+  .post__card--hover:hover {
+    transition: 0.7s all;
+    transform: scale(1.02);
+    background-color: #000000;
+    box-shadow: 1px 1px 10px #000000;
+  }
+  .posts__image {
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+  }
+  .posts__body {
+  }
 `;
 const Card = styled.div`
   display: flex;
@@ -88,27 +92,27 @@ const Card = styled.div`
   background-color: #ffffff;
 `;
 const CardBody = styled.div`
-  border-color:#0168b8;
+  border-color: #0168b8;
   border-radius: 5px;
   padding: 1em;
   margin: 0 0.5em;
   color: #333333;
   .posts__title {
-  color: #999999;
-  margin: 0;
-  padding: 0;
-  font-weight: bolder;
-  text-transform: uppercase;
+    color: #999999;
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+    text-transform: uppercase;
   }
   .posts__description {
-  color: #999999;
-}
-.posts__link {
-  position: relative;
-  top: 10px;
-  margin: 0 0 1em 0;
-  color: #0168b8;
-}
+    color: #999999;
+  }
+  .posts__link {
+    position: relative;
+    top: 10px;
+    margin: 0 0 1em 0;
+    color: #0168b8;
+  }
 `;
 
 // {/*  */} these are comments

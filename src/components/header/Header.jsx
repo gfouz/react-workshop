@@ -14,6 +14,7 @@ export default function Header(props) {
         color={props.color}
         bg={props.bg}
         fontFamily={props.font}
+        fontweight={props.fontweight}
         position={props.position}
         height={props.height}
         margin={props.margin}

@@ -5,7 +5,6 @@ import { theme } from "../../theme";
 import { GlobalStyles } from "../../global";
 
 const Home = () => {
-
   return (
     <ThemeProvider theme={theme}>
       <React.Fragment>
@@ -37,14 +36,16 @@ const Home = () => {
             </nav>
             <section className="logo">
               <div className="logo__image-container">
-                <img 
-                    className="logo__image" 
-                    src="./images/handshake-amber.svg" 
-                    alt="gfouz-logo" 
+                <img
+                  className="logo__image"
+                  src="./images/handshake-amber.svg"
+                  alt="gfouz-logo"
                 />
               </div>
               <h6 className="logo__skills">WEB DEVELOPER</h6>
-              <h1 className="logo__acronym">GFOUZ &copy; {new Date().getFullYear()}</h1>
+              <h1 className="logo__acronym">
+                GFOUZ &copy; {new Date().getFullYear()}
+              </h1>
             </section>
           </div>
         </StyledHome>
@@ -57,12 +58,12 @@ export default Home;
 const StyledHome = styled.div`
   --green: #88ce02;
   --blue: #40c4ff;
-  --brown: #F1993F;
+  --brown: #f1993f;
   --green-weird: #255842;
   --red: #f92472;
   --black: #000000;
   --white: #ffffff;
-  
+
   .l-grid {
     display: flex;
     flex-direction: column;
@@ -71,8 +72,8 @@ const StyledHome = styled.div`
     min-height: 100vh;
     background-color: #222222;
     color: #888888;
-    }
-  .homepage { 
+  }
+  .homepage {
     background-image: linear-gradient(#000000, #222222, #000000);
     &__item {
       width: 100%;
@@ -93,7 +94,6 @@ const StyledHome = styled.div`
       animation: line 3s;
       animation-fill-mode: forwards;
     }
-    
   }
   .navbar {
     &__list {
@@ -117,26 +117,25 @@ const StyledHome = styled.div`
     }
   }
   .logo {
-   &__image-container {
-    width: 220px;
-    height: auto;
-    margin: 2em 0 0 0;
-   }
-   &__image {
+    &__image-container {
+      width: 220px;
+      height: auto;
+      margin: 2em 0 0 0;
+    }
+    &__image {
       width: 100px;
-   }
+    }
 
-   &__skills {
+    &__skills {
       color: #ffffff;
       margin: 1em 0;
     }
     &__acronym {
-    margin: 3em 0;
-    color: var(--white);
-
+      margin: 3em 0;
+      color: var(--white);
     }
   }
-  
+
   @keyframes line {
     0% {
       width: 0;

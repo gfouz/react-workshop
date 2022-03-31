@@ -11,6 +11,7 @@ const StyledHeader = styled.div`
   margin: ${(props)=> props.margin || "margin: 0"};
   background-color: ${(props)=> props.bg || "#444444"};
   position: ${(props)=> props.position};
+  font-weight: ${(props)=> props.fontweight || "normal"};
 
   .links {
     display: flex;
