@@ -23,11 +23,6 @@ const Work = () => {
             <Profile />
             <div className="skills">
                  <div className="skills__item">
-                 <img className="skills__image" 
-                 src="./images/w3c.jpg" 
-                 alt="deno" />
-                 </div>
-                 <div className="skills__item">
                  <h4 className="skills__title">
                     Reality leaves a lot to the imagination.
                  </h4>
@@ -38,12 +33,17 @@ const Work = () => {
                    itself lies in our imagination. Schools, democracy, 
                    military, architecture – everything which is real was 
                    first conceived in the imagination.
-                   <strong>John Lennon</strong>
+                   <strong>-John Lennon</strong>
                  </p>
-                 <h4>MY-SKILLS:</h4>
-                 <p>
-                   HTML CSS SCSS JS TS REACTJS AND OTHER THINGS.
+                 <h4 className="skills__title">MY-SKILLS:</h4>
+                 <p className="skills__paragraph">
+                   HTML CSS SCSS JS TS REACTJS & ECOSYSTEM.
                  </p>
+                 </div>
+                 <div className="skills__item">
+                  <img className="skills__image" 
+                  src="./images/w3c.jpg" 
+                  alt="deno" />
                  </div>
             </div>
             <EmailMe /> 
@@ -63,19 +63,23 @@ export default Work;
 
 const StyledWork = styled.div`
   --blue: #008dff;
+  height: 100%;
   background-color: #f0f0f0;
   .l-grid {
     min-height: 100vh;
     grid-template-column: 1fr;
-    grid-template-rows: 100px 375px auto auto auto auto 70px;
+    grid-template-rows: 100px 370px auto auto auto 426px 70px;
   }
   .skills {
     border: 1px solid #f1f1f1;
-    margin: 0 auto;
+    margin: 3em auto;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media (min-width: 650px) {
+       flex-direction: row;
+     }
     max-width: 650px;
     font-family: calibri;
     background-color: #ffffff;
@@ -92,10 +96,15 @@ const StyledWork = styled.div`
   .skills__title {
     color: #444444;
     text-align: left;
+    margin:0 0.1em;
+    padding: 0 0.5em;
   }
   .skills__paragraph {
     color: #40638d;
     text-align: left;
+    margin:0 0.1em;
+    padding: 0 0.5em;
+    font-size: 12px;
   }
   .work__footer {
     height: 70px;

@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const StyledAbout = styled.div`
+ @mixin red {
+  color: red;
+ }
   --base-red: #ce5041;
   --blue: #0476ca;
   margin: 0;
@@ -8,7 +11,7 @@ export const StyledAbout = styled.div`
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 250px 60px 370px auto auto auto 400px 70px;
+  grid-template-rows: 300px 60px 370px auto auto auto 400px 70px;
   .outstanding__icon {
     margin: 0 0 0 2em;
     float: left;
@@ -26,11 +29,12 @@ export const StyledAbout = styled.div`
     background-position: center;
   }
 `;
-export const MainImage = styled.div`
+export const Banner = styled.div`
   position: relative;
   background-color: #b9e0cb;
   min-width: 100%;
-  height: 250px;
+  height: 300px;
+  padding: 2em 0 0 0;
   color: #ffffff;
   img {
     max-width: 100%;
@@ -70,6 +74,7 @@ export const Article = styled.article`
   max-width: 450px;
   min-width: 350px;
   height: auto;
+  padding: 1em 0;
   font-size: calc(0.6em + 1vw);
   @media (min-width: 800px ) {
     flex: 1;
@@ -172,12 +177,12 @@ export const TechStack = styled.div`
 export const Footer = styled.footer`
   height: 70px;
   background-color: #ffffff;
-  color: #333333;
+  //color: #333333;
   text-align: center;
   line-height: 70px;
   font-family: literata;
   font-weight: bolder;
-
+   @include red;
 `;
 
 

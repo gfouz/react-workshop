@@ -16,7 +16,7 @@ export const icons = [
     name:"telegram"
   },
   { icon: <FaEnvelope style={fa} />,
-    url: "https://github.com/gfouz",
+    url: "mailto:gfouz1975@gmail.com",
     name:"email"
   },
   {

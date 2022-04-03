@@ -35,12 +35,13 @@ const Logo = () => {
 };
 export const StyledLogo = styled.div`
   background-color: #f0f0f0; 
+  height: 370px;
   .l-logo {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 2.5em 0 0 0;
+    padding: 1em 0 1em 0;
   }
   .logo {
     position: relative;

@@ -78,13 +78,21 @@ const StyledProject = styled.div`
   --yellow: #f9c035;
   --blue: #008DFF;
   --light: #999999;
+  background-color: #1A1819;
   .technology {
     display: flex;
-    padding: 2.5em 0;
     margin: 0;
     align-items: center;
     justify-content: center;
     background-color: #1A1819;
+    
+    &__icon {
+      width: 40px;
+      margin: 1em;
+    }
+    &__icon--l {
+      width: 100px;
+    }
   }
   .l-flex {
     display: flex;
@@ -121,12 +129,6 @@ const StyledProject = styled.div`
   }
 
   .technology {
-    &__icon {
-      width: 40px;
-      margin: 1em;
-    }
-    &__icon--l {
-      width: 100px;
-    }
+    
   }
 `;

@@ -7,7 +7,7 @@ import Contact from "../../components/contactme/Contact";
 import SkillList from "./SkillsList";
 import {
   StyledAbout,
-  MainImage,
+  Banner,
   Section,
   Article,
   CurvedTitle,
@@ -25,9 +25,9 @@ const About = () => {
   return (
     <>
       <StyledAbout>
-        <MainImage>
+        <Banner>
           <img src="./images/about1.jpg" alt="clock" />
-        </MainImage>
+        </Banner>
         <Header 
           height="60px" 
           bg="#b9e0cb" 
@@ -65,7 +65,7 @@ const About = () => {
               alt="laptop"
             />
             <h5 className="article__image-title">
-              delicious coffee, better ideas!
+              good coffee, better ideas!
             </h5>
           </Article>
         </Section>
@@ -101,8 +101,7 @@ const About = () => {
            <Contact 
             height="40px" 
             bgcolor="#ffffff80"
-            
-            />
+        />
         </div>
         
         <Footer>
