@@ -1,4 +1,4 @@
-var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropertyDescriptors;var w=Object.getOwnPropertySymbols;var I=Object.prototype.hasOwnProperty,D=Object.prototype.propertyIsEnumerable;var q=(a,t,r)=>t in a?B(a,t,{enumerable:!0,configurable:!0,writable:!0,value:r}):a[t]=r,v=(a,t)=>{for(var r in t||(t={}))I.call(t,r)&&q(a,r,t[r]);if(w)for(var r of w(t))D.call(t,r)&&q(a,r,t[r]);return a},k=(a,t)=>O(a,G(t));var F=(a,t)=>{var r={};for(var l in a)I.call(a,l)&&t.indexOf(l)<0&&(r[l]=a[l]);if(a!=null&&w)for(var l of w(a))t.indexOf(l)<0&&D.call(a,l)&&(r[l]=a[l]);return r};import{W,s as o,j as e,F as b,a as n,r as u,L as _,b as m,C as N,u as P,S as U,B as Y,I as V,d as Z,m as K,c as Q,e as X,A as ee,f as ae,T as ne,g as L,h as $,i as te,k as re,l as ie,n as oe,o as se,p as le,q as ce,t as H,v as de,R as me,w as he,x as ue,y as pe,z as ge,H as fe,D as be,E as f}from"./vendor.304e806b.js";const ye=function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const i of document.querySelectorAll('link[rel="modulepreload"]'))l(i);new MutationObserver(i=>{for(const s of i)if(s.type==="childList")for(const d of s.addedNodes)d.tagName==="LINK"&&d.rel==="modulepreload"&&l(d)}).observe(document,{childList:!0,subtree:!0});function r(i){const s={};return i.integrity&&(s.integrity=i.integrity),i.referrerpolicy&&(s.referrerPolicy=i.referrerpolicy),i.crossorigin==="use-credentials"?s.credentials="include":i.crossorigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function l(i){if(i.ep)return;i.ep=!0;const s=r(i);fetch(i.href,s)}};ye();const M={primaryDark:"#0D0C1D",primaryLight:"#EFFFFA",primaryHover:"#343078",primary:"#ffffff",darkGray:"#282c34",mystic:"#282c34",olive:"#282c34",githubLinks:"#069696",transparent:"#d4d4d42d",scionGreen:"#1ab601",bgGrey:"d5d5d5",ultraViolet:"#601d8c",bk:"#000000",greenBase:"#e5f8d2",greenA700:"#00c853",greenA200:"#69f0ae",green100:"#c8e6c9",greenDark:"#071919",greenDK:"#173535",lightGreen:"#76ff03",blueGrey900:"#263238",grey800:"#424242",grey500:"#9e9e9e",mobile:"576px",fontcolor:"#444444",workbg:"linear-gradient(#071919, #173535)"},z={blue:"#008DFF",red:"#c51162",fontshadow:"1px 1px 9px #ffffff"},R=W`
+var O=Object.defineProperty,W=Object.defineProperties;var G=Object.getOwnPropertyDescriptors;var w=Object.getOwnPropertySymbols;var q=Object.prototype.hasOwnProperty,L=Object.prototype.propertyIsEnumerable;var I=(a,t,r)=>t in a?O(a,t,{enumerable:!0,configurable:!0,writable:!0,value:r}):a[t]=r,v=(a,t)=>{for(var r in t||(t={}))q.call(t,r)&&I(a,r,t[r]);if(w)for(var r of w(t))L.call(t,r)&&I(a,r,t[r]);return a},k=(a,t)=>W(a,G(t));var $=(a,t)=>{var r={};for(var l in a)q.call(a,l)&&t.indexOf(l)<0&&(r[l]=a[l]);if(a!=null&&w)for(var l of w(a))t.indexOf(l)<0&&L.call(a,l)&&(r[l]=a[l]);return r};import{W as P,s as o,j as e,F as b,a as n,r as p,L as _,b as m,C as N,u as U,S as Y,B as V,I as Z,d as K,m as Q,c as X,e as ee,A as ae,f as ne,T as te,g as A,h as F,i as re,k as ie,l as oe,n as se,o as le,p as ce,q as de,t as R,v as me,R as he,w as pe,x as ge,y as ue,z as fe,H as be,D as ye,E as f}from"./vendor.f67739b1.js";const ve=function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const i of document.querySelectorAll('link[rel="modulepreload"]'))l(i);new MutationObserver(i=>{for(const s of i)if(s.type==="childList")for(const d of s.addedNodes)d.tagName==="LINK"&&d.rel==="modulepreload"&&l(d)}).observe(document,{childList:!0,subtree:!0});function r(i){const s={};return i.integrity&&(s.integrity=i.integrity),i.referrerpolicy&&(s.referrerPolicy=i.referrerpolicy),i.crossorigin==="use-credentials"?s.credentials="include":i.crossorigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function l(i){if(i.ep)return;i.ep=!0;const s=r(i);fetch(i.href,s)}};ve();const B={primaryDark:"#0D0C1D",primaryLight:"#EFFFFA",primaryHover:"#343078",primary:"#ffffff",darkGray:"#282c34",mystic:"#282c34",olive:"#282c34",githubLinks:"#069696",transparent:"#d4d4d42d",scionGreen:"#1ab601",bgGrey:"d5d5d5",ultraViolet:"#601d8c",bk:"#000000",greenBase:"#e5f8d2",greenA700:"#00c853",greenA200:"#69f0ae",green100:"#c8e6c9",greenDark:"#071919",greenDK:"#173535",lightGreen:"#76ff03",blueGrey900:"#263238",grey800:"#424242",grey500:"#9e9e9e",mobile:"576px",fontcolor:"#444444",workbg:"linear-gradient(#071919, #173535)"},z={blue:"#008DFF",red:"#c51162",fontshadow:"1px 1px 9px #ffffff"},M=P`
   html, body {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
   }
   
 
-  `,ve=()=>e(b,{theme:M,children:n(u.exports.Fragment,{children:[e(R,{}),e(_e,{children:n("div",{className:"l-grid homepage",children:[n("section",{className:"homepage__item",children:[e("h1",{className:"homepage__title",children:"portfolio"}),e("div",{className:"homepage__line"})]}),e("nav",{className:"navbar",children:n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e(_,{to:"/about",className:"navbar__link",children:"ABOUT"})}),e("li",{className:"navbar__item",children:e(_,{to:"/work",className:"navbar__link",children:"WORK"})}),e("li",{className:"navbar__item",children:e(_,{to:"/blog",className:"navbar__link",children:"BLOG"})})]})}),n("section",{className:"logo",children:[e("div",{className:"logo__image-container",children:e("img",{className:"logo__image",src:"./images/handshake-amber.svg",alt:"gfouz-logo"})}),e("h6",{className:"logo__skills",children:"WEB DEVELOPER"}),n("h1",{className:"logo__acronym",children:["GFOUZ \xA9 ",new Date().getFullYear()]})]})]})})]})}),_e=o.div`
+  `,_e=()=>e(b,{theme:B,children:n(p.exports.Fragment,{children:[e(M,{}),e(xe,{children:n("div",{className:"l-grid homepage",children:[n("section",{className:"homepage__item",children:[e("h1",{className:"homepage__title",children:"portfolio"}),e("div",{className:"homepage__line"})]}),e("nav",{className:"navbar",children:n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e(_,{to:"/about",className:"navbar__link",children:"ABOUT"})}),e("li",{className:"navbar__item",children:e(_,{to:"/work",className:"navbar__link",children:"WORK"})}),e("li",{className:"navbar__item",children:e(_,{to:"/blog",className:"navbar__link",children:"BLOG"})})]})}),n("section",{className:"logo",children:[e("div",{className:"logo__image-container",children:e("img",{className:"logo__image",src:"./images/handshake-amber.svg",alt:"gfouz-logo"})}),e("h6",{className:"logo__skills",children:"WEB DEVELOPER"}),n("h1",{className:"logo__acronym",children:["GFOUZ \xA9 ",new Date().getFullYear()]})]})]})})]})}),xe=o.div`
   --green: #88ce02;
   --blue: #40c4ff;
   --brown: #f1993f;
@@ -133,14 +133,15 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
       opacity: 1;
     }
   }
-`,xe=()=>e(m,{children:e(b,{theme:z,children:e(we,{children:n("picture",{className:"l-logo",children:[n("div",{className:"logo",children:[e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"G"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"F"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"O"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"U"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"Z"})})]}),e("img",{src:"./images/workLogo.svg",alt:"logo",className:"logo__image"}),e("h1",{className:"logo__title",children:"WORK"})]})})})}),we=o.div`
+`,we=()=>e(m,{children:e(b,{theme:z,children:e(ke,{children:n("picture",{className:"l-logo",children:[n("div",{className:"logo",children:[e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"G"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"F"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"O"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"U"})}),e("div",{className:"logo__item",children:e("h1",{className:"logo__letter",children:"Z"})})]}),e("img",{src:"./images/workLogo.svg",alt:"logo",className:"logo__image"}),e("h1",{className:"logo__title",children:"WORK"})]})})})}),ke=o.div`
   background-color: #f0f0f0; 
+  height: 370px;
   .l-logo {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 2.5em 0 0 0;
+    padding: 1em 0 1em 0;
   }
   .logo {
     position: relative;
@@ -189,17 +190,25 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
   .logo__item:nth-child(5) {
     transform: rotate(40deg);
   }
-`,ke=()=>e(m,{children:e(b,{theme:z,children:e(Ne,{children:e("article",{className:"technology",children:n("div",{className:"l-flex l-flex--vw",children:[e("img",{src:"./tech/react.svg",alt:"react",className:"technology__icon"}),n("div",{className:"l-flex l-flex--column",children:[e("img",{src:"./tech/next.svg",alt:"logo",className:"technology__icon technology__icon--l"}),n("nav",{className:"navbar",children:[n("h5",{className:"navbar__title",children:[e("span",{children:"SOURCE"})," CODE ON ",e("span",{children:"GITHUB"})]}),n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/react-workshop.git",children:"React-workshop"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/apollo-server.git",children:"Apollo-server"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/nextcms.git",children:"NextJs-CMS"})})]})]}),e("img",{src:"./tech/graphql.svg",alt:"logo",className:"technology__icon"})]}),e("img",{src:"./tech/redux.svg",alt:"logo",className:"technology__icon"})]})})})})}),Ne=o.div`
+`,Ne=()=>e(m,{children:e(b,{theme:z,children:e(Se,{children:e("article",{className:"technology",children:n("div",{className:"l-flex l-flex--vw",children:[e("img",{src:"./tech/react.svg",alt:"react",className:"technology__icon"}),n("div",{className:"l-flex l-flex--column",children:[e("img",{src:"./tech/next.svg",alt:"logo",className:"technology__icon technology__icon--l"}),n("nav",{className:"navbar",children:[n("h5",{className:"navbar__title",children:[e("span",{children:"SOURCE"})," CODE ON ",e("span",{children:"GITHUB"})]}),n("ul",{className:"navbar__list",children:[e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/react-workshop.git",children:"React-workshop"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/apollo-server.git",children:"Apollo-server"})}),e("li",{className:"navbar__item",children:e("a",{className:"navbar__link",href:"https://github.com/gfouz/nextcms.git",children:"NextJs-CMS"})})]})]}),e("img",{src:"./tech/graphql.svg",alt:"logo",className:"technology__icon"})]}),e("img",{src:"./tech/redux.svg",alt:"logo",className:"technology__icon"})]})})})})}),Se=o.div`
   --yellow: #f9c035;
   --blue: #008DFF;
   --light: #999999;
+  background-color: #1A1819;
   .technology {
     display: flex;
-    padding: 2.5em 0;
     margin: 0;
     align-items: center;
     justify-content: center;
     background-color: #1A1819;
+    
+    &__icon {
+      width: 40px;
+      margin: 1em;
+    }
+    &__icon--l {
+      width: 100px;
+    }
   }
   .l-flex {
     display: flex;
@@ -236,88 +245,92 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
   }
 
   .technology {
-    &__icon {
-      width: 40px;
-      margin: 1em;
-    }
-    &__icon--l {
-      width: 100px;
-    }
+    
   }
-`,Se=`S\xE9 que para gustos los colores, pero en mi caso he podido 
-          comprobar las cosas muy buenas y grandes beneficios que ofrece React Js y su
-          ecosistema, esta tecnolog\xEDa me ha exigido aprender m\xE1s acerca de
-          JavaScript y mejorar habilidades aunque otros frameworks
-          tambien cumplen ese prop\xF3sito. Tesla, Netflix, Whatsapp,
-          PayPal, Uber, BBC, Airbnb, Dropbox, evidentemente Facebook e Instagram
-          y muchas otras, se han decidido por emplear React y estas empresas se
-          encuentran ahora en la cima del \xE9xito de la industria de las
-          tecnolog\xEDas, este \xE9xito de React se debe a la eficiencia, rapidez y
-          c\xF3digo simplificado de esta ligera herramienta la cual ha
-          revolucionado con nuevas innovaciones la manera en que se crean las
-          interfaces de usuarios. Opino que tambien hay otras tecnolog\xEDas de
-          gran importancia para ser incluidas, las tecnolog\xEDas est\xE1n en constante cambios 
-          e innovaciones, asi que estoy entusiasmado al aprender m\xE1s por ejemplo de Deno
-          junto a graphql y websockets las ventajas que nos ofrece para el back-end
-          ya que por ejemplo Deno permite el uso de TypeScript sin tener que instalar
-          dependencias aunado a otras ventajas relacionadas con seguridad inform\xE1tica.
-`,je=()=>e(m,{children:e(b,{theme:z,children:n(Ce,{children:[e("figure",{children:e("img",{src:"./images/workImage.jpg",alt:"workImage"})}),e(ze,{children:n(Te,{children:[e("h4",{className:"outlook__topic",children:"Mi perspectiva personal"}),e(Ee,{children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"myavatar__frame"})}),e("p",{className:"outlook__text",children:Se})]})})]})})}),Ce=o.div`
-     display: grid;
-     place-items: center;
-     margin: 2em 0 0 0;
+`,je=`Airbnb, Tesla, Tencent QQ, and Walmart are 
+among the top brands that built their mobile apps using the React 
+Native framework. React web framework, on the other hand, is currently 
+being utilized by famous companies including Netflix, Paypal, NASA, 
+BBC, Lyft, and New York Times to name just a few. The point is, 
+since so many successful and Fortune 500 companies are using React & 
+React Native, then React must be truly useful frontend and mobile app 
+development framework. Still, doubt whether to use React or not? 
+The answer is up to you.
+`,Ce=()=>e(m,{children:e(b,{theme:z,children:n(ze,{children:[n("figure",{className:"profile",children:[e("img",{className:"article__image",src:"./images/workImage.jpg",alt:"workImage"}),e("h3",{className:"profile__title",children:"selft-taught"})]}),n(Te,{className:"theme3",children:[n(J,{children:[e("h4",{className:"article__topic",children:"Why ReactJs?, just one reason!"}),e(Ee,{children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"avatar__frame"})}),e("p",{className:"article__text",children:je})]}),e(J,{children:e("img",{src:"./images/profile2.jpg",alt:"giovani",className:"article__image"})})]})]})})}),ze=o.div`
+     margin: 0;
      figure {
      position: relative;
-     top: -2.1em;
      min-width: 100%;
      background-color: #cec8c8;
-       img {
-        max-width: 100%;
-        height: auto;
-       }
-     }
-`,ze=o.article`
+    }
+    .profile {
+      position: relative;
+    }
+    .profile__title {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      color: #ffffff;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 5px #000000;
+    }
+    .article__image {
+     max-width: 100%;
+     height: auto;
+    }   
+    .theme3 {
+      background-color: #f5f0ed;
+    }
+`,Te=o.section`
      display: flex;
+     justify-content: space-evenly;
      flex-direction: column;
-     align-items: flex-start;
-     justify-content: center;
-     max-width: 700px;
+     align-items: space-evenly;
+     @media (min-width: 650px) {
+       flex-direction: row;
+     }
      color: ${({theme:a})=>a.fontcolor};
      text-align: left;
      padding: 1em;
-`,Te=o.div`
-  .outlook__topic {
+`,J=o.article`
+  padding: 1em 0;
+  margin: 1em 0;
+  max-width: 450px;
+  min-width: 320px;
+  @media (min-width: 850px) {
+    font-size: calc(0.4em + 1vw);
+  }
+  .article__topic {
         font-family: literata, Verdana, Times New Roman, calibri;
-        margin: 0.3em;
+        margin:0;
+        padding: 0 0 1em 0;
         text-align: center;
         color: #325c96;
         text-transform: uppercase;
      }
-  .outlook__image {
-        float: left;
-        width:60px;
-        margin:0 0.5em;
-     }
-  .outlook__text {
-        margin: 0.3em;
+  .article__text {
+        margin:0 0.1em;
+        padding: 0;
         font-family: calibri;
-        font-size: calc(0.7em + 1vw);
      }
+  
  
 `,Ee=o.div`
     border-radius: 50%;
     text-align: center;
     width: 70px;
     height: 70px;
-    margin: 1em 0.5em 0 1em;
+    padding:0.2em 0.5em 0 0;
+    margin: 0.5em 0 0 0;
     float: left;
   
-  .myavatar__frame {
+  .avatar__frame {
     border-radius: 50%;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-`,qe=o.div`
+`,Ie=o.div`
   --tallness: ${a=>a.height||"60px"};  
   
   width: 100%;
@@ -397,21 +410,25 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
         }
       }
     `}
-`;function T(a){const t=["/about","/work","/blog","/"],r=P(),{pathname:l}=r,i=t.filter(s=>s!==l);return e(m,{children:e(qe,{color:a.color,bg:a.bg,fontFamily:a.font,fontweight:a.fontweight,position:a.position,height:a.height,margin:a.margin,logo:a.logo,children:n("div",{className:"links",children:[e("div",{className:"logo",children:a.children}),i.map((s,d)=>e("div",{children:e(_,{className:"links__item",to:`${s}`,children:s==="/"?"home":s.slice(1)})},s+d))]})})})}function Ie({close:a,setClose:t}){function r(i,s){s!=="clickaway"&&t(!1)}const l=n(u.exports.Fragment,{children:[e(Y,{color:"primary",size:"small",onClick:r,children:"UNDO"}),e(V,{size:"small","aria-label":"close",color:"inherit",onClick:r,children:e(Z,{fontSize:"small"})})]});return e("div",{children:e(U,{open:a,autoHideDuration:2e3,onClose:r,message:"SUBMITTED",action:l})})}const De=K(a=>({l_grid:{margin:"1em 0",display:"flex",flexDirection:"column",alignItems:"center",padding:"2em 0"},avatar:{margin:a.spacing(3),backgroundColor:a.palette.primary.main},form:{width:"100%",marginTop:a.spacing(1)},form__input:{display:"flex",flexDirection:"column",alignItems:"center"},title:{color:"#3f51b5",fontSize:"14px",textTransform:"uppercase"},warnings:{color:"#c51162",textTransform:"uppercase",fontSize:"10px"},formHide:{display:"none"},submit:{margin:"2em auto"}})),Fe=()=>{const[a,t]=u.exports.useState(!1),r=De(),{control:l,handleSubmit:i}=Q({defaultValues:{email:"",message:""}});function s(d){t(!0),ie.post("https://formspree.io/f/mbjwalqp",{data:d}).then(function(c){console.log(c)}).catch(function(c){console.log(c)})}return e(X,{children:n("div",{className:r.l_grid,children:[e(ee,{className:r.avatar,children:e(ae,{})}),e(ne,{component:"h1",variant:"h6",className:r.title,children:"contact here!"}),n("form",{className:"form",onSubmit:i(s),children:[e(L,{name:"email",control:l,rules:{pattern:/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,required:!0},render:({field:d,formState:{errors:c,isSubmitted:h}})=>{var g,p;return n("div",{className:r.form__input,children:[e($,k(v({},d),{variant:"outlined",margin:"normal",label:"Email",color:c.email?"secondary":"primary"})),((g=c.email)==null?void 0:g.type)==="pattern"&&e("span",{className:r.warnings,children:"email includes an @ symbol !"}),((p=c.email)==null?void 0:p.type)==="required"&&e("span",{className:r.warnings,children:"email is required !"})]})}}),e(L,{name:"message",control:l,rules:{required:!0},render:({field:d,formState:{errors:c}})=>{var h;return n("div",{className:r.form__input,children:[e($,k(v({},d),{variant:"outlined",margin:"normal",label:"Message",color:c.message?"secondary":"primary"})),((h=c.message)==null?void 0:h.type)==="required"&&e("span",{className:r.warnings,children:"This field must not be empty !"})]})}}),e(te,{type:"sumit",size:"medium",color:"primary",variant:"contained",className:r.submit,endIcon:e(re,{}),children:"Send"})]}),e(Ie,{close:a,setClose:t})]})})},Le=()=>e(m,{children:e(b,{theme:z,children:e($e,{children:n("div",{className:"work l-grid",children:[e(T,{bg:"#f0f0f0",color:"#000000",height:"100px",fontweight:"bolder"}),e(xe,{}),e(ke,{}),e(je,{}),n("div",{className:"skills",children:[e("div",{className:"skills__item",children:e("img",{className:"skills__image",src:"./images/w3c.jpg",alt:"deno"})}),n("div",{className:"skills__item",children:[e("h4",{className:"skills__title",children:"Reality leaves a lot to the imagination."}),n("p",{className:"skills__paragraph",children:["This sounds too simple but has a lot of depth to it. What is reality? What is the \u201Creal\u201D way to live? How should things work? The irony is that the answer itself lies in our imagination. Schools, democracy, military, architecture \u2013 everything which is real was first conceived in the imagination.",e("strong",{children:"John Lennon"})]}),e("h4",{children:"MY-SKILLS:"}),e("p",{children:"HTML CSS SCSS JS TS REACTJS AND OTHER THINGS."})]})]}),e(Fe,{}),e("footer",{className:"work__footer",children:n("h4",{className:"work__footer-title",children:["Gfouz \xA9 ",new Date().getFullYear()," Made with ReactJS."]})})]})})})}),$e=o.div`
+`;function T(a){const t=["/about","/work","/blog","/"],r=U(),{pathname:l}=r,i=t.filter(s=>s!==l);return e(m,{children:e(Ie,{color:a.color,bg:a.bg,fontFamily:a.font,fontweight:a.fontweight,position:a.position,height:a.height,margin:a.margin,logo:a.logo,children:n("div",{className:"links",children:[e("div",{className:"logo",children:a.children}),i.map((s,d)=>e("div",{children:e(_,{className:"links__item",to:`${s}`,children:s==="/"?"home":s.slice(1)})},s+d))]})})})}function qe({close:a,setClose:t}){function r(i,s){s!=="clickaway"&&t(!1)}const l=n(p.exports.Fragment,{children:[e(V,{color:"primary",size:"small",onClick:r,children:"UNDO"}),e(Z,{size:"small","aria-label":"close",color:"inherit",onClick:r,children:e(K,{fontSize:"small"})})]});return e("div",{children:e(Y,{open:a,autoHideDuration:2e3,onClose:r,message:"SUBMITTED",action:l})})}const Le=Q(a=>({l_grid:{margin:"1em 0",display:"flex",flexDirection:"column",alignItems:"center",padding:"2em 0"},avatar:{margin:a.spacing(3),backgroundColor:a.palette.primary.main},form:{width:"100%",marginTop:a.spacing(1)},form__input:{display:"flex",flexDirection:"column",alignItems:"center"},title:{color:"#3f51b5",fontSize:"14px",textTransform:"uppercase"},warnings:{color:"#c51162",textTransform:"uppercase",fontSize:"10px"},formHide:{display:"none"},submit:{margin:"2em auto"}})),$e=()=>{const[a,t]=p.exports.useState(!1),r=Le(),{control:l,handleSubmit:i}=X({defaultValues:{email:"",message:""}});function s(d){t(!0),oe.post("https://formspree.io/f/mbjwalqp",{data:d}).then(function(c){console.log(c)}).catch(function(c){console.log(c)})}return e(ee,{children:n("div",{className:r.l_grid,children:[e(ae,{className:r.avatar,children:e(ne,{})}),e(te,{component:"h1",variant:"h6",className:r.title,children:"contact here!"}),n("form",{className:"form",onSubmit:i(s),children:[e(A,{name:"email",control:l,rules:{pattern:/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,required:!0},render:({field:d,formState:{errors:c,isSubmitted:h}})=>{var u,g;return n("div",{className:r.form__input,children:[e(F,k(v({},d),{variant:"outlined",margin:"normal",label:"Email",color:c.email?"secondary":"primary"})),((u=c.email)==null?void 0:u.type)==="pattern"&&e("span",{className:r.warnings,children:"email includes an @ symbol !"}),((g=c.email)==null?void 0:g.type)==="required"&&e("span",{className:r.warnings,children:"email is required !"})]})}}),e(A,{name:"message",control:l,rules:{required:!0},render:({field:d,formState:{errors:c}})=>{var h;return n("div",{className:r.form__input,children:[e(F,k(v({},d),{variant:"outlined",margin:"normal",label:"Message",color:c.message?"secondary":"primary"})),((h=c.message)==null?void 0:h.type)==="required"&&e("span",{className:r.warnings,children:"This field must not be empty !"})]})}}),e(re,{type:"sumit",size:"medium",color:"primary",variant:"contained",className:r.submit,endIcon:e(ie,{}),children:"Send"})]}),e(qe,{close:a,setClose:t})]})})},Ae=()=>e(m,{children:e(b,{theme:z,children:e(Fe,{children:n("div",{className:"work l-grid",children:[e(T,{bg:"#f0f0f0",color:"#000000",height:"100px",fontweight:"bolder"}),e(we,{}),e(Ne,{}),e(Ce,{}),n("div",{className:"skills",children:[n("div",{className:"skills__item",children:[e("h4",{className:"skills__title",children:"Reality leaves a lot to the imagination."}),n("p",{className:"skills__paragraph",children:["This sounds too simple but has a lot of depth to it. What is reality? What is the \u201Creal\u201D way to live? How should things work? The irony is that the answer itself lies in our imagination. Schools, democracy, military, architecture \u2013 everything which is real was first conceived in the imagination.",e("strong",{children:"-John Lennon"})]}),e("h4",{className:"skills__title",children:"MY-SKILLS:"}),e("p",{className:"skills__paragraph",children:"HTML CSS SCSS JS TS REACTJS & ECOSYSTEM."})]}),e("div",{className:"skills__item",children:e("img",{className:"skills__image",src:"./images/w3c.jpg",alt:"deno"})})]}),e($e,{}),e("footer",{className:"work__footer",children:n("h4",{className:"work__footer-title",children:["Gfouz \xA9 ",new Date().getFullYear()," Made with ReactJS."]})})]})})})}),Fe=o.div`
   --blue: #008dff;
+  height: 100%;
   background-color: #f0f0f0;
   .l-grid {
     min-height: 100vh;
     grid-template-column: 1fr;
-    grid-template-rows: 100px 375px auto auto auto auto 70px;
+    grid-template-rows: 100px 370px auto auto auto 426px 70px;
   }
   .skills {
     border: 1px solid #f1f1f1;
-    margin: 0 auto;
+    margin: 3em auto;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media (min-width: 650px) {
+       flex-direction: row;
+     }
     max-width: 650px;
     font-family: calibri;
     background-color: #ffffff;
@@ -428,10 +445,15 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
   .skills__title {
     color: #444444;
     text-align: left;
+    margin:0 0.1em;
+    padding: 0 0.5em;
   }
   .skills__paragraph {
     color: #40638d;
     text-align: left;
+    margin:0 0.1em;
+    padding: 0 0.5em;
+    font-size: 12px;
   }
   .work__footer {
     height: 70px;
@@ -446,7 +468,7 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
     font-family: calibri;
     color: ${({theme:a})=>a.blue};
   }
-`,Je=a=>{const t=a.current.textContent.split("");a.current.textContent="",t.forEach((r,l)=>{a.current.innerHTML+='<span style="transform:rotate('+(l+1)*20+'deg)">'+r+"</span>"})},Ae=`
+`,Je=a=>{const t=a.current.textContent.split("");a.current.textContent="",t.forEach((r,l)=>{a.current.innerHTML+='<span style="transform:rotate('+(l+1)*20+'deg)">'+r+"</span>"})},De=`
   'const' nos va ayudar a declarar variables inmutables, 
   esto es, a declarar variables cuyo valor no pueda ser 
   cambiado a lo largo del ciclo de vida de una variable.
@@ -467,7 +489,7 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
   (funciones puras) conforman acordes (funciones de dominio compuestas)
    y los acordes conforman obras (pieza de software), la composici\xF3n ser\xE1 
    el pegamento que nos permitir\xE1 desarrollar nuestros programas.
-`,Me=`
+`,Re=`
   Hello, my name is Giovani and I use modern JavaScript frameworks such 
   as React or Vue to create single page application or full static 
   sites so that among my skills are HTML, CSS, SCSS, JavaScript and TypeScript. 
@@ -477,7 +499,7 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
   for more than a year but eventually i realized that i needed to 
   learn technologies that afford a job, so that i have been wagering 
   on JavaScript and all technologies around it as my favourite language.
-`,E=[{title:"Constantes de JavaScript",paragraph:Ae},{title:"Composici\xF3n funcional",paragraph:He},{title:"introduction",paragraph:Me}],S={fontSize:"20px",color:"#ff0000"},Re=[{icon:e(oe,{style:S}),url:"https://github.com/gfouz",name:"github"},{icon:e(se,{style:S}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"telegram"},{icon:e(le,{style:S}),url:"https://github.com/gfouz",name:"email"},{icon:e(ce,{style:S}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"whatsapp"}],Be=a=>e(m,{children:e(Oe,{height:a.height,border:a.border,bgcolor:a.bgcolor,children:e("nav",{className:"navbar",children:e("ul",{className:"navbar__list",children:Re.map((t,r)=>e("li",{className:"navbar__item",children:e("a",{href:t.url,className:"navbar__link",children:t.icon})},r))})})})}),Oe=o.div`
+`,E=[{title:"Constantes de JavaScript",paragraph:De},{title:"Composici\xF3n funcional",paragraph:He},{title:"introduction",paragraph:Re}],S={fontSize:"20px",color:"#ff0000"},Be=[{icon:e(se,{style:S}),url:"https://github.com/gfouz",name:"github"},{icon:e(le,{style:S}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"telegram"},{icon:e(ce,{style:S}),url:"mailto:gfouz1975@gmail.com",name:"email"},{icon:e(de,{style:S}),url:"//https://api.whatsapp.com/send?phone=+5354278815",name:"whatsapp"}],Me=a=>e(m,{children:e(Oe,{height:a.height,border:a.border,bgcolor:a.bgcolor,children:e("nav",{className:"navbar",children:e("ul",{className:"navbar__list",children:Be.map((t,r)=>e("li",{className:"navbar__item",children:e("a",{href:t.url,className:"navbar__link",children:t.icon})},r))})})})}),Oe=o.div`
   .navbar {
     border-radius: 10px;
     height: ${a=>a.height||"70px"};
@@ -500,7 +522,7 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
     padding: 0;
     margin: 0;
   }
-`;function Ge(){return e(We,{children:n("div",{className:"skills",children:[n("ul",{className:"skills__list",children:[e("li",{className:"skills__item",children:"html"}),e("li",{className:"skills__item",children:"css"}),e("li",{className:"skills__item",children:"javascript"})]}),n("ul",{className:"skills__list",children:[e("li",{className:"skills__item",children:"ReactJs"}),e("li",{className:"skills__item",children:"NextJs"}),e("li",{className:"skills__item",children:"scss"})]}),n("ul",{className:"skills__list",children:[e("li",{className:"skills__item",children:"Redux"}),e("li",{className:"skills__item",children:"Graphql"}),e("li",{className:"skills__item",children:"Express"})]})]})})}const We=o.div`
+`;function We(){return e(Ge,{children:n("div",{className:"skills",children:[n("ul",{className:"skills__list",children:[e("li",{className:"skills__item",children:"html"}),e("li",{className:"skills__item",children:"css"}),e("li",{className:"skills__item",children:"javascript"})]}),n("ul",{className:"skills__list",children:[e("li",{className:"skills__item",children:"ReactJs"}),e("li",{className:"skills__item",children:"NextJs"}),e("li",{className:"skills__item",children:"scss"})]}),n("ul",{className:"skills__list",children:[e("li",{className:"skills__item",children:"Redux"}),e("li",{className:"skills__item",children:"Graphql"}),e("li",{className:"skills__item",children:"Express"})]})]})})}const Ge=o.div`
   .skills {
     display: flex;
     justify-content: space-between;
@@ -515,6 +537,9 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
     }
   }
 `,Pe=o.div`
+ @mixin red {
+  color: red;
+ }
   --base-red: #ce5041;
   --blue: #0476ca;
   margin: 0;
@@ -522,7 +547,7 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 250px 60px 370px auto auto auto 400px 70px;
+  grid-template-rows: 300px 60px 370px auto auto auto 400px 70px;
   .outstanding__icon {
     margin: 0 0 0 2em;
     float: left;
@@ -543,14 +568,15 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
   position: relative;
   background-color: #b9e0cb;
   min-width: 100%;
-  height: 250px;
+  height: 300px;
+  padding: 2em 0 0 0;
   color: #ffffff;
   img {
     max-width: 100%;
     height: 250px;
     fit-object: cover;
   }
-`,J=o.section`
+`,D=o.section`
   height: auto;
   display: flex;
   flex-direction: column;
@@ -581,6 +607,7 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
   max-width: 450px;
   min-width: 350px;
   height: auto;
+  padding: 1em 0;
   font-size: calc(0.6em + 1vw);
   @media (min-width: 800px ) {
     flex: 1;
@@ -630,7 +657,7 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
     color: #682012;
     font-family: calibri;
   }
-`,A=o.div`
+`,H=o.div`
   border-radius: 50%;
   text-align: center;
   width: 70px;
@@ -678,13 +705,13 @@ var B=Object.defineProperty,O=Object.defineProperties;var G=Object.getOwnPropert
 `,Ze=o.footer`
   height: 70px;
   background-color: #ffffff;
-  color: #333333;
+  //color: #333333;
   text-align: center;
   line-height: 70px;
   font-family: literata;
   font-weight: bolder;
-
-`,Ke=()=>{const a=u.exports.useRef(null);return u.exports.useEffect(()=>{Je(a)},[]),e(m,{children:n(Pe,{children:[e(Ue,{children:e("img",{src:"./images/about1.jpg",alt:"clock"})}),e(T,{height:"60px",bg:"#b9e0cb",color:"#0b7859",margin:"-2px 0",fontweight:"bolder"}),n(Ye,{children:[e("div",{className:"arch",children:e("h1",{ref:a,children:" GFOUZ "})}),e("img",{src:"./images/handshake-red.svg",alt:"gfouz-logo",className:"arch__icon"}),e("h3",{className:"arch__frase",children:"web developer"})]}),n(J,{style:{backgroundColor:"#f5f5f5",padding:"2em 0"},children:[n(j,{children:[e(A,{children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"myavatar__frame"})}),e("h3",{className:"section__title",children:"A brief introduction about me"}),e("p",{className:"article__paragraph",children:E[2].paragraph})]}),n(j,{children:[e("img",{src:"./images/coffeecup.jpg",className:"section__image",alt:"laptop"}),e("h5",{className:"article__image-title",children:"delicious coffee, better ideas!"})]})]}),n(Ve,{children:[e("img",{src:"./images/react.svg",alt:"react"}),n("div",{className:"techstack__centerbar",children:[e("img",{src:"./images/next.svg",alt:"next"}),e("h3",{className:"techstack__title",children:"TECHNOLOGIES"}),e("img",{src:"./images/graphql.svg",alt:"graphql"})]}),e("img",{src:"./images/redux.svg",alt:"redux"})]}),n(J,{children:[n(j,{children:[e(A,{children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"myavatar__frame"})}),e("h3",{className:"section__title",children:"Conceptos importantes"}),e("p",{className:"article__paragraph",children:E[0].paragraph})]}),n(j,{children:[e("h3",{className:"section__title",children:"Tambien importante"}),e("p",{className:"article__paragraph",children:E[1].paragraph}),e("h3",{className:"section__title",children:"TECHNOLOGIES:"}),e(Ge,{})]})]}),e("div",{className:"aboutme",children:e(Be,{height:"40px",bgcolor:"#ffffff80"})}),n(Ze,{children:[" ","Gfouz \xA9 ",new Date().getFullYear()," reactJs-webSite"," "]})]})})};var C=[{id:1648591200,img:"bem.jpg\r",title:" CSS BEM. \r",author:"Giovani Fouz Jim\xE9nez.\r",date:"march 30, 2022\r",description:"CSS Architecture...\r",position:"top\r",content:`\r
+   @include red;
+`,Ke=()=>{const a=p.exports.useRef(null);return p.exports.useEffect(()=>{Je(a)},[]),e(m,{children:n(Pe,{children:[e(Ue,{children:e("img",{src:"./images/about1.jpg",alt:"clock"})}),e(T,{height:"60px",bg:"#b9e0cb",color:"#0b7859",margin:"-2px 0",fontweight:"bolder"}),n(Ye,{children:[e("div",{className:"arch",children:e("h1",{ref:a,children:" GFOUZ "})}),e("img",{src:"./images/handshake-red.svg",alt:"gfouz-logo",className:"arch__icon"}),e("h3",{className:"arch__frase",children:"web developer"})]}),n(D,{style:{backgroundColor:"#f5f5f5",padding:"2em 0"},children:[n(j,{children:[e(H,{children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"myavatar__frame"})}),e("h3",{className:"section__title",children:"A brief introduction about me"}),e("p",{className:"article__paragraph",children:E[2].paragraph})]}),n(j,{children:[e("img",{src:"./images/coffeecup.jpg",className:"section__image",alt:"laptop"}),e("h5",{className:"article__image-title",children:"good coffee, better ideas!"})]})]}),n(Ve,{children:[e("img",{src:"./images/react.svg",alt:"react"}),n("div",{className:"techstack__centerbar",children:[e("img",{src:"./images/next.svg",alt:"next"}),e("h3",{className:"techstack__title",children:"TECHNOLOGIES"}),e("img",{src:"./images/graphql.svg",alt:"graphql"})]}),e("img",{src:"./images/redux.svg",alt:"redux"})]}),n(D,{children:[n(j,{children:[e(H,{children:e("img",{src:"./images/giov.svg",alt:"giovani",className:"myavatar__frame"})}),e("h3",{className:"section__title",children:"Conceptos importantes"}),e("p",{className:"article__paragraph",children:E[0].paragraph})]}),n(j,{children:[e("h3",{className:"section__title",children:"Tambien importante"}),e("p",{className:"article__paragraph",children:E[1].paragraph}),e("h3",{className:"section__title",children:"TECHNOLOGIES:"}),e(We,{})]})]}),e("div",{className:"aboutme",children:e(Me,{height:"40px",bgcolor:"#ffffff80"})}),n(Ze,{children:[" ","Gfouz \xA9 ",new Date().getFullYear()," reactJs-webSite"," "]})]})})};var C=[{id:1648591200,img:"bem.jpg\r",title:" CSS BEM. \r",author:"Giovani Fouz Jim\xE9nez.\r",date:"march 30, 2022\r",description:"CSS Architecture...\r",position:"top\r",content:`\r
 ## BEM.\r
 When it comes to finding the right class name, it can quickly drive you to despair. \r
 Even the most experienced CSS developers don't always find the right class name right away.\r
@@ -1099,7 +1126,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     margin: 0 0 1em 0;
     color: #0168b8;
   }
-`;function ra(){return u.exports.useEffect(()=>{const a=()=>{document.title=window.innerWidth};window.addEventListener("resize",a)},[]),e(m,{children:e(ia,{children:n(oa,{children:[e(T,{bg:"#25180c",color:"#ffffff"}),n(sa,{children:[e("div",{className:"blog__image",children:e("h1",{className:"blog__title",children:"Inquisitive as children."})}),e("article",{className:"blog__posts",children:e(Qe,{})})]}),e("footer",{className:"blog-footer",children:n("h3",{children:["gfouz \xA9 ",new Date().getFullYear()," made with react"]})})]})})})}const ia=o.div`
+`;function ra(){return p.exports.useEffect(()=>{const a=()=>{document.title=window.innerWidth};window.addEventListener("resize",a)},[]),e(m,{children:e(ia,{children:n(oa,{children:[e(T,{bg:"#25180c",color:"#ffffff"}),n(sa,{children:[e("div",{className:"blog__image",children:e("h1",{className:"blog__title",children:"Inquisitive as children."})}),e("article",{className:"blog__posts",children:e(Qe,{})})]}),e("footer",{className:"blog-footer",children:n("h3",{children:["gfouz \xA9 ",new Date().getFullYear()," made with react"]})})]})})})}const ia=o.div`
   background-color: #eeeeee;
   .blog__image {
     display: flex;
@@ -1138,7 +1165,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-`,la=a=>{const t=H(),r=de(),l=parseInt(t.id),i=a.posts.map(y=>y.id),s=i.indexOf(l),[d,c]=u.exports.useState(!0),[h,g]=u.exports.useState(s);u.exports.useEffect(()=>{r(`/post/${i[h]}`)},[h]);function p(){h<i.length-1?g(y=>y+1):c(!1),h===i.length-1?c(!1):c(!0)}function x(){h>0?g(y=>y-1):r("/blog"),c(!0)}return e(m,{children:e(ca,{color:a.color,children:n("section",{className:"navigate",children:[e("nav",{className:"navigate__prev",children:e("button",{className:"btn btn-back",onClick:x,children:"PREV"})}),e("nav",{className:"navigate__next",children:e("button",{className:d?"btn":"btn  btn--disabled",onClick:p,children:"NEXT"})})]})})})},ca=o.div`
+`,la=a=>{const t=R(),r=me(),l=parseInt(t.id),i=a.posts.map(y=>y.id),s=i.indexOf(l),[d,c]=p.exports.useState(!0),[h,u]=p.exports.useState(s);p.exports.useEffect(()=>{r(`/post/${i[h]}`)},[h]);function g(){h<i.length-1?u(y=>y+1):c(!1),h===i.length-1?c(!1):c(!0)}function x(){h>0?u(y=>y-1):r("/blog"),c(!0)}return e(m,{children:e(ca,{color:a.color,children:n("section",{className:"navigate",children:[e("nav",{className:"navigate__prev",children:e("button",{className:"btn btn-back",onClick:x,children:"PREV"})}),e("nav",{className:"navigate__next",children:e("button",{className:d?"btn":"btn  btn--disabled",onClick:g,children:"NEXT"})})]})})})},ca=o.div`
   --violet: #820aa1;
   --blue: #3f8897;
   .navigate {
@@ -1163,7 +1190,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
     color: #ff0000;
     background-color: #999999;
   }
-`;function da(){const a={},t=H(),r=parseInt(t.id);C.forEach((i,s)=>{r===i.id&&(a.content=i.content?i.content:"no given content",a.id=i.id?i.id:"no given id",a.img=i.img?i.img:"no give data",a.position=i.position?i.position:"no given position")});const l={backgroundImage:`url(./images/${a.img})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:a.position,height:"400px"};return e(m,{children:e(ha,{children:e(ma,{children:n("section",{className:"post",children:[e(T,{bg:"transparent",color:"#222222"}),e("div",{className:"post__image",style:l}),e(me,{id:a.id,className:"post__markdown",children:a.content,components:{code(g){var p=g,{node:i,inline:s,className:d,children:c}=p,h=F(p,["node","inline","className","children"]);const x=/language-(\w+)/.exec(d||"");return!s&&x?e(he,v({children:String(c).replace(/\n$/,""),style:ue,language:x[1],PreTag:"div"},h)):e("code",k(v({className:d},h),{children:c}))}}}),e(la,{posts:C})]})})})})}const ma=o.div`
+`;function da(){const a={},t=R(),r=parseInt(t.id);C.forEach((i,s)=>{r===i.id&&(a.content=i.content?i.content:"no given content",a.id=i.id?i.id:"no given id",a.img=i.img?i.img:"no give data",a.position=i.position?i.position:"no given position")});const l={backgroundImage:`url(./images/${a.img})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:a.position,height:"400px"};return e(m,{children:e(ha,{children:e(ma,{children:n("section",{className:"post",children:[e(T,{bg:"transparent",color:"#222222"}),e("div",{className:"post__image",style:l}),e(he,{id:a.id,className:"post__markdown",children:a.content,components:{code(u){var g=u,{node:i,inline:s,className:d,children:c}=g,h=$(g,["node","inline","className","children"]);const x=/language-(\w+)/.exec(d||"");return!s&&x?e(pe,v({children:String(c).replace(/\n$/,""),style:ge,language:x[1],PreTag:"div"},h)):e("code",k(v({className:d},h),{children:c}))}}}),e(la,{posts:C})]})})})})}const ma=o.div`
   margin: 0 auto;
   border: 2px solid #f1f1f1;
   @media (min-width: 700px) {
@@ -1187,7 +1214,7 @@ and go back to standard 'if blocks' if they create too much ambiguity.\r
       margin: 0;
     }
   }
-`,ua=()=>e(m,{children:e(pa,{children:e("h1",{children:"the page you are looking for does not exist"})})}),pa=o.div`
+`,pa=()=>e(m,{children:e(ga,{children:e("h1",{children:"the page you are looking for does not exist"})})}),ga=o.div`
  
 
-`;pe.render(e(ge.StrictMode,{children:e(m,{children:n(b,{theme:M,children:[e(R,{}),e(fe,{children:n(be,{children:[e(f,{path:"/",element:e(ve,{})}),e(f,{path:"/about",element:e(Ke,{})}),e(f,{path:"/work",element:e(Le,{})}),e(f,{path:"/blog",element:e(ra,{})}),e(f,{path:"/404",element:e(ua,{})}),e(f,{path:"/post/:id",element:e(da,{})})]})})]})})}),document.getElementById("root"));
+`;ue.render(e(fe.StrictMode,{children:e(m,{children:n(b,{theme:B,children:[e(M,{}),e(be,{children:n(ye,{children:[e(f,{path:"/",element:e(_e,{})}),e(f,{path:"/about",element:e(Ke,{})}),e(f,{path:"/work",element:e(Ae,{})}),e(f,{path:"/blog",element:e(ra,{})}),e(f,{path:"/404",element:e(pa,{})}),e(f,{path:"/post/:id",element:e(da,{})})]})})]})})}),document.getElementById("root"));
